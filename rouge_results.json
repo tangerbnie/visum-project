@@ -1,0 +1,2110 @@
+{
+  "model": "OrdinaryAI/visum-model",
+  "average": {
+    "rouge1": 0.5851,
+    "rouge2": 0.2686,
+    "rougeL": 0.3713
+  },
+  "details": [
+    {
+      "reference": "Nguồn tin của hãng Bloomberg cho biết cơ quan chức năng Ấn Độ đang cân nhắc áp dụng những chính sách ưu đãi thuế giống như Việt Nam đã làm để thu hút nhiều hơn nguồn vốn đầu tư nước ngoài .",
+      "generated": "Trong bối cảnh nhiều doanh nghiệp nước ngoài đang tìm đường rút khỏi Trung Quốc nhằm ứng phó với sức ép từ thương chiến , chính quyền Ấn Độ đang cân nhắc đưa ra các chính sách khuyến khích tài chính nhằm thu hút các doanh nghiệp này mang dây chuyền sản xuất tới nước họ .",
+      "rouge1": 0.5695,
+      "rouge2": 0.2416,
+      "rougeL": 0.3841
+    },
+    {
+      "reference": "Sau cú tông với xe tải ở Bình Dương , ôtô khách lao vào lùm cây ven đường , nhiều người hoảng loạn tự đập cửa kính thoát ra ngoài .",
+      "generated": "Sau cú đâm mạnh , hai xe đều văng xa , hư hỏng nặng . Trong đó , ôtô khách lao vào lùm cây ven đường , lật ngang . Hành khách trên xe hoảng loạn kêu cứu , một số người đập bể cửa kính tự thoát được ra ngoài .",
+      "rouge1": 0.7339,
+      "rouge2": 0.4112,
+      "rougeL": 0.5688
+    },
+    {
+      "reference": "Don Delillo viết : ' Đối với hầu hết mọi người , chỉ có hai nơi trên đời này : nơi họ sống và cái tivi của họ ' . Có lời nói đùa nào về thế giới hiện đại chua chát hơn thế ?",
+      "generated": "Tạp âm trắng , tượng đài văn học đương đại , ngay lập tức trở thành hiện tượng ngành xuất bản sau hơn 30 năm .",
+      "rouge1": 0.4583,
+      "rouge2": 0.1064,
+      "rougeL": 0.3125
+    },
+    {
+      "reference": "Tiêm kích F -16 Mỹ huấn luyện ở phía tây nam Hàn Quốc vứt hai thùng dầu phụ vì sợ gặp sự cố .",
+      "generated": "Hai thùng dầu phụ của tiêm kích F -16 Mỹ rơi xuống hồ nước ở thành phố Gunsan , cách thủ đô Seoul khoảng 274 km về phía nam , không gây thương vong .",
+      "rouge1": 0.5823,
+      "rouge2": 0.3377,
+      "rougeL": 0.3544
+    },
+    {
+      "reference": "Sân vận động Hàng Đẫy sẽ được mở rộng diện tích để trở thành khu liên hợp thể thao hiện đại .",
+      "generated": "Hà Nội sẽ mở rộng diện tích sân vận động Hàng Đẫy sang nhà thi đấu Trịnh Hoài Đức , khu huấn luyện vận động viên thành tích cao Hà Nội .",
+      "rouge1": 0.6579,
+      "rouge2": 0.4054,
+      "rougeL": 0.4211
+    },
+    {
+      "reference": "Thủ tướng Trudeau cho rằng Trung Quốc bắt giam tuỳ tiện công dân Canada và một trường hợp bị phớt lờ quyền miễn trừ ngoại giao .",
+      "generated": "Thủ tướng Trudeau cho biết ông tôn trọng quy tắc pháp luật và sự độc lập của quá trình tư pháp trong vụ giámđốc Huawei Mạnh Vãn Chu bị bắt .",
+      "rouge1": 0.5814,
+      "rouge2": 0.1667,
+      "rougeL": 0.3256
+    },
+    {
+      "reference": "Theo PGS . TS . Đặng Ngọc Dinh cho rằng không cần thiết phải đưa thêm điều luật quy định về xử lý cán bộ nghỉ hưu …",
+      "generated": "Quy định về xử lý cán bộ nghỉ hưu đã cơ bản \" thành hình \" với 2 trường hợp . Một là , xử lý đối với tất cả cán bộ , công chức đã về hưu , nghỉ việc hoặc chuyển công tác nhưng có hành vi vi phạm nghiêm trọng .",
+      "rouge1": 0.4906,
+      "rouge2": 0.2308,
+      "rougeL": 0.2453
+    },
+    {
+      "reference": "Trong khi chờ làm cầu tạm , các xe sẽ đi theo đường vành đai qua khu vực sản xuất nông nghiệp để ra tỉnh lộ 766 về hướng Đồng Nai .",
+      "generated": "Sau cơn mưa lớn rạng sáng 3/9 , cầu Tân Hà ( xã Trà Tân , huyện Đức Linh , Bình Thuận ) bị sập khiến tỉnh lộ bị chia cắt .",
+      "rouge1": 0.5301,
+      "rouge2": 0.1235,
+      "rougeL": 0.2892
+    },
+    {
+      "reference": "' Nếu không khắc phục được hoặc khắc phục không triệt để các vi phạm về kinh tế gây thiệt hại tài sản nhà nước trước ngày 31-12-2019 thì chuyển hồ sơ sang cơ quan điều tra để xem xét , xử lý ' .",
+      "generated": "Thanh tra Chính phủ kiến nghị thu hồi hơn 1 . 500 tỉ đồng từ việc phê duyệt không đúng quy định , tính toán khối lượng một số hạng mục công việc không đúng .",
+      "rouge1": 0.531,
+      "rouge2": 0.1261,
+      "rougeL": 0.2478
+    },
+    {
+      "reference": "\" Nữ hoàng dao kéo \" Phi Thanh Vân đang cố gắng \" cày cuốc \" , tiết kiệm để thực hiện ước mơ của mình .",
+      "generated": "Lựa chọn cuộc sống làm mẹ đơn thân , đồng nghĩa Phi Thanh Vân phải đối mặt với nhiều áp lực , khó khăn . Tuy nhiên , bà mẹ một con vẫn cảm thấy thoải mái và hạnh phúc . Chính ba mẹ và cậu con trai bé bỏng là nguồn động lực để \" nữ hoàng dao kéo \" phấn đấu hết mình với công việc và vạch ra những kế hoạch cho tương lai .",
+      "rouge1": 0.383,
+      "rouge2": 0.1871,
+      "rougeL": 0.2411
+    },
+    {
+      "reference": "Số lượng rượu ngoại nhập lậu này được chở trên xe tải phế liệu và nguỵ trang một cách tinh vi .",
+      "generated": "Sau khi nhận tin , trạm CSGT cửa ô Hoà Hiệp thông báo cho tất cả các tổ công tác trên tuyến đón lõng xe tải này . Ngoài ra , lãnh đạo trạm cũng liên hệ Ban quản lý hầm đường bộ Hải Vân để trích xuất camera phục vụ công tác bắt xe chở hàng lậu .",
+      "rouge1": 0.4103,
+      "rouge2": 0.1391,
+      "rougeL": 0.2393
+    },
+    {
+      "reference": "Hai đội cảnh sát Bangkok được triển khai để đảm bảo an ninh tại Toà án Tối cao , nơi dự kiến xử vắng mặt cựu thủ tướng Yingluck .",
+      "generated": "Khoảng 50 người ủng hộ cựu thủ tướng Thái Lan Yingluck Shinawatra xuất hiện trước Toà án Tối cao ở thủ đô Bangkok .",
+      "rouge1": 0.5217,
+      "rouge2": 0.2388,
+      "rougeL": 0.2899
+    },
+    {
+      "reference": "Dự báo thời tiết ngày 8/2 mùng 4 Tết ngày nắng , nền nhiệt cao nhất tại miền Bắc lên 32 độ , gây cảm giác nóng bức như mùa hè .",
+      "generated": "Dự báo thời tiết ngày 8/2 các vùng và một số tỉnh thành trên cả nước : Bắc Bộ ít mây , ngày nắng ; đêm không mưa , sáng sớm có nơi có sương mù . Gió nhẹ . Đêm trời rét .",
+      "rouge1": 0.7027,
+      "rouge2": 0.3303,
+      "rougeL": 0.4505
+    },
+    {
+      "reference": "Cuộc thi dành cho tất cả học sinh trung học phổ thông , giáo dục thường xuyên trên cả nước , từ lớp 10 đến lớp 12 , có năm sinh từ 1998 đến 2003 .",
+      "generated": "Tất cả học sinh THPT , GDTX trên cả nước có năm sinh từ 1998 đến 2003 và được tổ chức qua 4 vòng thi : sơ loại , bán kết , chung kết và chung kết xếp hạng .",
+      "rouge1": 0.5833,
+      "rouge2": 0.3617,
+      "rougeL": 0.3958
+    },
+    {
+      "reference": "Giới chức Bắc Kinh cân nhắc dùng công nghệ nhận dạng khuôn mặt để phát hiện những người có hành vi xấu nơi công cộng .",
+      "generated": "Lượng khách đến tham quan các công viên ở Bắc Kinh tăng cao trong dịp nghỉ lễ tết Thanh Minh khiến cơ quan chức năng phải siết chặt quản lý .",
+      "rouge1": 0.5618,
+      "rouge2": 0.1149,
+      "rougeL": 0.3146
+    },
+    {
+      "reference": "Vườn bưởi Năm Roi 0 , 7 ha đang cho trái của một hộ dân ở tỉnh Vĩnh Long đã bị kẻ gian cưa gốc nằm la liệt .",
+      "generated": "Gần đây , nhiều vườn bưởi Năm Roi của người dân ở Vĩnh Long liên tục bị kẻ gian đột nhập đốn hạ .",
+      "rouge1": 0.7324,
+      "rouge2": 0.4058,
+      "rougeL": 0.507
+    },
+    {
+      "reference": "Trong bối cảnh quan hệ với Canberra xấu đi , các quan chức Trung Quốc cảnh báo người dân nước này có thể tẩy chay hàng hoá Úc như từng làm với các nước khác , chẳng hạn Hàn Quốc , Philippines . . .",
+      "generated": "Bắc Kinh cáobuộc Canberra sử dụng ảnh hưởng của mình để can thiệp vào công việc nội bộ của nước này .",
+      "rouge1": 0.5253,
+      "rouge2": 0.1031,
+      "rougeL": 0.3232
+    },
+    {
+      "reference": "Trước việc giá xăng RON95 tăng mạnh tại kỳ điều hành ngày 4-1 vừa qua lên tới trên 800 đồng / lít , Bộ Công thương vừa có văn bản báo cáo Phó thủ tướng về cơ sở tăng giá .",
+      "generated": "Liên bộ Công thương - Tài chính vừa có văn bản gửi Phó thủ tướng Vương Đình Huệ , trưởng ban chỉ đạo điều hành giá , yêucầu công bố giá cơ sở mặt hàng xăng RON95 .",
+      "rouge1": 0.7586,
+      "rouge2": 0.386,
+      "rougeL": 0.3793
+    },
+    {
+      "reference": "Sau khi mua rùa biển 12 kg từ người bán dạo , người dân ở Long An phát hiện là loài quý hiếm nên đã bàn giao cho cơ quan chức năng .",
+      "generated": "Con đồi mồi dứa , họ vích , bộ rùa biển mai dài 50 cm , nặng 12 kg , trên lưng có vân rất đẹp .",
+      "rouge1": 0.5714,
+      "rouge2": 0.1867,
+      "rougeL": 0.2857
+    },
+    {
+      "reference": "Ông Nguyễn Đình Khang , Chủ tịch Tổng Liên đoàn Lao động Việt Nam được bổ sung làm Phó chủ tịch Hội đồng Thi đua Khen thưởng Trung ương .",
+      "generated": "Thủ tướng Nguyễn Xuân Phúc vừa ký quyết định bổ nhiệm ông Nguyễn Đình Khang , thạc sĩ quản lý kinh tế , giữ chức Chủ tịch Tổng Liên đoàn Lao động Việt Nam từ ngày 16/9 .",
+      "rouge1": 0.6374,
+      "rouge2": 0.382,
+      "rougeL": 0.4615
+    },
+    {
+      "reference": "Liên quan đến vụ nam thanh niên bị đánh chết giữa phố ở Lào Cai , 2 đối tượng gây án đã đến cơ quan công an đầu thú .",
+      "generated": "Sau khi vụ nam thanh niên bị đánh chết giữa phố ở Lào Cai xảy ra khoảng 2 giờ đồng hồ , công an đã vận động thành công 2 đối tượng gây án ra đầu thú .",
+      "rouge1": 0.725,
+      "rouge2": 0.5897,
+      "rougeL": 0.6
+    },
+    {
+      "reference": "Trong bữa ăn sáng nay , bảo mẫu nhóm trẻ tư thục Ánh Sao ở huyện Hóc Môn tát liên tục vào mặt bé gái 3 tuổi .",
+      "generated": "Cô giáo mầm non ở TP HCM tát liên tiếp vào mặt một bé gái sau khi cho uống thuốc chống nôn .",
+      "rouge1": 0.5867,
+      "rouge2": 0.274,
+      "rougeL": 0.3733
+    },
+    {
+      "reference": "Nhà nước hoàn toàn có thể tin tưởng vào doanh nghiệp tư nhân trong nước để kêu gọi xã hội hoá phát triển hạ tầng giao thông , mà thành công của Quảng Ninh là minh chứng sinh động .",
+      "generated": "Đó là khẳngđịnh của PGS-TS Trần Đình Thiên , nguyên Viện trưởng viện Quy hoạch và quản lý GTVT ( bộ GTVT ) tại buổi làmviệc với lãnhđạo tỉnh Quảng Ninh về việc kêu gọi đầu tư các dự án hạ tầng giao thông .",
+      "rouge1": 0.629,
+      "rouge2": 0.2459,
+      "rougeL": 0.3548
+    },
+    {
+      "reference": "Tại toạ đàm \" Cách nào ngăn chặn tài xế uống rượu bia gây tai nạn giao thông \" do báo Giao Thông tổ chức ngày 3-5 , luật sư Đặng Văn Cường cho rằng chỉ cần có văn bản hướng dẫn là có thể phạt tù tài xế uống rượu bia dù hậu quả chưa nghiêm trọng .",
+      "generated": "Bộ luật hình sự quy định phạt tù lái xe sử dụng rượu bia gây tai nạn giao thông từ 3 tháng đến 1 năm . Tuy nhiên , văn bản hướng dẫn thực hiện nội dung này đang thiếu .",
+      "rouge1": 0.6259,
+      "rouge2": 0.331,
+      "rougeL": 0.4218
+    },
+    {
+      "reference": "Hai chiếc xe ô tô chở gỗ lậu khi đến chốt kiểm lâm thì dừng 3s rồi ung dung qua rào chắn barie phóng đi . Tuy nhiên , vượt trạm chưa được bao xa thì bị lực lượng công an huyện mật phục bắt gọn . Qua trích xuất camera lực lượng chức năng phát hiện có 10 xe ô tô khác nghi chở gỗ lậu cũng qua chốt kiểm lâm thành công bằng phương thức đó .",
+      "generated": "Công an huyện Kông Chro , tỉnh Gia Lai đang điều tra làm rõ nhiều vụ \" lâm tặc \" vận chuyển gỗ trái phép \" tàng hình \" trót lọt qua chốt kiểmtra lâm sản Đắk Pơ Kơ .",
+      "rouge1": 0.4643,
+      "rouge2": 0.1205,
+      "rougeL": 0.2857
+    },
+    {
+      "reference": "Hoàn lưu áp thấp nhiệt đới cùng không khí lạnh mạnh gây mưa to từ Thừa Thiên Huế đến Phú Yên , lũ sẽ lên xấp xỉ báo động 3 .",
+      "generated": "Đêm 19/11 , không khí lạnh đã tràn đến Trung Trung Bộ gây mưa rất to cho Thừa Thiên Huế và Quảng Nam .",
+      "rouge1": 0.5526,
+      "rouge2": 0.2973,
+      "rougeL": 0.4211
+    },
+    {
+      "reference": "Một chiến đấu cơ của quân đội Hàn Quốc chiều nay lao vào ngọn núi ở đông nam nước này , số phận phi công chưa được làm rõ .",
+      "generated": "Một tiêm kích F -15 K của Hàn Quốc đã đâm vào núi ở phía đông nam nước này , khiến hai phi công thiệt mạng .",
+      "rouge1": 0.6667,
+      "rouge2": 0.3544,
+      "rougeL": 0.5679
+    },
+    {
+      "reference": "Hiện tại , Nga và Philippines đang đàm phán về quá trình cung cấp vũ khí Nga để giúp Manila chống khủng bố .",
+      "generated": "Nga đang nỗ lực đàm phán về việc Moscow cung cấp vũ khí giúp Manila trong cuộc chiến chống các tay súng Hồi giáo cực đoan .",
+      "rouge1": 0.5588,
+      "rouge2": 0.303,
+      "rougeL": 0.5
+    },
+    {
+      "reference": "Ấn Độ đang khảo sát hai địa điểm ở TP HCM và Bình Dương để đặt trạm viễn thám trong khuôn khổ hợp tác với các nước ASEAN .",
+      "generated": "Bộ Tài nguyên và Môi trường cho biết Ấn Độ đã khảo sát hai địa điểm ở Bình Dương và một ở TP HCM nhưng chưa đưa ra quyết định .",
+      "rouge1": 0.6076,
+      "rouge2": 0.3117,
+      "rougeL": 0.3797
+    },
+    {
+      "reference": "Hồ Cẩm Uyên là thuộc cấp của bà Thuận . Đối tượng này được xác định là giúp sức bà Thuận thu tiền lừa đảo , cũng như \" nổ \" có nhiều mối quan hệ với các sếp lớn để lấy dự án .",
+      "generated": "Liên quan đến vụ án lừa đảo 100 tỷ đồng của côngty CP Đầu tư và Phát triển Quảng Đà , cơ quan Cảnh sát điều tra Công an TP . Đà Nẵng tiếp tục tống đạt quyết định khởi tố bị can , bắt tạm giam đối với Hồ Cẩm Uyên để điều tra về hành vi lừa đảo chiếm đoạt tài sản .",
+      "rouge1": 0.5541,
+      "rouge2": 0.1918,
+      "rougeL": 0.3243
+    },
+    {
+      "reference": "Vào cua gấp , xe giường nằm lao xuống mép sông Cà Mau ở Ninh Bình . Chủ xe xuống kiểm tra , tìm cách cứu hộ thì bất ngờ bị xe buýt chạy phía sau tông trúng .",
+      "generated": "Đang tìm cách cứu hộ phương tiện thì bất ngờ bị xe buýt đi đến địa điểm trên cũng mất lái lao xuống bờ sông và tông trúng . Nạn nhân tử vong tại chỗ .",
+      "rouge1": 0.6792,
+      "rouge2": 0.4038,
+      "rougeL": 0.3774
+    },
+    {
+      "reference": "Quân đội Nga qua các thời kỳ từng sở hữu nhiều khí tài có kích thước lớn nhưng không thể hiện được nhiều trên chiến trường .",
+      "generated": "Trong kho vũ khí của Nga có một loại bom nhiệt áp có sức công phá mạnh gấp 4 lần MOAB , tương đương khoảng 40 tấn thuốc nổ TNT .",
+      "rouge1": 0.4941,
+      "rouge2": 0.0723,
+      "rougeL": 0.3294
+    },
+    {
+      "reference": "Chất nhầy màu vàng đục , bám vào gây bẩn và nặng lưới của ngư dân đang được nhà chức trách Quảng Bình điều tra nguyên nhân .",
+      "generated": "Bùn lạ bám vào lưới ngư dân tiếp tục được phát hiện ở tỉnh Quảng Bình , cách vị trí trước đó khoảng 60 km về phía Bắc .",
+      "rouge1": 0.6437,
+      "rouge2": 0.2588,
+      "rougeL": 0.3448
+    },
+    {
+      "reference": "Giải thưởng mà ông David Johnson nhận được là giải độc đắc lớn thứ hai trong lịch sử bang New York .",
+      "generated": "Người đàn ông Mỹ gốc Jamaica mua 3 vé xổ số Lotto , Mega Millions và Powerball với tổng số tiền chỉ 5 USD .",
+      "rouge1": 0.3636,
+      "rouge2": 0.0377,
+      "rougeL": 0.2545
+    },
+    {
+      "reference": "Ông Hoàng Trung Hải cho rằng , tình trạng cháy nổ còn nghiêm trọng , vẫn tồn tại nhiều chung cư vi phạm phòng cháy .",
+      "generated": "Ông Hoàng Trung Hải yêu cầu các đơn vị đẩy nhanh tiến độ xây dựng quy định cưỡng chế các công trình vi phạm phòng cháy , chữa cháy .",
+      "rouge1": 0.6265,
+      "rouge2": 0.3457,
+      "rougeL": 0.4578
+    },
+    {
+      "reference": "Các nghị sĩ Canada đồng thanh hô \" thêm 4 năm \" khi Tổng thống Mỹ Barack Obama kết thúc bài phát biểu tại quốc hội nước này .",
+      "generated": "Tổng thống Obama phát biểu trước quốc hội Canada tại hội nghị thượng đỉnh Bắc Mỹ , nói về \" liên minh đặc biệt \" giữa Ottawa và Washington .",
+      "rouge1": 0.7073,
+      "rouge2": 0.25,
+      "rougeL": 0.3659
+    },
+    {
+      "reference": "Khoảng 80 mét rào chắn bằng sắt và nhiều thiết bị đã được lắp trong đêm ở đường Trung Văn , Hà Nội .",
+      "generated": "Hàng chục m rào chắn cao một mét được lắp trên vỉa hè đường Tố Hữu ( Nam Từ Liêm , Hà Nội ) để ngăn người đi xe máy đi ngược chiều .",
+      "rouge1": 0.5455,
+      "rouge2": 0.2133,
+      "rougeL": 0.3896
+    },
+    {
+      "reference": "2 người trúng đạn , phải nhập viện cấp cứu sau cuộc hỗn chiến giữa 2 nhóm người trên Đại lộ Lê Nin , TP . Vinh ( Nghệ An ) .",
+      "generated": "Khi vừa bắt taxi đến điểm hẹn , anh Ngọc Anh thấy Định đang bị một nhóm người cầm ghế , cốc đuổi theo phía sau . Thấy một người cầm súng bắn anh Định , người còn lại lao đến thì bị bắn vào vai .",
+      "rouge1": 0.4528,
+      "rouge2": 0.1346,
+      "rougeL": 0.2642
+    },
+    {
+      "reference": "Sở GD-ĐT TP . HCM cho biết sẽ công bố kết quả kỳ thi tuyển sinh lớp 10 vào lúc 15h ngày 12-6 , sớm hơn 1 ngày so với dự kiến .",
+      "generated": "Ngày 13-6 , Sở GD-ĐT TP . HCM đã công bố điểm thi vào lớp 10 THPT công lập năm học 2019-2020 . Thí sinh sẽ làm đơn phúc khảo ( nếu có nhu cầu ) và nộp tại trường THCS đang học từ 13 đến 15-6 .",
+      "rouge1": 0.5741,
+      "rouge2": 0.2453,
+      "rougeL": 0.3704
+    },
+    {
+      "reference": "Bức thư với nội dung đe doạ Thủ tướng Najib Razak và các lãnh đạo cao cấp của chính phủ Malaysia được phần tử thân IS gửi tới một đồn cảnh sát .",
+      "generated": "Các phần tử tự nhận là thành viên của Nhà nước Hồi giáo tự xưng ( IS ) đã gửi một bức thư đến trụ sở cảnh sát bang Negri Sembilan , Malaysia với nội dung đe doạ Thủ tướng Najib Razak và các thành viên chính phủ nước này .",
+      "rouge1": 0.7797,
+      "rouge2": 0.5345,
+      "rougeL": 0.4068
+    },
+    {
+      "reference": "Những khoảng chênh trong luật về quyền tác giả của Việt Nam so với quốc tế dẫn đến tình trạng các tác giả Việt Nam chưa được bảo vệ bằng luật , và nhiều vụ kiện quyền tác giả chưa được toà án giải quyết .",
+      "generated": "Luật Việt Nam không có điều khoản nào công nhận tác giả có \" quyền được công nhận là tác giả \" . Đây là điều hết sức thiếu sót , bởi chính nội dung này là cơ sở quan trọng để xác định các hành vi \" đạo \" tác phẩm .",
+      "rouge1": 0.6111,
+      "rouge2": 0.2254,
+      "rougeL": 0.3333
+    },
+    {
+      "reference": "Giờ đây không cần đến Đà Lạt hay Mộc Châu , giới trẻ Hà thành cũng có cơ hội trải nghiệm hái dâu tây tại Hà Nội với những trái dâu tây căng mọng này .",
+      "generated": "Khu vườn dâu tây rộng 3 . 000 m2 bắt đầu ra quả đã thu hút sự chú ý của động đảo người dân thủ đô , đặc biệt là các bạn trẻ đến check - in trải nghiệm cảm giác hết sức thú vị khi tận mắt chứng kiến những trái dâu tây ngọt ngào ngay giữa lòng Hà Nội .",
+      "rouge1": 0.6573,
+      "rouge2": 0.2695,
+      "rougeL": 0.3916
+    },
+    {
+      "reference": "Chuyến bay của hãng Air China hôm qua phải chuyển hướng khi một nam hành khách bị bệnh tâm thần đe doạ tổ bay .",
+      "generated": "Một hành khách Trung Quốc bị bắt sau khi dùng bút mực đe doạ một nữ tiếp viên trên chuyến bay của hãng hàng không quốctế Air China .",
+      "rouge1": 0.6747,
+      "rouge2": 0.3704,
+      "rougeL": 0.3373
+    },
+    {
+      "reference": "Những vụ vỡ đập và đê nghiêm trọng giống sự cố tại Lào đã cướp đi hàng nghìn mạng sống .",
+      "generated": "Hàng chục người chết và mất tích sau khi đập thuỷ lợi XePian - Xe Namnoy ở tỉnh Attapeu , đông bắc Lào bị vỡ .",
+      "rouge1": 0.5246,
+      "rouge2": 0.0678,
+      "rougeL": 0.2295
+    },
+    {
+      "reference": "Liệu một học sinh VNEN quen làm việc nhóm , hăng hái nêu ý kiến ngay cả khi không được hỏi ở bậc tiểu học có trở nên lạc lõng khi vào học ở một lớp mới mà đa số các bạn trong đó vốn chỉ quen im lặng , ngồi ngay ngắn nghe cô giảng bài ?",
+      "generated": "Bộ GD-ĐT khẳng định không buông tay với mô hình trường học mới ( VNEN ) nhưng thực tế thì những quyết định của các địa phương có triển khai VNEN làm cho một phụ huynh như tôi thực sự không thể yên tâm .",
+      "rouge1": 0.5,
+      "rouge2": 0.1507,
+      "rougeL": 0.2838
+    },
+    {
+      "reference": "Chở khách nữ đi lòng vòng đến chỗ vắng , tài xế Khánh đã cướp điện thoại , rút dao khống chế khách nữ để thực hiện hành vi hiếp dâm .",
+      "generated": "Sau khi thực hiện hành vi hiếp dâm , Khánh tiếp tục chở chị H . đến giao lộ quốc lộ 1 - đường Phan Văn Hớn ( quận 12 ) dừng xe lại để chị H . tự đón xe ôm khác về nhà . Còn Kh . chạy xe về nhà ngủ .",
+      "rouge1": 0.6415,
+      "rouge2": 0.25,
+      "rougeL": 0.3019
+    },
+    {
+      "reference": "Từ hạng 92 , Việt Nam rớt xuống hạng 96 trên bảng xếp hạng quốc gia tốt nhất dành cho trẻ em . Singapore và Slovenia đồng giữ vị trí hạng 1 .",
+      "generated": "Báo cáo xếp hạng các quốc gia tốt nhất dành cho trẻ em của Tổ chức Cứu trợ trẻ em cho thấy sự bất bình đẳng cao giữa những người giàu nhất và nghèo nhất trong xã hội hiện nay .",
+      "rouge1": 0.537,
+      "rouge2": 0.2642,
+      "rougeL": 0.3889
+    },
+    {
+      "reference": "Ông Lê Ngọc Huấn , Chủ tịch UBND huyện Hương Khê và ông Bùi Quang Hoàn , Chủ tịch UBND huyện Kỳ Anh vừa bị tỉnh Hà Tĩnh đề nghị giải trình vì vắng họp không rõ lý do .",
+      "generated": "Lãnhđạo tỉnh Hà Tĩnh đã phê bình Chủ tịch UBND 2 huyện Hương Khê và Kỳ Anh vì vắng họp không có lý do .",
+      "rouge1": 0.6897,
+      "rouge2": 0.5176,
+      "rougeL": 0.5057
+    },
+    {
+      "reference": "Nghe tiếng kêu cứu của vợ chồng anh Minh trong căn nhà cháy ngùn ngụt , mọi người dùng bình cứu hoả dập lửa , đưa họ ra ngoài trong tình trạng bỏng nhẹ .",
+      "generated": "Nhà không có cửa hậu , vợ chồng anh Minh không thể thoát ra ngoài . Nghe tiếng kêu cứu , hàng xóm dùng bình chữa cháy lấy từ cây xăng đối diện dập lửa giải thoát vợ chồng chủ nhà .",
+      "rouge1": 0.7826,
+      "rouge2": 0.4071,
+      "rougeL": 0.4522
+    },
+    {
+      "reference": "Trong hơn 4 triệu đồng tiền thu đóng nộp đầu năm , trường Tiểu học Cẩm Hà ( Hà Tĩnh ) bị cấp trên yêu cầu trả lại một số khoản bất hợp lý , như : tiền hợp đồng bảo vệ , tiền giấy thi , học buổi hai …",
+      "generated": "Sau khi nhận được chỉ đạo dừng thu , trường Tiểu học Cẩm Hà đã trả lại 4 khoản thu với tổng số tiền hơn 1 , 2 triệu đồng cho phụ huynh .",
+      "rouge1": 0.5893,
+      "rouge2": 0.3091,
+      "rougeL": 0.3929
+    },
+    {
+      "reference": "Các học viên bơi lội nhí hai tay nắm chặt lấy nhánh lá dừa , chân đạp nước tung toé đẩy mình tiến vào bờ , trong khi 20 huấn luyện viên bơi lội người Úc thuộc đoàn dự án Awsom và các tình nguyện viên liên tay liên miệng chỉ dẫn .",
+      "generated": "Sau khi các em học sinh Trường mầm non Sao Sáng khởi động xong và ngồi vào hàng ghế hai bên hồ bơi để theo dõi , anh Matthew - một thành viên của đoàn - nhảy xuống nước rồi bắt đầu đặt câu hỏi thông qua thông dịch viên : \" Ai đã từng biết hoặc từng chứng kiến nạn nhân bị đuối nước chưa ? Nếu có thì các con xử lý như thế nào ? Một vài câu trả lời lí nhí từ các em : \" Kêu người lớn giúp đỡ \" hoặc \" Bơi xuống cứu bạn \" .",
+      "rouge1": 0.5511,
+      "rouge2": 0.1704,
+      "rougeL": 0.2756
+    },
+    {
+      "reference": "Các chuyên gia Nga cho rằng cuộc trò chuyện chưa từng được biết đến của ông Trump và ông Putin bên lề hội nghị thượng đỉnh G20 gây nhiều lo ngại .",
+      "generated": "Tổng thống Trump và người đồng cấp Nga đã có cuộc hội đàm bí mật trong thời gian diễn ra tiệc tối dành cho các nhà lãnh đạo của G20 bên lề hội nghị Thượng đỉnh hồi đầu tháng tại Đức . Thông tin trên do một quan chức Nhà Trắng mới chia sẻ .",
+      "rouge1": 0.544,
+      "rouge2": 0.2764,
+      "rougeL": 0.336
+    },
+    {
+      "reference": "Hội Nhà báo Việt Nam đã đề nghị Bộ Công an và Công an TP Hà Nội vào cuộc điều tra , xử lý nghiêm vụ 2 nữ nhà báo của Đài Truyền hình Việt Nam ( VTV ) và Báo Phụ nữ TP . HCM bị doạ \" giết cả nhà \" .",
+      "generated": "Hai nữ nhà báo Liên Liên và Thu Trang là tác giả của loạt bài gây chấn động dư luận thời gian qua về nạn \" bảo kê \" tại chợ Long Biên .",
+      "rouge1": 0.4444,
+      "rouge2": 0.1132,
+      "rougeL": 0.2778
+    },
+    {
+      "reference": "Công trình được trùng tu , tu bổ theo hình thức trang trí mỹ thuật , kết cấu thời Khải Định – Bảo Đại , mái lợp bằng ngói âm đương tráng men vàng .",
+      "generated": "Di tích Phu Văn Lâu , trước Kinh thành Huế , sau 2 năm trùng tu với kinh phí 12 tỷ đồng .",
+      "rouge1": 0.4,
+      "rouge2": 0.0548,
+      "rougeL": 0.24
+    },
+    {
+      "reference": "Đại diện Ngân hàng xây dựng ( CBBank ) đề nghị Hội đồng xét xử yêu cầu các bị cáo phải bồi thường thiệt hại hơn 6 . 100 tỉ đồng .",
+      "generated": "Các bị cáo đã dùng tiền gửi tại TPBank bảo lãnh và trả nợ thay cho 11 công ty vay vốn để mua trái phiếu của Tập đoàn Thiên Thanh và Công ty Trung Dung gây thiệt hại hơn 1 . 700 tỉ đồng .",
+      "rouge1": 0.5094,
+      "rouge2": 0.2308,
+      "rougeL": 0.3208
+    },
+    {
+      "reference": "Ngay khi phát hiện công an , hai chiếc thuyền đang bơm hút cát lậu trên sông Đồng Nai ( đoạn qua P . Bửu Long , TP Biên Hoà ) liền tăng tốc chạy về 2 hướng để bỏ trốn .",
+      "generated": "Phát hiện lực lượng chức năng , hai thuyền khai thác , vận chuyển cát khai thác trái phép trên sông Đồng Nai tăng ga chạy về hai hướng khác nhau .",
+      "rouge1": 0.6154,
+      "rouge2": 0.2941,
+      "rougeL": 0.4615
+    },
+    {
+      "reference": "Mức hỗ trợ hợp lý và giải ngân nhanh là các động lực giúp người chăn nuôi chủ động báo dịch , qua đó hạn chế lây lan bệnh dịch tả heo châu Phi ( ASF ) .",
+      "generated": "Theo Cục Thú y , từ ngày 1-2 đến 14-3 , dịch bệnh heo tai xanh đã xảy ra tại 17 tỉnh thành ( Hưng Yên , Thái Bình , Hải Phòng , Thanh Hoá , Hà Nội . . . ) với tổng số heo bệnh và tiêu huỷ là 23 . 000 con .",
+      "rouge1": 0.4602,
+      "rouge2": 0.0721,
+      "rougeL": 0.2301
+    },
+    {
+      "reference": "' Độ ta không độ nàng đang là hot trend kìa , có nghe chưa ? ' , nếu chưa , ' thật lạc hậu ' hay ' thành người tối cổ mất rồi ' .",
+      "generated": "Khi mạng xã hội bùng nổ tại VN và len lỏi đến từng ngóc ngách đời sống thông tin của mỗi người dùng Internet , những clip miêu tả đời sống xã hội đen , chửi bới , \" chém gió \" của những kẻ tự xưng giang hồ bỗng nổi lên không khác gì những màn trình diễn của các siêu sao bóng đá .",
+      "rouge1": 0.4361,
+      "rouge2": 0.0916,
+      "rougeL": 0.2256
+    },
+    {
+      "reference": "Sau lễ chào cờ , thầy cô và học sinh choàng tay lên vai nhau cùng hát bài hát về trường lớp . Mỗi học sinh ghi một điều ước lên quả bóng bay để thả lên trời xanh .",
+      "generated": "Sáng 24-6 , học sinh Trường THPT Yên Hoà ( Hà Nội ) đã tổ chức lễ chào cờ , cầu nguyện cho kỳ thi THPT quốcgia sắp tới .",
+      "rouge1": 0.5435,
+      "rouge2": 0.1778,
+      "rougeL": 0.3043
+    },
+    {
+      "reference": "Phiến quân Abu Sayyaf hôm nay hành quyết chặt đầu thêm một con tin người Canada sau khi yêu cầu tiền chuộc mà nhóm đưa ra dường như không được đáp ứng .",
+      "generated": "Nhóm phiến quân Abu Sayyaf ở Philippines tuyên bố đã chặt đầu một con tin người Canada sau khi không nhận đủ tiền chuộc .",
+      "rouge1": 0.675,
+      "rouge2": 0.5385,
+      "rougeL": 0.55
+    },
+    {
+      "reference": "Sau trận mưa đầu mùa , khối bê tông đầu cầu treo vỡ vụn , mố cầu nứt toác dù công trình mới khánh thành chưa được một tuần .",
+      "generated": "Sau trận mưa lớn 6 ngày sau khi khánh thành , cầu treo ở Quảng Nam bị sụt hơn nửa mét , từng mảng bêtông vỡ vụn , cát sỏi trồi lên mặt đường .",
+      "rouge1": 0.6392,
+      "rouge2": 0.3158,
+      "rougeL": 0.3918
+    },
+    {
+      "reference": "Cơn mưa lớn kéo dài 2 giờ chiều nay khiến nhiều tuyến đường ở TP HCM ngập sâu , nước chảy xiết làm người đi đường ngã , cuốn trôi xe máy .",
+      "generated": "Nước chảy xiết khiến người đi đường chao đảo , cô gái mặc áo mưa màu xanh không làm chủ được tay lái ngã xuống đường , cả người và xe bị nước cuốn trôi .",
+      "rouge1": 0.6327,
+      "rouge2": 0.3333,
+      "rougeL": 0.3061
+    },
+    {
+      "reference": "Lực lượng tìm kiếm cứu nạn cùng người thân , người dân đã tìm thấy thi thể nam sinh 17 tuổi nhảy cầu tự tử trên đường đến trường .",
+      "generated": "Nam sinh 17 tuổi đi xe máy điện lên cầu Thạch Đồng , TP . Hà Tĩnh rồi bỏ lại chiếc xe cùng áo khoác nắng , cặp sách , dép và nhảy xuống sông . Do sông sâu , cầu cao , người dân không kịp can ngăn , lao xuống cứu .",
+      "rouge1": 0.5546,
+      "rouge2": 0.2393,
+      "rougeL": 0.3025
+    },
+    {
+      "reference": "Căng thẳng quan hệ Thổ Nhĩ Kỳ và Mỹ gần đây đã làm dấy lên nghi ngờ về một chiến lược mới nằm trong tay Nga , giới chuyên gia nhận định .",
+      "generated": "Tổng thống Erdogan cáo Mỹ khơi mào cuộc chiến tranh kinh tế với toàn thế giới và gọi quyết định áp đặt thuế suất của Mỹ với Thổ Nhĩ Kỳ là cú \" đâm sau lưng \" trong bối cảnh cuộc khủng hoảng tiền tệ của nước này đang ngày càng trầm trọng .",
+      "rouge1": 0.5484,
+      "rouge2": 0.1639,
+      "rougeL": 0.2581
+    },
+    {
+      "reference": "Tài xế ôtô được cho là không chấp hành hiệu lệnh dừng , tăng ga và đâm văng một cảnh sát giao thông Hà Nội rồi bỏ chạy .",
+      "generated": "Phát hiện cảnh sát giao thông đi xe máy vi phạm , tài xế ôtô tăng ga bỏ chạy . Người này không kịp tránh bị chiếc xe đâm hất văng sang bên đường .",
+      "rouge1": 0.7021,
+      "rouge2": 0.3478,
+      "rougeL": 0.2979
+    },
+    {
+      "reference": "Hoa khôi Lan Khuê sẽ là người cầm cân nảy mực tại Hoa hậu Đại dương 2017 . Với cô , Hoa hậu không phải là người có những con số ấn tượng về chiều cao , cân nặng mà cần nhiều hơn thế .",
+      "generated": "Với vai trò cầm cân nảy mực , đồng hành cùng các thí sinh đến đêm chung kết , Hoa khôi Lan Khuê nhận định các cuộc thi hoa hậu đều có những tiêu chí cơ bản về sắc vóc , ngoại hình , nhân cách cũng như tri thức .",
+      "rouge1": 0.6119,
+      "rouge2": 0.2424,
+      "rougeL": 0.3881
+    },
+    {
+      "reference": "Phiên xét xử bị cáo Trần Hữu Kiển ( trước đây là luật sư thuộc Đoàn Luật sư tỉnh Bến Tre ) về hành vi lạm dụng tín nhiệm chiếm đoạt tài sản đang thu hút sự quan tâm của dư luận .",
+      "generated": "Ngày 24-5 , TAND TP ĐàNẵng đã mở phiên toà xétxử sơ thẩm vụ án lừa đảo chiếm đoạt tài sản xảy ra tại Côngty luật TNHH Luật sư Trần Hữu Kiển . Theo đó , bị cáo Kiển bị VKS đề nghị mức án từ 12 đến 15 năm tù .",
+      "rouge1": 0.6866,
+      "rouge2": 0.303,
+      "rougeL": 0.3134
+    },
+    {
+      "reference": "Kỹ thuật nội soi tuyến giáp \" Dr Lương \" của PGS . TS Trần Ngọc Lương , Giám đốc Bệnh viện Nội tiết trung ương ( Hà Nội ) , đã thu hút nhiều bác sĩ từ các nước có nền y học tiên tiến đến học hỏi .",
+      "generated": "Phó giáo sư . TS Trần Ngọc Lương , Giám đốc Bệnh viện Nội tiết trung ương là một trong những chuyên gia đầu ngành về phẫu thuật nội soi tuyến giáp .",
+      "rouge1": 0.6087,
+      "rouge2": 0.4779,
+      "rougeL": 0.4522
+    },
+    {
+      "reference": "Lâu nay trong suốt quá trình tranh cử , ông Trump luôn khen ngợi nhà lãnh đạo Nga . Tuy nhiên , những ngày gần đây , ông Trump bất ngờ rút lại lời khen với ông Putin .",
+      "generated": "Ứng cử viên tổng thống Mỹ DonaldTrump lại tiếp tục có những phát biểu ngược với thái độ ủng hộ Tổng thống Nga Putin như trước đây .",
+      "rouge1": 0.5333,
+      "rouge2": 0.1136,
+      "rougeL": 0.2667
+    },
+    {
+      "reference": "Sáu thanh thiếu niên rủ nhau đến thác nước ở huyện Ia Grai , tỉnh Gia Lai chơi chiều 18/8 , trong lúc tắm ba người bị nước cuốn mất tích .",
+      "generated": "Nhóm bạn đang tắm thì Nguyễn Đình Quang ( 19 tuổi ) bị đuối nước , chới với kêu cứu nhưng bị dòng nước cuốn trôi .",
+      "rouge1": 0.5238,
+      "rouge2": 0.1951,
+      "rougeL": 0.3333
+    },
+    {
+      "reference": "Tổng thống Nga nhận xét tiêm kích Su -57 có đặc điểm tác chiến riêng biệt , không xuất hiện trên các dòng chiến đấu cơ khác .",
+      "generated": "Tổng thống Putin ca ngợi tiêm kích tàng hình thế hệ 5 Su -57 của Nga là \" tốt nhất thế giới xét về tính năng kỹ chiến thuật và vũ khí \" .",
+      "rouge1": 0.5652,
+      "rouge2": 0.2444,
+      "rougeL": 0.413
+    },
+    {
+      "reference": "Nhiều luật sư trong đại án OceanBank đặt vấn đề : theo quy định , việc chi lãi suất ngoài chỉ bị xử phạt hành chính , tuy nhiên các bị cáo lại bị xử lý hình sự ?",
+      "generated": "Luật sư Hoàng Huy Được cho rằng hành vi chi lãi ngoài của các bị cáo đã gây thiệt hại cho OceanBank số tiền 1 . 576 tỉ đồng . Các bị cáo đều bị đưa ra xét xử về tội cố ý làm trái quy định của Nhà nước về quản lý kinh tế gây hậu quả nghiêm trọng .",
+      "rouge1": 0.5954,
+      "rouge2": 0.2171,
+      "rougeL": 0.3511
+    },
+    {
+      "reference": "Trước khi Hiệu trưởng đại học Đông Đô Dương Văn Hoà cùng các đồng phạm bị khởi tố và bắt giam , PV Người Đưa Tin đã nhận được nhiều nguồn tin phản ánh về việc cấp bằng tốt nghiệp hệ Văn bằng 2 chính quy tại trường cho các học viên không đúng quy định của bộ GD & ĐT . Từ manh mối được cung cấp , PV đã vào cuộc tìm hiểu thông tin và hé lộ những bê bối trong quá trình đào tạo tại ngôi trường này .",
+      "generated": "Mặc dù không được cấp phép mở mã ngành đào tạo văn bằng 2 Ngôn ngữ Anh , nhưng trường đại học Đông Đô vẫn tổ chức cho chép bài thi để hợp thức hoàn thiện trong một vài ngày .",
+      "rouge1": 0.5654,
+      "rouge2": 0.254,
+      "rougeL": 0.3246
+    },
+    {
+      "reference": "Trong 15 phút ra chơi , H . và Tr . cãi vã dẫn đến đánh nhau . Trong lúc xô xát , H . rút con dao bấm trong túi đâm vào ngực Tr . khiến Tr . ngã gục ngay trên bục giảng lớp học .",
+      "generated": "Trong giờ nghỉ giải lao 15 phút , Tr . đến lớp H . để giải quyết mâu thuẫn do trước đó có xảy ra xích mích .",
+      "rouge1": 0.5111,
+      "rouge2": 0.1591,
+      "rougeL": 0.3111
+    },
+    {
+      "reference": "Tại hiện trường , nạn nhân chết dưới sàn nhà , còn nghi phạm đang ngủ trên giường cạnh thi thể , xung quanh có rất nhiều máu .",
+      "generated": "Trong lúc uống rượu , H . và Quới cự cãi , sau đó Quới lấy dao chém nhiều nhát trúng vào vùng đầu , tay và chân khiến nạn nhân tử vong .",
+      "rouge1": 0.5581,
+      "rouge2": 0.119,
+      "rougeL": 0.2326
+    },
+    {
+      "reference": "Ông Dương Quốc Việt - bí thư đảng uỷ xã Hồ Thị Kỷ , huyện uỷ Thới Bình , Cà Mau - bị khiển trách vì gây tai nạn rồi bỏ chạy .",
+      "generated": "Ông Dương Quốc Việt - bí thư Đảng uỷ xã Hồ Thị Kỷ , huyện Thới Bình ( Cà Mau ) - đã bị kỷ luật vì lái xe gây tai nạn làm một bé trai bị chấn thương sọ não , hôn mê nhưng vẫn lái xe bỏ chạy khỏi hiện trường .",
+      "rouge1": 0.6789,
+      "rouge2": 0.5421,
+      "rougeL": 0.6239
+    },
+    {
+      "reference": "Chiều 5/9 , đại diện Văn phòng UBND TP Đà Nẵng cho biết , ông Trần Huy Đức , Chánh thanh tra Thanh tra TP Đà Nẵng đã có kết luận thanh tra việc chấp hành chính sách , pháp luật trong công tác tuyển dụng , bổ nhiệm viên chức tại UBND quận Hải Châu . Theo đó , bên cạnh những yếu tố làm được , đơn vị này cũng có nhiều hạn chế , sai sót .",
+      "generated": "UBND quận Hải Châu , TP ĐàNẵng vừa côngbố kếtluận thanhtra , kiểmtra việc bổ nhiệm , điều động , luân chuyển công chức , viên chức quản lý , lãnhđạo đốivới một số đơnvị sựnghiệp .",
+      "rouge1": 0.5217,
+      "rouge2": 0.2138,
+      "rougeL": 0.3106
+    },
+    {
+      "reference": "Lọt xuống cống không nắp đậy , Phạm Bích Diệp ( học lớp 6 ) bị nước cuốn trôi , bảy tiếng sau thi thể em mới được tìm thấy .",
+      "generated": "Khi đi qua cống thoát nước ở khu 2 , phường Giếng Đáy , TP Hạ Long ( Quảng Ninh ) , ba học sinh bị tụt xuống .",
+      "rouge1": 0.4267,
+      "rouge2": 0.137,
+      "rougeL": 0.24
+    },
+    {
+      "reference": "Từ ngày có bác sĩ trẻ tình nguyện , bệnh nhi đến Trung tâm Y tế huyện Ba Bể không còn nhất thiết phải uống kháng sinh , điều trị ở bệnh viện 7 ngày như trước . Đã có hơn 300 bác sĩ như vậy tình nguyện đến nhiều vùng miền khó khăn trong cả nước .",
+      "generated": "Một năm rưỡi tham gia một chương trình tình nguyện nguyện , bác sĩ Tuấn và các đồng nghiệp ở Ba Bể đã thực hiện nhiều kỹ thuật y khoa mới tại tuyến huyện để cấp cứu trẻ sơ sinh , điều trị trẻ vàng da , cho trẻ thở máy thở khi cần .",
+      "rouge1": 0.6154,
+      "rouge2": 0.2597,
+      "rougeL": 0.3333
+    },
+    {
+      "reference": "Quan chức cảnh sát Malaysia nói nước này vừa bắt giữ bạn trai của nữ nghi phạm trong vụ sát hại anh trai nhà lãnh đạo Triều Tiên Kim Jong-un .",
+      "generated": "Cảnh sát Malaysia bắt thêm một nam giới trong vụ sát hại ông Kim Jong - nam , anh trai nhà lãnh đạo Triều Tiên Kim Jong-un .",
+      "rouge1": 0.6905,
+      "rouge2": 0.5366,
+      "rougeL": 0.6429
+    },
+    {
+      "reference": "Thoả thuận kéo dài 49 năm với chính quyền Syria cho phép Nga triển khai 11 tàu chiến cùng lúc tại căn cứ Tartus .",
+      "generated": "Nga được quyền triển khai tối đa 11 tàu chiến cùng lúc và nắm quyền điều hành toàn bộ căn cứ hải quân ở thànhphố Tartus .",
+      "rouge1": 0.7,
+      "rouge2": 0.3846,
+      "rougeL": 0.475
+    },
+    {
+      "reference": "Xe container đang đổ dốc cầu vượt Sóng Thần bất ngờ tông đổ hàng loạt dải phân cách rồi nằm chắn ngang làn đường xe máy . Vụ tai nạn đã làm giao thông qua khu vực bị ùn tắc nghiêm trọng .",
+      "generated": "Đang xuống dốc cầu vượt Sóng Thần ( quận Thủ Đức , TP . HCM ) thì bất ngờ tông vào dải phân cách với làn xe máy khiến giao thông ùn tắc nghiêm trọng .",
+      "rouge1": 0.7719,
+      "rouge2": 0.5179,
+      "rougeL": 0.6842
+    },
+    {
+      "reference": "Lực lượng vũ trang Đài Loan gặp nhiều khó khăn trong việc tuyển tân binh , do giới trẻ không còn hứng thú với việc gia nhập quân đội .",
+      "generated": "Quân đội Đài Loan đang tìm mọi cách để tuyển thêm binh sĩ , một phần trong kế hoạch xây dựng lực lượng hoàn toàn tình nguyện sau hàng chục năm áp dụng chế độ nghĩa vụ quân sự .",
+      "rouge1": 0.5243,
+      "rouge2": 0.2178,
+      "rougeL": 0.3107
+    },
+    {
+      "reference": "Binh sĩ Triều Tiên tuyên bố sàng chiến đấu chống Mỹ nhân kỷ niệm 64 năm ngày đình chiến .",
+      "generated": "Lực lượng hải quân , phòng không - không quân của quân đội Triều Tiên tổ chức tuyên thệ nhân kỷ niệm 64 năm ngày giành \" chiến thắng \" trong cuộc chiến tranh 1950-1953 .",
+      "rouge1": 0.5647,
+      "rouge2": 0.3855,
+      "rougeL": 0.4471
+    },
+    {
+      "reference": "Trong cuộc nói chuyện mới đây , ca sĩ Pha Lê thấy bất mãn vì khán giả vội phán xét , cho rằng các nữ nghệ sĩ lên tiếng tố chuyện bị gạ tình nhằm \" đu \" theo người nổi tiếng để PR . . .",
+      "generated": "Trước ồnào Phạm Anh Khoa bị tố gạ tình , Pha Lê đã thẳng thắn chia sẻ quan điểm của mình về vấn đề này .",
+      "rouge1": 0.5376,
+      "rouge2": 0.1319,
+      "rougeL": 0.2366
+    },
+    {
+      "reference": "Đúng như các chuyên gia dự đoán , cuộc gặp giữa Tổng thống Mỹ và Chủ tịch Trung Quốc bên lề Hội nghị thượng đỉnh nhóm G20 ở Nhật đã kết thúc với một \" thoả thuận đình chiến \" nhưng . . . còn mong manh !",
+      "generated": "Tổngthống Mỹ DonaldTrump và Chủtịch TrungQuốcCánh đã có cuộc gặp \" thượng đỉnh \" Mỹ - Trung kéo dài 80 phút , ít hơn 10 phút so với dự kiến . Tương lai hai \" con tin \" chưa rõ",
+      "rouge1": 0.5714,
+      "rouge2": 0.2364,
+      "rougeL": 0.3214
+    },
+    {
+      "reference": "ng 18-1 , Thanh tra Giao thông Sở Giao thông vận tải TP . HCM đã tổ chức ra quân kiểm tra , xử lý tình trạng xe khách dừng , đỗ không đúng nơi quy định .",
+      "generated": "Sáng 3-1 , Đội Thanh tra giao thông số 1 phối hợp với Đội Cảnh sát giao thông đường bộ - đường sắt ( Công an TP . HCM ) tiến hành kiểm tra hoạt động xe khách giường nằm trên địa bàn quận 1 , Bình Thạnh . Qua đó , phát hiện nhiều trường hợp xe khách dừng , đỗ sai quy định .",
+      "rouge1": 0.6357,
+      "rouge2": 0.315,
+      "rougeL": 0.4496
+    },
+    {
+      "reference": "Phân tích của Hãng thông tấn Yonhap của Hàn Quốc cho thấy ông Trump và ông Kim Jong Un dự kiến sẽ gặp nhau lâu hơn tại cuộc gặp ở Hà Nội , so với sự kiện ở Singapore hồi năm ngoái .",
+      "generated": "Tổng thống Mỹ Donald Trump và lãnh đạo Triều Tiên Kim Jong Un dự kiến có cuộc gặp mặt ít nhất 5 lần trong cuộc gặp thượng đỉnh lần 2 ở Hà Nội kéo dài trong hai ngày 27 và 28-2 .",
+      "rouge1": 0.6066,
+      "rouge2": 0.2333,
+      "rougeL": 0.3934
+    },
+    {
+      "reference": "Cảnh sát Thuỵ Điển bắt người đàn ông thứ hai trong vụ dùng xe tải tấn công đám đông ở Stockholm .",
+      "generated": "Người thứ hai bị bắt ở vùng nông thôn phía bắc Hjulsta vào hôm qua , bị cho là có liên quan đến người thứ nhất bị bắt .",
+      "rouge1": 0.5882,
+      "rouge2": 0.1515,
+      "rougeL": 0.3235
+    },
+    {
+      "reference": "Khẳng định kiều bào là nguồn lực khoa học - công nghệ nòng cốt của đất nước , ông Tùng cho hay Bộ Khoa học và Công nghệ sẽ tạo điều kiện tốt nhất để khơi gợi nhiệt huyết của trí thức Việt trên toàn cầu .",
+      "generated": "Thứ trưởng Bộ Khoa học và Công nghệ Trần Văn Tùng cho rằng , việc thu hút trí thức Việt Nam trên toàn cầu quan tâm đến sự phát triển của đất nước là nhiệm vụ rất quan trọng .",
+      "rouge1": 0.6364,
+      "rouge2": 0.3692,
+      "rougeL": 0.3939
+    },
+    {
+      "reference": "Sau hơn 9 tháng theo dõi , điều tra , xác minh , lực lượng BĐBP tỉnh Quảng Bình phối hợp với cơ quan chức năng , đã bắt gọn đối tượng cầm đầu đường dây ma tuý xuyên Quốc gia .",
+      "generated": "Sau hơn 9 tháng theo dõi , điều tra , xác minh ; do đối tượng manh động liều lĩnh , sử dụng vũ khí nóng với nhiều phương thức , thủ đoạn tinh vi xảo quyệt . . ; buộc Ban chuyên án 543L phải thường xuyên bàn bạc thay đổi phương án , khắc phục mọi khó khăn , gian khổ , tổ chức lực lượng đánh bắt .",
+      "rouge1": 0.6358,
+      "rouge2": 0.349,
+      "rougeL": 0.4238
+    },
+    {
+      "reference": "Trump dường như nghĩ rằng cú bắt tay với Kim sẽ giải quyết tất cả , nhưng lãnh đạo Triều Tiên có thể không ngây thơ đến vậy .",
+      "generated": "Cơ quan Tình báo Quốc phòng Mỹ cho rằng Triều Tiên dường như đang tìm cách che giấu các cơ sở bí mật cũng như số vũ khí hạt nhân đã có , nhằm buộc chính quyền Tổng thống Mỹ Donald Trump có thêm nhượng bộ trong các cuộc đàm phán hạt nhân .",
+      "rouge1": 0.5289,
+      "rouge2": 0.1849,
+      "rougeL": 0.2645
+    },
+    {
+      "reference": "Liên quan đến việc 264 xe công thanh lý với giá 390 triệu đồng , chiều nay ( 30/6 ) , Bộ Tài chính đã có trả lời chính thức về việc này .",
+      "generated": "Bộ Tài chính vừa có thông cáo chính thức về việc thanh lý 264 xe ô tô của các cơ quan , tổ chức , đơn vị có tài sản thuộc diện Nhà nước quản lý .",
+      "rouge1": 0.587,
+      "rouge2": 0.2889,
+      "rougeL": 0.3043
+    },
+    {
+      "reference": "Quan chức ở Istanbul khẳng định vụ giết nhà báo Arab Saudi được lên kế hoạch từ trước và thi thể không còn nguyên vẹn .",
+      "generated": "Công tố viên trưởng Thổ Nhĩ Kỳ cho rằng nhà báo Khashoggi đã bị bóp cổ ngay khi ông vào lãnh sự quán Arab Saudi ở Istanbul ngày 2/10 , thi thể sau đó bị chặt thành từng mảnh để phi tang .",
+      "rouge1": 0.5057,
+      "rouge2": 0.1412,
+      "rougeL": 0.2989
+    },
+    {
+      "reference": "Quan chức Israel tuyên bố sẽ \" loại bỏ \" Tổng thống Bashar Assad nếu ông cho phép Iran biến Syria thành căn cứ quân sự để tấn công Israel .",
+      "generated": "Israel sẽ \" loại bỏ \" Tổng thống Syria Bashar Assad nếu ông tiếp tục để Iran hoạt động trong lãnh thổ Syria , Bộ trưởng Năng lượng và Nguồn nước Yuval Steinitz cảnh báo .",
+      "rouge1": 0.6512,
+      "rouge2": 0.2857,
+      "rougeL": 0.4884
+    },
+    {
+      "reference": "Một căn nhà gần Hồ Gươm ( quận Hoàn Kiếm , Hà Nội ) vừa bất ngờ đổ sập , phát tiếng nổ lớn khiến nhiều người dân và du khách hoảng sợ .",
+      "generated": "Tường đang thi công của dự án Khách sạn 6 sao trên phố Lê Thái Tổ ( quận Hoàn Kiếm ) bất ngờ đổ sập , phát tiếng nổ lớn khiến nhiều người dân và du khách sợ hãi bỏ chạy .",
+      "rouge1": 0.7477,
+      "rouge2": 0.5333,
+      "rougeL": 0.6542
+    },
+    {
+      "reference": "Hôm nay ( 6/9 ) , giá xăng E5 RON 92 và xăng RON 95 - III đều được điều chỉnh tăng thêm 300 đồng / lít .",
+      "generated": "Sau 4 kỳ liên tiếp giữ ổn định giá xăng dầu , liên bộ Công Thương – Tài chính vừa điều chỉnh tăng giá đối với mặt hàng này .",
+      "rouge1": 0.48,
+      "rouge2": 0.2192,
+      "rougeL": 0.3467
+    },
+    {
+      "reference": "Ông Trump bước xuống xe điện , tiến về phía đám cưới và ôm hôn cô dâu tại sân golf ở New Jersey .",
+      "generated": "Tổng thống Mỹ xuất hiện trong chốc lát tại một đám cưới ở câu lạc bộ golf quốc gia Trump , khiến cô dâu ngất ngây .",
+      "rouge1": 0.507,
+      "rouge2": 0.1739,
+      "rougeL": 0.3099
+    },
+    {
+      "reference": "Cuộc họp của các đại diện thường trực tại ASEAN đã dành phút mặc niệm Chủ tịch nước , hiệp hội cũng gửi điện chia buồn đến gia quyến .",
+      "generated": "Lãnh đạo các nước và các tổ chức quốc tế gửi thư , điện chia buồn như Thủ tướng Malaysia Mahathir Mohamad , Tổng thống Ấn Độ Ram Nath Kovind , Thủ tướng Pháp Edouard Philippe .",
+      "rouge1": 0.5532,
+      "rouge2": 0.2174,
+      "rougeL": 0.3617
+    },
+    {
+      "reference": "Văn phòng Chính phủ vừa có thông báo kết luận của Phó Thủ tướng Vương Đình Huệ tại cuộc họp Ban Chỉ đạo đổi mới , phát triển kinh tế tập thể , hợp tác xã về việc tổng kết Nghị quyết Trung ương 5 Khoá IX về tiếp tục đổi mới , phát triển và nâng cao hiệu quả kinh tế tập thể .",
+      "generated": "Phó Thủ tướng NguyễnXuânPhúc vừa có kết luận về tổng kết 15 năm thực hiện Nghị quyết Trung ương 5 Khoá IX về tiếp tục đổi mới , phát triển kinh tế tập thể , hợp tác xã .",
+      "rouge1": 0.7067,
+      "rouge2": 0.5541,
+      "rougeL": 0.5333
+    },
+    {
+      "reference": "Thanh tra TP . HCM kết luận việc quản lý hoạt động xe ra vào bến xe Miền Đông có sai phạm , gây thất thoát ngân sách lớn . Tuy nhiên , Tổng giám đốc Samco cho rằng cách làm của Thanh tra TP là không có cơ sở và cứng nhắc .",
+      "generated": "Tổng côngty Cơ khí , Giao thông , Vận tải Sài Gòn ( Samco ) đã để lọt hơn 10 . 000 lượt xe ra vào bến không thu phí dịch vụ trong vòng 58 ngày .",
+      "rouge1": 0.521,
+      "rouge2": 0.1538,
+      "rougeL": 0.2689
+    },
+    {
+      "reference": "Một số nhà khoa học máy tính hàng đầu đang hối thúc Hillary Clinton kêu gọi kiểm phiếu lại ở ba bang , do nghi ngờ kết quả bị điều chỉnh .",
+      "generated": "Các nhà khoa học máy tính phát hiện bằng chứng cho thấy số phiếu bầu ở ba bang Wisconsin , Michigan và Pennsylvania có thể đã bị chỉnh sửa hoặc tấn công mạng .",
+      "rouge1": 0.5275,
+      "rouge2": 0.2247,
+      "rougeL": 0.3736
+    },
+    {
+      "reference": "Vụ tai nạn nghiêm trọng khiến ít nhất 11 người thương vong xảy ra vào khoảng 3h ngày 16/7 tại km9 ( đối diện khu du lịch Kotam , quốc lộ 26 , đoạn qua xã Ea Tu , TP . Buôn Ma Thuột , tỉnh Đắk Lắk ) .",
+      "generated": "Rạng sáng nay , một chiếc xe khách giường nằm đã bất ngờ mất lái lao sang bên trái đường , rồi leo lên lề đường tông vào 1 chiếc xe tải , ủi gãy trụ điện rồi lật nghiêng sát nhà dân khiến ít nhất 11 người thương vong .",
+      "rouge1": 0.5217,
+      "rouge2": 0.1912,
+      "rougeL": 0.2754
+    },
+    {
+      "reference": "Nhiều dự án bất động sản tại Long An đã bị phạt hành chính vì chưa có giấy phép nhưng đã xây dựng và rao bán khi chưa đủ điều kiện .",
+      "generated": "Dù chưa có giấy phép xây dựng nhưng đã xây dựng và rao bán , Côngty cổ phần bất động sản Trần Anh Long An đã bị 3 quyết định xử phạt liên tiếp , với tổng số tiền lên đến 270 triệu đồng .",
+      "rouge1": 0.6481,
+      "rouge2": 0.434,
+      "rougeL": 0.3704
+    },
+    {
+      "reference": "Các quan chức cấp cao nhất sẽ được tiếp trà vào ly đang uống bởi các nam nhân viên , thay cho dàn nữ nhân viên xinh đẹp như nhiệm kỳ trước . Riêng ông Tập Cận Bình được thay một ly trà mới dù còn hay hết .",
+      "generated": "Chủ tịch Trung Quốc Tập Cận Bình là người rất quan tâm đến các vấn đề xãhội , đặcbiệt là anninh . Chính vì thế , ông thường yêu cầu các đại biểu mang điện thoại vào phòng họp .",
+      "rouge1": 0.4961,
+      "rouge2": 0.126,
+      "rougeL": 0.2636
+    },
+    {
+      "reference": "Sáng 5/8/2017 , đồng chí Nguyễn Xuân Phúc , Uỷ viên Bộ Chính trị , Thủ tướng Chính phủ đã làm việc với Tập đoàn Dầu khí Quốc gia Việt Nam .",
+      "generated": "Sáng nay , tại Hà Nội , Thủ tướng Chính phủ Nguyễn Xuân Phúc và lãnh đạo các Bộ , ngành đã có buổi làm việc với Tập đoàn Dầu khí Quốc gia Việt Nam .",
+      "rouge1": 0.7708,
+      "rouge2": 0.617,
+      "rougeL": 0.6667
+    },
+    {
+      "reference": "Chạy trên đường ở quận Bình Tân ( TP HCM ) , xe buýt bất ngờ lao qua hướng ngược lại cuốn người phụ nữ cùng xe máy vào gầm rồi lao vào căn nhà ven đường .",
+      "generated": "Đang chạy trên đường Kinh Dương Vương ( quận Bình Tân , TP HCM ) , ôtô bất ngờ lao qua đường , cuốn xe máy do người phụ nữ điều khiển , vào gầm .",
+      "rouge1": 0.7917,
+      "rouge2": 0.5532,
+      "rougeL": 0.625
+    },
+    {
+      "reference": "Chiều 14/1 , đoàn công tác của Uỷ ban kiểm tra Trung ương đã đến Bến Tre công bố quyết định kỷ luật ông Trần Văn Truyền , nguyên Tổng thanh tra chính phủ .",
+      "generated": "Ngày 4/1 , Uỷ ban Kiểm tra Tỉnh uỷ Bến Tre công bố quyết định kỷ luật cảnh cáo đốivới ông Trần Văn Truyền , nguyên bíthư tỉnh uỷ .",
+      "rouge1": 0.7609,
+      "rouge2": 0.5556,
+      "rougeL": 0.6304
+    },
+    {
+      "reference": "Ở tuổi 41 nam chính trong phim \" Giày thuỷ tinh \" đã gặt hái được nhiều thành công trong sự nghiệp khiến nhiều người phải khao khát , nhưng trong tình duyên anh lại lận đận và vẫn đang miệt mài đi tìm hạnh phúc cho riêng mình .",
+      "generated": "Sau nhiều năm \" chìm nghỉm \" trong showbiz , So Ji Sub một bước vụt sáng thành sao nhờ vai diễn ấn tượng trong dự án ăn khách Giày thuỷ tinh . Thành công của bộ phim đã giúp So Ji Sub mở rộng sự nghiệp diễn xuất và góp phần đưa anh trở thành cái tên sáng giá trong dàn diễn viên thực lực của màn ảnh .",
+      "rouge1": 0.568,
+      "rouge2": 0.1557,
+      "rougeL": 0.3077
+    },
+    {
+      "reference": "Sau nhiều năm kiến nghị , mới đây , \" số phận \" của 175 ôtô biển số vàng LB của Khu kinh tế thương mại đặc biệt Lao Bảo ( Quảng Trị ) đã được Chính phủ quyết định …",
+      "generated": "175 ôtô mang biển số vàng LB của các doanh nghiệp tại Khu kinh tế thương mại đặc biệt Lao Bảo đăng ký trước thời điểm 1-9-2016 sẽ được miễn thuế nhập khẩu khi kê khai tờ khai hải quan chuyển đổi mục đích sử dụng .",
+      "rouge1": 0.6325,
+      "rouge2": 0.3826,
+      "rougeL": 0.4786
+    },
+    {
+      "reference": "Đường Đông Hải ( Hải Phòng ) dài hơn 1 , 3 km , tổng mức đầu tư gần 14 tỷ đồng , mới đưa vào sử dụng từ cuối tháng 1 nhưng nay đã xuất hiện các điểm lún , nứt .",
+      "generated": "Nhà thầu nói do nền đất yếu , thời điểm thi công trời mưa , nước đọng nên việc lu lèn cốt đường không được chặt đều , cộng với xe trọng tải lớn chạy qua với mật độ cao .",
+      "rouge1": 0.5913,
+      "rouge2": 0.1239,
+      "rougeL": 0.3304
+    },
+    {
+      "reference": "Cảnh sát Hong Kong thắt chặt an ninh với các phương tiện giao thông đi tới sân bay nhằm ngăn cuộc biểu tình được lên kế hoạch vào hôm nay .",
+      "generated": "Lực lượng cảnh sát chống bạo động được triển khai tại sảnh chính của Hong Kong Airport Express ( tàu cao tốc tới sân bay Hong Kong ) hôm nay và tiến hành kiểm tra ít nhất một chiếc xe buýt đang hướng đến sân bay .",
+      "rouge1": 0.6387,
+      "rouge2": 0.2735,
+      "rougeL": 0.3361
+    },
+    {
+      "reference": "Dubai cho chiếu hình ảnh Thủ tướng Ardern trên toà tháp Burj Khalifa nhằm thể hiện sự tôn trọng đối với bà .",
+      "generated": "Hình ảnh Thủ tướng Jacindadern đội khăn trùm đầu và ôm một phụ nữ được chiếu trên toà tháp cao nhất thế giới ở Dubai , Các tiểu vương quốc Arab Thống nhất .",
+      "rouge1": 0.6329,
+      "rouge2": 0.2857,
+      "rougeL": 0.3797
+    },
+    {
+      "reference": "Tổng thống Iran Hassan Rouhani hôm nay chỉ trích Mỹ về các lệnh trừng phạt đối với Ngoại trưởng Zarif , mô tả động thái này là \" trò trẻ con \" vô nghĩa .",
+      "generated": "Tổng thống Iran cho rằng Mỹ \" chơi trò trẻ con \" trừng phạt Ngoại trưởng Zarif do lo ngại các phát biểu của ông này đưa ra khi dự họp Liên Hợp Quốc .",
+      "rouge1": 0.6105,
+      "rouge2": 0.3226,
+      "rougeL": 0.4632
+    },
+    {
+      "reference": "Kết quả thi tuyển lớp 10 của TP Cần Thơ năm nay không có điểm 10 môn ngữ văn , có 20 thí sinh đạt điểm 10 môn toán và chỉ có 3 thí sinh đạt điểm 10 ngoại ngữ .",
+      "generated": "Thí sinh Nguyễn Đoàn Hoàng Phúc , học sinh Trường THCS Châu Văn Liêm , có tổng điểm các bài thi cao nhất vào các trường THPT , đạt điểm xét tuyển 45 , 1 ( không tính điểm ưu tiên ) .",
+      "rouge1": 0.5789,
+      "rouge2": 0.1429,
+      "rougeL": 0.2982
+    },
+    {
+      "reference": "Quân đội Syria với nòng cốt là lực lượng đặc nhiệm Tiger tiếp tục giành thắng lợi vang dội khi giành lại 30 ngôi làng chỉ trong 24h , do đó đặt chân lên hồ Assad lần đầu sau 5 năm .",
+      "generated": "Sau khi giành được thị trấn chiến lược quan trọng al - Sukhny , quân đội chính phủ Syria đã tiến đến bờ tây của hồ Assad ( Sông Euphrates ) lần đầu tiên trong 5 năm .",
+      "rouge1": 0.5849,
+      "rouge2": 0.2115,
+      "rougeL": 0.3208
+    },
+    {
+      "reference": "Trung Quốc có nhiều công cụ gây ảnh hưởng với nước ngoài như tài trợ cho các đảng phái hay mở rộng tầm với của phương tiện tuyên truyền .",
+      "generated": "Trong 6 tháng qua , câu hỏi về mức độ ảnh hưởng của Trung Quốc phủ bóng lên chính trị ở Australia và New Zealand .",
+      "rouge1": 0.525,
+      "rouge2": 0.1538,
+      "rougeL": 0.3
+    },
+    {
+      "reference": "Trước cơn giận dữ của người dân ngoại ô Matxcơva , chính quyền đã buộc phải tuyên bố \" cảnh báo cao \" về tình trạng ô nhiễm và phân phát mặt nạ chống độc cho người dân .",
+      "generated": "Hàng ngàn người dân thành phố Volokolamsk - một thành phố nhỏ khoảng 20 . 000 dân ở cách thủ đô Matxcơva khoảng 120 km về phía tây bắc , đã nhiều lần xuống đường đòi hỏi chính quyền có giải pháp trước tình trạng bãi rác ô nhiễm .",
+      "rouge1": 0.6929,
+      "rouge2": 0.272,
+      "rougeL": 0.3307
+    },
+    {
+      "reference": "Hàng loạt nhà hát tại TP . HCM đang được trưng dụng cho thuê tổ chức tiệc cưới , hội nghị , quán cà phê nhờ lợi thế mặt tiền . Nhiều người dân vẫn chưa có thói quen đến các nhà hát để thưởng thức nghệ thuật , nâng cao chất lượng đời sống .",
+      "generated": "Nhiều nhà hát trên địa bàn TP . HCM đang được các đơn vị quản lý tận dụng để cho thuê , thu lợi nhuận nhưng không đến từ các hoạt động nghệ thuật .",
+      "rouge1": 0.6452,
+      "rouge2": 0.2787,
+      "rougeL": 0.4032
+    },
+    {
+      "reference": "Trong lúc 7 công nhân đang thi công nhà xưởng Công ty cổ phần sản xuất thương mại Tiến Nga ( ấp Tân Cang , xã Phước Tân , TP Biên Hoà , tỉnh Đồng Nai ) , sàn bêtông bất ngờ đổ ập xuống đè chết 2 người , 2 người bị thương .",
+      "generated": "Đang thi công nhà xưởng thì sàn bêtông ở tầng hai bấtngờ đổ sập khiến hai công nhân tửvong .",
+      "rouge1": 0.48,
+      "rouge2": 0.2857,
+      "rougeL": 0.36
+    },
+    {
+      "reference": "Tổng thống Nga Putin cùng hai cựu điệp viên KGB đã đến chúc mừng sếp cũ Lazar Matveev bước sang tuổi 90 ở thủ đô Moscow .",
+      "generated": "Tổngthống Nga VladimirPutin đến mừng sinhnhật lần thứ 90 của sếp cũ Lazar Matveev tại nhà riêng ở Zhulebino , đông Moscow .",
+      "rouge1": 0.6032,
+      "rouge2": 0.1967,
+      "rougeL": 0.4127
+    },
+    {
+      "reference": "Bào chữa cho bị cáo Đinh La Thăng , luật sư Phan Trung Hoài đề nghị VKS xem xét lại tội danh đã truy tố thân chủ vì chưa đủ căn cứ pháp lý . Luật sư Nguyễn Huy Thiệp thì nói rằng : Xin gửi đến HĐXX niềm tin vào công lý !",
+      "generated": "Trong phần bào chữa , luật sư Phan Trung Hoài cho rằng không có mối liên hệ nhân quả giữa các hành vi bị coi là cố ý làm trái với hậu quả thiệt hại xảy ra và cần xác định chính xác nguyên nhân PVN bị mất 800 tỉ đồng góp vốn tại Oceanbank .",
+      "rouge1": 0.6275,
+      "rouge2": 0.1987,
+      "rougeL": 0.3268
+    },
+    {
+      "reference": "Gia đình nạn nhân cho rằng , các bác sĩ của bệnh viện Đa khoa vùng Tây Nguyên tắc trách khiến hai mẹ con sản phụ tử vong trong lúc sinh .",
+      "generated": "Trong quá trình chờ sinh , sản phụ Võ Thị H . ( 34 tuổi , ngụ thôn 5 xã Cư M ' Lan , huyện Ea Súp , tỉnh Đắk Lắk ) bị các bác sĩ thông báo tình hình sức khoẻ đang nguy kịch , buộc phải mổ cấp cứu . Tuy nhiên , sau đó cả hai mẹ con sản phụ đều tử vong .",
+      "rouge1": 0.5691,
+      "rouge2": 0.1818,
+      "rougeL": 0.3577
+    },
+    {
+      "reference": "Đoạn đường dài 50 m ở tỉnh Tứ Xuyên sụp xuống trong trận lở đất lớn , kéo theo các bức tường chắn và những cột đèn .",
+      "generated": "Đoạn đường dài 50 m ở thành phố Quảng An , tỉnh Tứ Xuyên , miền nam Trung Quốc , sụp xuống trong tích tắc khi mưa lớn kéo dài .",
+      "rouge1": 0.7073,
+      "rouge2": 0.425,
+      "rougeL": 0.5366
+    },
+    {
+      "reference": "Khu Phi quân sự liên Triều những ngày gần đây trở nên yên bình hơn với bầu không khí tĩnh lặng hiếm thấy .",
+      "generated": "Trung tá Hwang Myong Jin , người làm công việc hướng dẫn viên bên bờ phía bắc Khu Phi quân sự liên Triều ( DMZ ) được 5 năm , nói rằng nơi này đã trở nên yên bình hơn sau các hội nghị thượng đỉnh liên Triều .",
+      "rouge1": 0.5818,
+      "rouge2": 0.3333,
+      "rougeL": 0.4364
+    },
+    {
+      "reference": "Theo lời khai của bị can Trần Xuân Yến - phó giám đốc Sở GD-ĐT tỉnh Sơn La , chính giám đốc sở này , ông Hoàng Tiến Đức , đã đưa thông tin của 8 thí sinh để nhờ rút bài sửa nâng điểm .",
+      "generated": "Ông Trần Xuân Yến , phó giám đốc Sở GD-ĐT tỉnh Sơn La , đã nâng điểm cho 13 thí sinh , trong đó có 8 trường hợp do cấp trên , do đồng nghiệp và người quen nhờ vả .",
+      "rouge1": 0.6055,
+      "rouge2": 0.3925,
+      "rougeL": 0.4771
+    },
+    {
+      "reference": "Dự án nhằm giảm ùn tắc , đáp ứng nhu cầu phát triển đô thị dọc hai bên tuyến cao tốc TP HCM - Long Thành - Dầu Giây .",
+      "generated": "Dự án sẽ xây mới 3 cầu trên tuyến gồm : Bà Dạt , Mương Kênh và Bà Hiện với tổng chiều dài hơn 500 m .",
+      "rouge1": 0.5195,
+      "rouge2": 0.1067,
+      "rougeL": 0.2857
+    },
+    {
+      "reference": "Theo ông Trần Văn Tùng , người lao động sẽ có cơ hội học tập , nâng cao trình độ để thích nghi với trình độ công nghệ tiên tiến khi bước vào cuộc cách mạng công nghiệp 4 . 0 .",
+      "generated": "Thứ trưởng Bộ Khoa học và Công nghệ Trần Văn Tùng cho rằng , cuộc cách mạng công nghiệp 4 . 0 sẽ mang lại thách thức đồng thời cơ hội học tập suốt đời , nâng cao trình độ cho người lao động .",
+      "rouge1": 0.7833,
+      "rouge2": 0.5593,
+      "rougeL": 0.4167
+    },
+    {
+      "reference": "Người nhà và hàng xóm cũ của nghi can mang hộ chiếu Indonesia trong vụ sát hại Kim Jong - nam nói cô này là \" người tử tế \" và sốc khi biết tin .",
+      "generated": "Hàng xóm cũ của nghi can thứ hai trong vụ sát hại Kim Jong - nam cho biết Aisyah sống tử tế với mọi người ở đây , là người chất phác .",
+      "rouge1": 0.7442,
+      "rouge2": 0.5476,
+      "rougeL": 0.5814
+    },
+    {
+      "reference": "Gửi xe tại nhà xe bệnh viện để vào chăm con bị ốm nhưng quên rút chìa khoá , ra lấy kiểm tra xe thì anh T . tá hoả khi gần 100 triệu đồng trong cốp \" không cánh mà bay \" .",
+      "generated": "Phát hiện thấy 2 cọc tiền ( 93 , 5 triệu đồng ) trong cốp xe , Thắng liền lấy trộm để tiêu xài cá nhân .",
+      "rouge1": 0.4222,
+      "rouge2": 0.1818,
+      "rougeL": 0.2889
+    },
+    {
+      "reference": "Ngày 11/12 , ngành chức năng tỉnh Vĩnh Long điều tra , làm rõ nguyên nhân vụ tai nạn giao thông xảy ra trên địa bàn khiến một người tử vong tại chỗ .",
+      "generated": "Vụ tai nạn xảy ra trên Quốc lố 1A , đoạn qua xã Tân Ngãi , TP . Vĩnh Long khiến một người tử vong tại chỗ .",
+      "rouge1": 0.6897,
+      "rouge2": 0.4706,
+      "rougeL": 0.4828
+    },
+    {
+      "reference": "Người dân ở TP . HCM cũng như các tỉnh muốn lắp điện mặt trời liên hệ ai , chi phí ra sao , có được hỗ trợ vay vốn không , thủ tục mua bán điện khi hoà lưới ? . . . Những vấn đề này đã được chuyên gia giải đáp chi tiết trên tuoitre . vn sáng 10-5 .",
+      "generated": "Người dân lắp đặt điện mặt trời áp mái ngoài có thêm nguồn điện để dùng , điện dư có thể bán lại cho ngành điện .",
+      "rouge1": 0.5128,
+      "rouge2": 0.2783,
+      "rougeL": 0.3932
+    },
+    {
+      "reference": "Venezuela sắp tới phải trả cho Nga khoản nợ 100 triệu USD giữa bối cảnh nước này vừa dính cú sốc sau vụ Mỹ trừng phạt tập đoàn dầu khí quốc gia PDVSA .",
+      "generated": "Bộ Tài chính Nga cho biết nước này hi vọng Venezuela sẽ trả nợ cho Matxcơva đúng hạn vào cuối tháng 3 , với số nợ hơn 100 triệu USD .",
+      "rouge1": 0.5895,
+      "rouge2": 0.1935,
+      "rougeL": 0.2947
+    },
+    {
+      "reference": "Khu sân bay Phú Quốc cũ có diện tích 78 , 88 ha với dân số tính toán trong phạm vi quy hoạch là 6 . 633 người sẽ được xây dựng thành khu đô thị có kiến trúc hiện đại , chất lượng môi trường sống tốt .",
+      "generated": "633 người sẽ được xây dựng thành một khu đô thị hiện đại , chất lượng môi trường sống tốt , cấu trúc chặt chẽ , đa dạng phục vụ cho nhiều đối tượng khác nhau .",
+      "rouge1": 0.7059,
+      "rouge2": 0.4615,
+      "rougeL": 0.4706
+    },
+    {
+      "reference": "Quân đội Pháp vừa có động thái quân sự bất ngờ tại vùng biên giới giữa Syria và Iraq .",
+      "generated": "Lực lượng đặc nhiệm Pháp đã gia tăng hiện diện quân sự ở phía Đông Syria , cùng Mỹ hỗ trợ các chiến binh người Kurd bị cáo buộc là \" công cụ \" của Washington nhằm chia cắt Syria .",
+      "rouge1": 0.4286,
+      "rouge2": 0.122,
+      "rougeL": 0.2857
+    },
+    {
+      "reference": "Năm 2017 tại biển Đông xuất hiện 16 cơn bão , 6 cơn áp thấp , 6 đợt thời tiết nguy hiểm gây ảnh hưởng đến TP . HCM cùng 9 đợt triều cường vượt báo động III . . .",
+      "generated": "Trong năm 2017 , mưa giông đã khiến hư hỏng toàn bộ 3 căn nhà , tốc mái và hư một phần 288 căn nhà và 12 trường học , 281 phòng trọ , 7 xe ôtô .",
+      "rouge1": 0.495,
+      "rouge2": 0.1212,
+      "rougeL": 0.3564
+    },
+    {
+      "reference": "Tổng thống Nga tiết lộ ông đã được cố lãnh đạo Triều Tiên thông báo về sự tồn tại của bom nguyên tử vào những năm 2000 .",
+      "generated": "Tổng thống Nga Putin cho rằng các bên liên quan nên giảm bớt những phát ngôn mang tính chất hiếu chiến , đồng thời nỗ lực thúc đẩy cuộc đối thoại trực tiếp giữa Bình Nhưỡng và Washington .",
+      "rouge1": 0.5769,
+      "rouge2": 0.1569,
+      "rougeL": 0.3462
+    },
+    {
+      "reference": "Lợi dụng không phận Lebanon , Israel được cho là đã né được hệ thống phòng không S -300 tối tân của Nga khi tiến hành không kích vào Syria hôm 25/12 .",
+      "generated": "Chiến đấu cơ Israel đã thả vũ khí khi bay qua Lebanon nhằm tránh khỏi sự phát hiện của hệ thống phòng thủ tấn tiến S -300 mà Nga mới chuyển cho Syria .",
+      "rouge1": 0.6739,
+      "rouge2": 0.2222,
+      "rougeL": 0.3043
+    },
+    {
+      "reference": "Ngày 1-7 , đại học Kinh tế - Tài chính TP . HCM ( UEF ) đã công bố điểm chuẩn trúng tuyển của 20 ngành đào tạo đại học chính quy theo phương thức xét tuyển .",
+      "generated": "Trường ĐH Kinhtế - Quảnlý TP . HCM ( UEF ) vừa công bố điểm chuẩn trúng tuyển năm 2019 . Theo đó , nhiều ngành có mức điểm trúng tuyển cao so với điểm nhận hồ sơ .",
+      "rouge1": 0.6061,
+      "rouge2": 0.2887,
+      "rougeL": 0.4444
+    },
+    {
+      "reference": "Đang lấy củi trước vườn nhà , cụ Lộc bị đàn ong vò vẽ xúm lại đốt tới 200 mũi , gây suy hô hấp , suy nội tạng .",
+      "generated": "Đàn ong vò vẽ xúm lại đốt khiến cụ Lộc suy hô hấp , suy đa cơ quan nội tạng .",
+      "rouge1": 0.7077,
+      "rouge2": 0.5397,
+      "rougeL": 0.5538
+    },
+    {
+      "reference": "Đại sứ Việt Nam tại Ai Cập Trần Thành Công đã đến hiện trường và tới bệnh viện Al Haram nơi điều trị của các nạn nhân để thăm hỏi , động viên và nắm tình hình .",
+      "generated": "Bộ Ngoại giao Việt Nam đã liên hệ với Đại sứ quán Ai Cập tại Việt Nam , đề nghị hỗ trợ cấp thị thực khẩn cho thân nhân của những người bị nạn , để sớm sang Ai Cập giải quyết quyền lợi cho các nạn nhân .",
+      "rouge1": 0.7143,
+      "rouge2": 0.2419,
+      "rougeL": 0.4286
+    },
+    {
+      "reference": "Thông tin này vừa được ông Trần Văn Miên , Phó Chủ tịch UBND TP . Đà Nẵng truyền đạt lại đông đảo cử tri trên địa bàn . Hiện , câu chuyện về \" di dời sân bay Đà Nẵng \" vẫn đang gây xôn xao dư luận .",
+      "generated": "Phó Chủ tịch UBND TP . Đà Nẵng khẳng định , hoàn toàn không có chuyện di dời sân bay Đà Nẵng . \" Ngay cả trong ý tưởng lãnh đạo thành phố cũng không nghĩ đến chuyện này \" , ông Trần Văn Miên nhấn mạnh .",
+      "rouge1": 0.6667,
+      "rouge2": 0.3802,
+      "rougeL": 0.4228
+    },
+    {
+      "reference": "Với các vi phạm như không đảm bảo tiêu chuẩn dịch vụ , không gắn hạng sao . . . , khách sạn T . T . và T . A . M . bị đề nghị xử phạt tổng số tiền 27 triệu đồng .",
+      "generated": "Thanh tra Sở Du lịch TP . HCM đã lập biên bản vi phạm hành chính hai khách sạn T . T và A . M . với hai hành vi : không thực hiện đúng chế độ báo cáo cho cơ quan nhà nước có thẩm quyền và không đảm bảo tiêu chuẩn về dịch vụ .",
+      "rouge1": 0.592,
+      "rouge2": 0.374,
+      "rougeL": 0.288
+    },
+    {
+      "reference": "Cựu trợ lý của Obama nói rằng chính quyền tiền nhiệm chưa bao giờ đề nghị gặp lãnh đạo Triều Tiên và chính sách của Trump là một \" thất bại \" .",
+      "generated": "Cựu cố vấn anninh quốc gia Mỹ cho rằng chính sách ngoại giao của ông dưới thời tổng thống BarackObama là \" thất bại \" .",
+      "rouge1": 0.4941,
+      "rouge2": 0.241,
+      "rougeL": 0.4
+    },
+    {
+      "reference": "Airbus dự báo việc nhu cầu của ngành hàng không tăng nhanh sẽ thúc đẩy lượng máy bay được sản xuất ra lên tới khoảng 35 . 000 chiếc các loại trong vòng 20 năm tới .",
+      "generated": "Airbus dự báo ngành hàng không thế giới sẽ tăng trung bình 4 % mỗi năm trong vòng hai thập kỷ tới , nâng gấp đôi lượng máy bay hiện có lên 40 . 000 chiếc .",
+      "rouge1": 0.6606,
+      "rouge2": 0.3738,
+      "rougeL": 0.4404
+    },
+    {
+      "reference": "Bộ trưởng Giao thông yêu cầu các đơn vị chuẩn bị xây dựng nhà ga T3 ở phía Nam để giảm quá tải sân bay Tân Sơn Nhất .",
+      "generated": "Bộ Giao thông Vận tải yêu cầu sớm công bố các phân khu chức năng ở phía Bắc Tân Sơn Nhất để những đơn vị có nhu cầu đề xuất , đăng ký tham gia đầu tư công trình .",
+      "rouge1": 0.6392,
+      "rouge2": 0.3158,
+      "rougeL": 0.433
+    },
+    {
+      "reference": "Các chuyên gia Trung tâm cứu hộ động vật hoang dã sẽ khảo sát , chọn nơi thích hợp nhất trên đỉnh núi Cấm để thả cặp rắn hổ mây khủng .",
+      "generated": "Hai tháng trước , trong lúc san ủi mặt bằng mặt bằng rậm rạp dưới chân núi Cấm , các công nhân đã phát hiện cặp rắn hổ mây khủng , nên dùng bao bố và lưới vây bắt .",
+      "rouge1": 0.6182,
+      "rouge2": 0.2963,
+      "rougeL": 0.4
+    },
+    {
+      "reference": "Lãnh đạo UBND quận Hồng Bàng , TP Hải Phòng khẳng định sự cố của nhà máy thép Việt - Nhật tại phường Quán Toan không phải lần đầu xảy ra và lãnh đạo quận cũng đã kiến nghị sớm chuyển đổi mô hình hoạt động của nhà máy này .",
+      "generated": "Ngày 6-1 , UBND quận Hồng Bàng ( Hải Phòng ) đã có buổi làm việc với Côngty thép Việt - Nhật về việc khắc phục sự cố khí thải độc hại phát tán ra môi trường .",
+      "rouge1": 0.6165,
+      "rouge2": 0.2901,
+      "rougeL": 0.406
+    },
+    {
+      "reference": "Đó là thông điệp xuyên suốt tại Hội nghị Hợp tác và Phát triển các tỉnh biên giới Việt Nam - Campuchia lần thứ 10 trong 2 ngày 9-10 tháng 1 . Sự kiện diễn ra sau khi hai nước vừa kỷ niệm 40 năm Ngày chiến thắng chế độ diệt chủng .",
+      "generated": "Sáng 10-1 , Bộ Ngoại giao Việt Nam và Bộ Ngoạigiao Campuchia đã tổchức hội nghị thườngkỳ về hợp tác khuvực biên giới Việt Nam - Campuchia giai đoạn 2018-2020 .",
+      "rouge1": 0.4754,
+      "rouge2": 0.2167,
+      "rougeL": 0.3443
+    },
+    {
+      "reference": "Trước đó , Bí thư Thăng đã có nhiều buổi làm việc với Sở Y tế thành phố và đôn đốc phải đẩy nhanh tiến độ xây dựng bệnh viện Ung Bướu cơ sở 2 . hụt trước đó .",
+      "generated": "UBND TP . HCM vừa có công văn chấp thuận cho Ban quản lý Đầu tư xây dựng các công trình thuộc Sở Y tế lên kế hoạch cho việc khởi công xây dựng lại dự án Bệnh viện Ung Bướu cơ sở 2 vào tuần sau .",
+      "rouge1": 0.595,
+      "rouge2": 0.2857,
+      "rougeL": 0.3967
+    },
+    {
+      "reference": "Tàu khu trục Mỹ lần đầu tiên tới thăm và diễn tập tín hiệu với hải quân Trung Quốc sau khi Toà Trọng tài ra phán quyết bác yêu sách của Bắc Kinh trên Biển Đông .",
+      "generated": "Tàu khu trục tên lửa dẫn đường USS Benfold của hải quân Mỹ hôm nay đã ghé thăm quân cảng Thanh Đảo , tỉnh Liêu Ninh .",
+      "rouge1": 0.5051,
+      "rouge2": 0.2268,
+      "rougeL": 0.3434
+    },
+    {
+      "reference": "Hung thủ gốc Bangladesh gây ra vụ nổ ở một trạm xe buýt , tàu điện ngầm tại khu Midtown Manhattan , gần quảng trường Thời đại . Hắn tính lên tàu để gây thương vong cao hơn nhưng bom đã nổ sớm .",
+      "generated": "Một vụ nổ lớn xảy ra tại một trạm xe buýt và tàu điện ngầm ở thànhphố New York , Mỹ vào tối 11-12 , làm ít nhất một người bị thương .",
+      "rouge1": 0.5794,
+      "rouge2": 0.3429,
+      "rougeL": 0.4112
+    },
+    {
+      "reference": "Sau khi tham dự cuộc họp giữa lãnh đạo Công ty cổ phần Đầu tư và phát triển Hãng phim truyện Việt Nam với các nghệ sĩ vào ngày 19-9 , hầu hết nghệ sĩ và phóng viên đều thốt lên ' hiểu chết liền ! ' .",
+      "generated": "Sau nhiều ngày nghệ sĩ Hãng phim truyện Việt Nam sôi sục chia sẻ bức xúc với truyền thông về chuyện cổ phần hoá hãng phim , vào 13h30 chiều 19-9 , ban lãnh đạo mới của hãng phim đã tổ chức một cuộc gặp gỡ nhằm giải đáp mọi thắc mắc của các nghệ sĩ trong hãng phim và của các phóng viên .",
+      "rouge1": 0.6347,
+      "rouge2": 0.2909,
+      "rougeL": 0.3114
+    },
+    {
+      "reference": "MC Ngọc Trang và Lê Thảo Linh ( Lin Jay ) từng được xem là một cặp đôi đồng tính đẹp của cộng đồng LGBT ( Đồng tính , song tính , chuyển giới ) . Tuy nhiên sau 3 năm sống chung , họ thông báo \" đường ai nấy đi \" trước sự tiếc nuối của nhiều người . Ngọc Trang đã có buổi trò chuyện thẳng thắn với PV .",
+      "generated": "MC Nguyễn Ngọc Trang là một trong những gương mặt MC của VTV , từng dẫn các chương trình như Chìa khoá thành công - CEO , Mua sắm thú vị , Tạp chí đẹp , Không gian Nghệ thuật VTV 1 . . .",
+      "rouge1": 0.4932,
+      "rouge2": 0.0972,
+      "rougeL": 0.3014
+    },
+    {
+      "reference": "Đó là niềm vui được ví như tết trong ngày hội thể thao học sinh khuyết tật lần VI năm 2018 do Sở GD-ĐT TP . HCM tổ chức .",
+      "generated": "Hơn 800 học sinh khuyết tật đã tham gia ngày hội thể thao , diễn ra ngày 7-4 tại Trường THPT chuyên năng khiếu thể dục thể thao Nguyễn Thị Định ( Q . 8 ) .",
+      "rouge1": 0.4235,
+      "rouge2": 0.2651,
+      "rougeL": 0.3059
+    },
+    {
+      "reference": "Đến sáng nay ( 12/3 ) , em Trần Công Mẫn - lớp trưởng gương mẫu bị vạ oan trong nghi án cô trò vào nhà nghỉ vẫn còn bị sốc nên chưa thể đến trường đi học lại .",
+      "generated": "Liên quan đến vụ cô giáo bị chồng tố có quan hệ bất chính với nam sinh lớp 10 , nhiều học sinh trong trường THPT Nguyễn Huệ ( thị xã La Gi , tỉnh Bình Thuận ) đã lên Facebook bêu rếu .",
+      "rouge1": 0.4815,
+      "rouge2": 0.0755,
+      "rougeL": 0.2407
+    },
+    {
+      "reference": "Do mâu thuẫn gia đình , người phụ nữ ở tỉnh Cà Mau đã lợi dụng lúc chồng ngủ vì say rượu để trói tay , sát hại nạn nhân .",
+      "generated": "Bị cáo Nguyễn Thị Hằng Ni ( SN 1987 , ngụ khóm 1 , phường 8 , TP . Cà Mau , tỉnh Cà Mau ) đã dùng dây vải buộc hai tay của chồng rồi dùng dây sát hại nạn nhân sau đó bỏ đi ngủ .",
+      "rouge1": 0.5833,
+      "rouge2": 0.2766,
+      "rougeL": 0.4583
+    },
+    {
+      "reference": "Giới chức California viện dẫn \" cảnh hỗn loạn cực kỳ bất thường \" để lý giải cho sự thay đổi đột biến về số người mất tích vì cháy rừng từ 130 lên 631 .",
+      "generated": "Số người chết trong đám cháy Camp ở bắc California tăng đột biến lên 631 , sau khi thống kê lại các cuộc gọi khẩn cấp từ lúc đám cháy bắt đầu một tuần trước .",
+      "rouge1": 0.6408,
+      "rouge2": 0.297,
+      "rougeL": 0.3301
+    },
+    {
+      "reference": "Mohammed Ismail được cho là công dân Anh đầu tiên bị xử tử ở Syria sau khi tiết lộ nơi trú ẩn của một thành viên cấp cao của tổ chức Nhà nước Hồi giáo tự xưng ( IS ) với tư cách là gián điệp .",
+      "generated": "Một thànhviên cấp cao của tổ chức Nhànước Hồigiáo tựxưng ( IS ) đã bị sáthại sau khi tiết lộ vịtrí của thủđô Nasser Muthana cho các cơ quan tình báo phương Tây .",
+      "rouge1": 0.6957,
+      "rouge2": 0.4071,
+      "rougeL": 0.4174
+    },
+    {
+      "reference": "Ông Duterte đáp ứng yêu cầu của ông Trump là biểu diễn trong tiệc tối của Hội nghị Thượng đỉnh ASEAN .",
+      "generated": "Tổng thống Philippines hôm qua song ca với ca sĩ Pilita Corrales tại tiệc tối của Hội nghị Thượng đỉnh ASEAN và Hội nghị thượng đỉnh Đông Á .",
+      "rouge1": 0.4571,
+      "rouge2": 0.3529,
+      "rougeL": 0.4286
+    },
+    {
+      "reference": "Kết quả kiểm tra ban đầu của cơ quan chức năng cho thấy thuỷ điện Hố Hô ( Hà Tĩnh ) có những sai sót nhất định trong việc chấp hành quy định pháp luật về tài nguyên nước , về vận hành hồ chứa .",
+      "generated": "Bộ Công Thương , Bộ Tài nguyên và Môi trường đã tổ chức đoàn công tác vào làm việc tại thực địa , kết quả ban đầu cho thấy thuỷ điện Hố Hô có những sai sót nhất định trong việc chấp hành quy định pháp luật về tài nguyên nước , vận hành hồ chứa .",
+      "rouge1": 0.7973,
+      "rouge2": 0.6438,
+      "rougeL": 0.6757
+    },
+    {
+      "reference": "Cử tri bức xúc trước tình trạng thu hồi đất thiếu minh bạch , chống tham nhũng chưa đồng đều , nhiều vụ việc phải đợi Tổng bí thư chỉ đạo mới được quan tâm xử lý .",
+      "generated": "Trong số các vấn đề bức xúc được quan tâm , báo cáo của Uỷ ban Trung ương MTTQ VN cho thấy cử tri tiếp tục phản ánh về công tác quản lý đất đai của chính quyền một số địa phương chưa chặt chẽ , các dự án quy hoạch chưa được công khai , việc thu hồi đất thiếu minh bạch , công tác giải phóng mặt bằng , bồi thường , hỗ trợ tái định cư còn nhiều bất cập .",
+      "rouge1": 0.5731,
+      "rouge2": 0.2604,
+      "rougeL": 0.3275
+    },
+    {
+      "reference": "Quan chức quốc phòng Canada khẳng định một máy bay quân sự đã bị không quân Trung Quốc can thiệp và sử dụng ngôn từ không phù hợp .",
+      "generated": "Tham mưu trưởng Bộ Quốc phòng Canada cho biết máy bay CP -140 Aurora bị không quân Trung Quốc quấy nhiễu khi bay qua không phận quốc tế gần Triều Tiên để giám sát việc thực hiện các lệnh trừng phạt của Hội đồng Bảo an Liên Hợp Quốc .",
+      "rouge1": 0.541,
+      "rouge2": 0.3,
+      "rougeL": 0.3934
+    },
+    {
+      "reference": "Lực lượng chức năng tỉnh Hà Tĩnh vừa bắt giữ một xe khách đang chuyển gần 1 tấn thịt mèo đông lạnh không rõ nguồn gốc xuất xứ .",
+      "generated": "Phát hiện 9 thùng xốp , trong mỗi thùng chất đầy cá thể mèo đã qua giết mổ và được ướp đông lạnh . Số lượng ước tính gần 1 tấn với hơn 300 cá thể . Tất cả lô hàng nói trên không có giấy tờ hợp lệ , không rõ nguồn gốc xuất xứ .",
+      "rouge1": 0.6508,
+      "rouge2": 0.3548,
+      "rougeL": 0.4127
+    },
+    {
+      "reference": "Con cá sấu kích thước lớn chỉ ở cách những người đang chơi golf khoảng 15 m .",
+      "generated": "Con cá sấu dài gần 5 m đi dạo trên sân golf ở Palmetto , Florida , Mỹ khiến nhiều người kinh ngạc .",
+      "rouge1": 0.4364,
+      "rouge2": 0.1509,
+      "rougeL": 0.2909
+    },
+    {
+      "reference": "Sau giờ ăn chiều , trong lúc 4 giáo viên Trường mầm non Mai Dịch ( Hà Nội ) dọn phòng học và trả trẻ , bé gái hơn 2 tuổi đi vào phòng bên cạnh và rơi xuống đất ở độ cao 6 m . May mắn em chỉ bị trầy xước nhẹ .",
+      "generated": "Khi đang lau miệng cho trẻ , cô Hằng nghe tiếng động mạnh dưới tầng một . Cô không nghĩ học sinh rơi từ tầng 2 xuống đất cho đến khi phụ huynh báo tin .",
+      "rouge1": 0.4138,
+      "rouge2": 0.0877,
+      "rougeL": 0.2759
+    },
+    {
+      "reference": "Cả hai nhóm ăn nhậu và thuê loa kẹo kéo về hát . Do nhóm \" loa thủ \" hát to hơn nên xảy ra mâu thuẫn . Bực tức Quốc đã dùng kéo đâm chết đối phương trong chớp mắt .",
+      "generated": "Mâu thuẫn từ việc hát karaoke , 3 đối tượng đã dùng kéo đâm nhiều nhát khiến một người tử vong tại bệnh viện .",
+      "rouge1": 0.5319,
+      "rouge2": 0.2174,
+      "rougeL": 0.3191
+    },
+    {
+      "reference": "Lắng nghe giai điệu boléro được thực hiện như một công trình khảo cứu về lịch sử ra đời của dòng nhạc này và các bước định hình , lan toả xuyên biên giới .",
+      "generated": "Tập sách \" 100 năm dòng nhạc boléro \" của nhạc sĩ Vũ Đức Sao Biển vừa ra mắt công chúng yêu âm nhạc nhân kỷ niệm 100 năm ngày sinh của cố nhạc sĩ .",
+      "rouge1": 0.6481,
+      "rouge2": 0.2264,
+      "rougeL": 0.3519
+    },
+    {
+      "reference": "Bệnh nhân , trước hết hãy làm đúng \" chức trách \" người bệnh , rồi khi nào có đủ kiến thức thì hẵng \" cầm tay chỉ việc \" cho bác sĩ .",
+      "generated": "\" Tôi không làm trong ngành y và cũng không có người thân làm y bác sĩ . Tôi thường xuyên vào bệnh viện và việc xếp hàng chờ thăm khám rồi bị chen ngang xảy ra như cơm bữa \" , tôi hiểu cảm giác chờ chực vài tiếng để đến lượt khám rồi đi ra khỏi phòng \" trong một nốt nhạc \" nó hụt hẫng thế nào .",
+      "rouge1": 0.5067,
+      "rouge2": 0.2162,
+      "rougeL": 0.2667
+    },
+    {
+      "reference": "Hai nghị sĩ California muốn dùng số rác để làm bằng chứng cho thấy hậu quả của việc chính phủ Mỹ bị đóng cửa một phần .",
+      "generated": "Hạ nghị sĩ Speier và Huffman mang thùng rác tới trước cửa Nhà Trắng để phản đối việc chính phủ đóng cửa .",
+      "rouge1": 0.6,
+      "rouge2": 0.2941,
+      "rougeL": 0.4286
+    },
+    {
+      "reference": "Một cô gái 20 tuổi bị mù bẩm sinh trở thành ngôi sao khi hát quốc ca khai mạc đại hội toàn quốc của đảng Cộng hoà Mỹ .",
+      "generated": "MarlanaVanHoose đã khiến cả nhà thi đấu Quicken Loans ở thành phố Cleveland vỡ oà trong sự xúc động bằng màn biểu diễn của mình tối 18/7 .",
+      "rouge1": 0.3846,
+      "rouge2": 0.0789,
+      "rougeL": 0.2308
+    },
+    {
+      "reference": "Người dân Hậu Giang tiếp tục phản ứng về tình trạng nhà máy giấy Lee & Man tái diễn phát tán mùi hôi ra môi trường .",
+      "generated": "Nhà máy giấy Lee & Man ở Hậu Giang đang chờ xác nhận hoàn thành công trình bảo vệ môi trường mới có thể vận hành chính thức .",
+      "rouge1": 0.5814,
+      "rouge2": 0.3095,
+      "rougeL": 0.3023
+    },
+    {
+      "reference": "Cửa Khẻm - điểm trọng yếu về quốc phòng an ninh của cả nước ở Hải Vân , đang tồn tại một khu nhà . Việc xây dựng diễn ra suốt nhiều năm qua nhưng chưa bị xử lý vì chồng lấn địa giới giữa Huế và Đà Nẵng .",
+      "generated": "Công trình xây trái phép ở mũi Cửa Khẻm ( Đảo Ngọc , huyện Phú Lộc , Thừa Thiên - Huế ) đã được tháo dỡ sau 3 năm .",
+      "rouge1": 0.4771,
+      "rouge2": 0.1121,
+      "rougeL": 0.2569
+    },
+    {
+      "reference": "Do mâu thuẫn cá nhân , Chương và đồng nghiệp tại quán karaoke đã xảy ra xô xát . Chương bất ngờ dùng dao đâm liên tiếp vào người đồng nghiệp khiến anh này tử vong .",
+      "generated": "Sau khi xảy ra đánh nhau , Vũ Văn Chương đã dùng dao đâm vào vùng cổ , bụng , tay làm Nguyễn Văn C . bị thương , được đưa đi điều trị và tử vong vào hồi 20h cùng ngày tại bệnh viện Hải Quân , TP . Hải Phòng .",
+      "rouge1": 0.5882,
+      "rouge2": 0.2735,
+      "rougeL": 0.2857
+    },
+    {
+      "reference": "Truyền thông Trung Quốc đưa tin tư tưởng Tập Cận Bình sẽ được đưa vào giảng dạy , nghiên cứu tại các trường đại học ở nước này .",
+      "generated": "Trung tâm nghiên cứu tư tưởng Tập Cận Bình được thành lập nhằm phổ biến và giảng dạy Chủ nghĩa xã hội mang đặc sắc Trung Quốc trong thời kỳ mới tại các doanh nghiệp , khu dân cư và làng xóm .",
+      "rouge1": 0.6545,
+      "rouge2": 0.4074,
+      "rougeL": 0.4364
+    },
+    {
+      "reference": "Các chuyên gia quân sự cảnh báo , những căng thẳng ngày càng gia tăng giữa Washington và Tehran có thể dễ dàng biến thành một cuộc xung đột toàn diện một khi cuộc chiến chống IS kết thúc .",
+      "generated": "Lực lượng đặc nhiệm Mỹ và Anh đã tiến hành pháo kích 3 lần nhằm vào các chiến binh Syria được Tehran hậu thuẫn . Tất cả vụ việc đều diễn ra tại al - Tanf , một khu vực sa mạc ở gần biên giới với Iraq và Jordan .",
+      "rouge1": 0.4962,
+      "rouge2": 0.1221,
+      "rougeL": 0.2707
+    },
+    {
+      "reference": "Tờ Wall Street Journal cuối tuần trước tiết lộ rằng chính quyền Mỹ đã tăng sức ép , thúc giục các đồng minh ' nói không ' với Huawei vì an ninh quốc gia .",
+      "generated": "Mỹ đang cân nhắc tăng thêm mức hỗ trợ tài chính với các nước sẵn sàng \" nói không \" với Huawei trong phát triển hạ tầng viễn thông . Người theo , kẻ lưỡng lự Quốc gia đồng minh mới nhất được Mỹ vận động hành lang trong chiến dịch chống Huawei là Hàn Quốc .",
+      "rouge1": 0.5231,
+      "rouge2": 0.1875,
+      "rougeL": 0.3077
+    },
+    {
+      "reference": "Từ đầu năm đến nay , trên các tuyến đường cao tốc liên tục xảy ra tai nạn xe tải lật , xe tông liên hoàn . . . , gây nguy hiểm cho người đi đường .",
+      "generated": "Chiều 27-5 , trên đường dẫn vào cao tốc TP . HCM - Long Thành - Dầu Giây , đoạn gần giáp với đường dẫn vòng xoay Phú Hữu ( Q . 9 ) , một đàn bò được thả rông sát đường cao tốc và không có ai chăn dắt , bất ngờ một con bò to lớn chạy thẳng vào đường .",
+      "rouge1": 0.4923,
+      "rouge2": 0.1406,
+      "rougeL": 0.2923
+    },
+    {
+      "reference": "Nhóm 12 người thường xuyên lôi kéo , ' chặt chém ' khách đi taxi ' dù ' tại sân bay Nội Bài ( Hà Nội ) đã bị Phòng Cảnh sát hình sự Công an TP Hà Nội xử phạt hành chính vì gây rối trật tự công cộng .",
+      "generated": "Nhóm \" cò xe \" khai nhận thường xuyên tập trung ở sân bay , \" mời \" khách đi taxi rồi bán lại cho taxi hoặc taxi \" dù \" thu lợi khoảng 100 . 000 đồng / lượt .",
+      "rouge1": 0.5391,
+      "rouge2": 0.2478,
+      "rougeL": 0.3478
+    },
+    {
+      "reference": "Thanh tra tỉnh Hậu Giang phát hiện Chi cục Văn thư - lưu trữ và Trung tâm Lưu trữ lịch sử có dấu hiệu vi phạm về tội lập quỹ trái phép và vi phạm các quy định của nhà nước về kế toán với số tiền hơn 4 tỉ đồng .",
+      "generated": "Chi cục Văn thư - lưu trữ và Trung tâm Lưu trữ lịch sử tỉnh Hậu Giang có nhiều sai phạm trong việc chấp hành các quy định của pháp luật về thu , chi ; quản lý và sử dụng kinh phí hoạt động , kinh phí chỉnh lý . Đặc biệt có dấu hiệu vi phạm về tội lập quỹ trái phép .",
+      "rouge1": 0.7607,
+      "rouge2": 0.5714,
+      "rougeL": 0.454
+    },
+    {
+      "reference": "Đây là thông điệp mà Bộ trưởng Bộ GD-ĐT Phùng Xuân Nhạ chia sẻ tại Hội nghị trực tuyến đảm bảo an ninh , an toàn trường học , phòng chống bạo lực học đường diễn ra ở 63 điểm cầu vào ngày 17-4 .",
+      "generated": "Sáng 24-4 , Bộ trưởng Bộ GD-ĐT Phùng Xuân Nhạ đã chủ trì hội nghị triển khai công tác phòng chống bạo lực học đường trong các cơ sở giáo dục .",
+      "rouge1": 0.6372,
+      "rouge2": 0.4144,
+      "rougeL": 0.5487
+    },
+    {
+      "reference": "Sợ cha mẹ la mắng , ba đứa trẻ ở tỉnh Nghệ An đạp xe đi lạc khỏi nhà 90km rồi dựng chuyện với chính quyền địa phương ' bị người lạ bắt cóc ' .",
+      "generated": "Công an huyện Diễn Châu , Nghệ An khẳng định thông tin 3 trẻ em bị bắt cóc là sai sự thật . Ngày 16-7 , cả 3 em rủ nhau đi chơi và bị lạc đường . Lo sợ bố mẹ mắng nên một em dựng lên câu chuyện bị đánh , một em khác kể lại sự việc với mọi người .",
+      "rouge1": 0.5231,
+      "rouge2": 0.1719,
+      "rougeL": 0.2462
+    },
+    {
+      "reference": "Ngôi chợ truyền thống , gắn với lịch sử của Thủ đô . Không thể tuỳ tiện sửa chỗ này , nâng chỗ nọ .",
+      "generated": "Đen : Lên chợ Đồng Xuân – Bắc Qua \" chữa cháy \" đi ông . Đá : Sao thế , lại hoả hoạn lần nữa à ? Trước là năm 1994 . Thật kinh hoàng .",
+      "rouge1": 0.6,
+      "rouge2": 0.0294,
+      "rougeL": 0.3143
+    },
+    {
+      "reference": "Khoảng 18 . 000 tàu cá từ tỉnh đảo Hải Nam của Trung Quốc sẽ tràn xuống Biển Đông sau khi lệnh cấm đánh cá đơn phương của nước này kết thúc hồi giữa tháng 8 .",
+      "generated": "Ngày 16-8 , nhiều tàu cá Trung Quốc đã ra khơi sau khi lệnh cấm đánh bắt ở Biển Đông của Bắc Kinh kết thúc .",
+      "rouge1": 0.6154,
+      "rouge2": 0.382,
+      "rougeL": 0.5055
+    },
+    {
+      "reference": "Ngoại trưởng Philippines cho rằng Mỹ vẫn là bạn thân nhất của nước này , nhưng Manila muốn thoát khỏi tư tưởng \" phụ thuộc và quỵ luỵ \" , thắt chặt quan hệ hơn với các nước khác .",
+      "generated": "Ngoại trưởng Philippines tuyên bố ông Tổng thống không có ý cắt đứt quan hệ với Mỹ như đã nói và Manila chỉ có lợi nhất khi song hành với Washington .",
+      "rouge1": 0.68,
+      "rouge2": 0.2245,
+      "rougeL": 0.4
+    },
+    {
+      "reference": "Từ chỗ giảm mạnh , hơn 10 USD / ounce , trong sáng 28-2 , giá vàng thế giới bật tăng trở lại sau khi Hội nghị thượng đỉnh Mỹ - Triều kết thúc mà không đạt được thoả thuận .",
+      "generated": "Chuyên gia Trần Thanh Hải , chuyên gia kinhtế - tàichính , cho rằng thị trường vàng và chứngkhoán sẽ còn tiếp tục chịu ảnhhưởng của Hội nghị thượng đỉnh Mỹ - Triều lần 2 .",
+      "rouge1": 0.5577,
+      "rouge2": 0.2157,
+      "rougeL": 0.3269
+    },
+    {
+      "reference": "Một ông trùm xã hội đen Nhật muốn lập chi nhánh ở Đông Nam Á để cung cấp vệ sĩ hợp pháp ra thị trường thế giới .",
+      "generated": "Ông trùm băng xã hội đen lớn nhất Nhật Bản tuyên bố thành lập công ty quân sự tư nhân để bảo vệ các thànhviên của mình .",
+      "rouge1": 0.5679,
+      "rouge2": 0.1772,
+      "rougeL": 0.3704
+    },
+    {
+      "reference": "Không né tránh , Huỳnh Anh đã cho khán giả câu trả lời thẳng thắn khi bị chỉ trích yêu quá nhanh sau khi chia tay nàng Á hậu xinh đẹp .",
+      "generated": "Sau thời gian chia tay Á hậu Hoàng Oanh , nam diễn viên Huỳnh Anh đã công khai chuyện tình mới với cô bạn gái xinh đẹp tên Phạm Ngọc Y Vân .",
+      "rouge1": 0.5349,
+      "rouge2": 0.119,
+      "rougeL": 0.2791
+    },
+    {
+      "reference": "Bia di động , sa bàn chiến thuật , sa bàn hậu cần và sa bàn lái bắn chiến đấu trên xe tăng . . . đại uý Lê Ngọc Quý khiến nhiều đồng đội nể phục bởi dám nghĩ dám làm , đã quyết là làm , mà đã làm là được .",
+      "generated": "Chỉ cần một tuần , thiết bị ẩn hiện vận động ngày đêm ( hay còn gọi là bia di động ) phục vụ cho bộ đội khi huấn luyện ngắm bắn do Lê Ngọc Quý làm \" chủ xị \" đã được hoàn thành .",
+      "rouge1": 0.6129,
+      "rouge2": 0.1967,
+      "rougeL": 0.3548
+    },
+    {
+      "reference": "Đống phế thải nằm ven quốc lộ 21B ( Hà Nội ) bất ngờ bốc cháy dữ dội , bốc mùi khó chịu khiến người dân bức xúc .",
+      "generated": "Người dân xã Hồng Dương ( Thanh Oai , Hà Nội ) đã chặn quốc lộ 21B , đoạn qua xã Quảng Phú Cầu để phản đối việc đốt phế thải gây ô nhiễm môi trường .",
+      "rouge1": 0.6897,
+      "rouge2": 0.2824,
+      "rougeL": 0.3448
+    },
+    {
+      "reference": "Làm video đàng hoàng , có đầu tư chưa chắc đã thu hút nhiều người xem nếu nội dung không hay . Thế nhưng , những video chém gió , chửi đời … lại dễ dàng thu hút cả triệu lượt người xem .",
+      "generated": "Thời gian gần đây , hàng loạt kênh \" giang hồ mạng \" đua nhau \" nở rộ \" trên mạng xã hội YouTube . Các kênh này hầu hết là lấy lại nội dung các video của hai kênh bị đóng trước đây .",
+      "rouge1": 0.5,
+      "rouge2": 0.0702,
+      "rougeL": 0.2414
+    },
+    {
+      "reference": "Lãnh đạo Việt Nam có chuyến thăm hai ngày đến Đức theo lời mời của Ngoại trưởng Đức Heiko Maas .",
+      "generated": "Phó thủ tướng Phạm Bình Minh sẽ thăm Đức trong hai ngày 20/2 và 21/2 , thông cáo của Bộ Ngoại giao Việt Nam cho biết .",
+      "rouge1": 0.5294,
+      "rouge2": 0.2424,
+      "rougeL": 0.3235
+    },
+    {
+      "reference": "Mâu thuẫn với nhau , ông Bùi Đông Sơn làm nghề chạy xe ôm trong làng Đại học Quốc gia TP . HCM đã bị bạn nhậu đâm chết tại chỗ .",
+      "generated": "Trong lúc ẩu đả , ông Hoàng rút một con dao thủ sẵn trong người đâm vào vùng ngực của ông Sơn khiến nạn nhân gục xuống đất tử vong .",
+      "rouge1": 0.4419,
+      "rouge2": 0.1429,
+      "rougeL": 0.3256
+    },
+    {
+      "reference": "Một tiêm kích F / A -18 E của hải quân Mỹ bị rơi khi tìm cách hạ cánh xuống tàu sân bay USS Carl Vinson trong hành trình tới bán đảo Triều Tiên .",
+      "generated": "Một tiêm kích F / A -18 E Super Hornet thuộc Không đoàn tàu sân bay số 2 của hải quân Mỹ bị rơi trên vùng biển Celebes , phía nam Philippines .",
+      "rouge1": 0.6327,
+      "rouge2": 0.4583,
+      "rougeL": 0.4694
+    },
+    {
+      "reference": "Hệ thống cảm biến hiện đại trên tăng , thiết giáp tương lai của Mỹ có thể giúp kíp lái đánh giá chiến trường nhưng vẫn đảm bảo an toàn .",
+      "generated": "Mẫu xe chiến đấu mới của quân đội Mỹ sẽ được trang bị hệ thống cảm biến có độ phân giải cao giúp giảm thiệt hại về sinh mạng cho binh sĩ .",
+      "rouge1": 0.5745,
+      "rouge2": 0.2391,
+      "rougeL": 0.3191
+    },
+    {
+      "reference": "Tối 6-4 , Công an tỉnh Vĩnh Long đã bàn giao 17 thanh niên cả nam và nữ dương tính với chất ma tuý trong nhà nghỉ cho Công an thành phố Vĩnh Long thụ lý tiếp tục điều tra .",
+      "generated": "Ngày 2-4 , Công an tỉnh Vĩnh Long cho biết , đơnvị vừa bắt quảtang một nhóm thanhniên đang sửdụng trái phép chất ma tuý tại một nhà nghỉ trên địa bàn .",
+      "rouge1": 0.6038,
+      "rouge2": 0.3077,
+      "rougeL": 0.3774
+    },
+    {
+      "reference": "Thủ tướng nói tình hình cháy nổ vừa qua gây bất an cho người dân , đặt ra yêu cầu nghiêm khắc hơn trong công tác quản lý .",
+      "generated": "Thủ tướng Nguyễn Xuân Phúc cho rằng tốc độ tăng trưởng kinh tế phải đi liền với đảm bảo cuộc sống an toàn cho người dân .",
+      "rouge1": 0.5517,
+      "rouge2": 0.2118,
+      "rougeL": 0.3218
+    },
+    {
+      "reference": "Thủ tướng Israel cho rằng động thái làm giàu uranium 5 % của Iran là \" nguy hiểm \" và muốn EU trừng phạt Tehran ngay lập tức .",
+      "generated": "Thủ tướng Israel cho rằng việc làm giàu uranium vượt quá mức cho phép trong thoả thuận hạt nhân là bước đi nguy hiểm .",
+      "rouge1": 0.6757,
+      "rouge2": 0.3333,
+      "rougeL": 0.4595
+    },
+    {
+      "reference": "Chuyển làn đường đột ngột , cô gái bị xe buýt từ đằng sau húc văng vào đuôi ôtô phía trước , mắc kẹt ở giữa trong tình trạng nguy kịch .",
+      "generated": "Cô gái chạy xe máy trên Quốc lộ 1A , hướng từ quận Thủ Đức đi Bình Tân , TP HCM . Khi đến đoạn cách cầu vượt An Sương , cô được cho là đột ngột chuyển qua làn ôtô để chạy lên cầu vượt .",
+      "rouge1": 0.5981,
+      "rouge2": 0.1524,
+      "rougeL": 0.2991
+    },
+    {
+      "reference": "Một nhóm các nhà khoa học cho biết đã tìm ra cách sử dụng đường hầm lượng tử để thu điện năng từ nhiệt của Trái đất .",
+      "generated": "Các nhà khoa học tin rằng nhiệt hồng ngoại có thể thu được 24 giờ / ngày để tạo ra điện thông qua đường hầm lượng tử .",
+      "rouge1": 0.6234,
+      "rouge2": 0.32,
+      "rougeL": 0.4156
+    },
+    {
+      "reference": "Đám đông biểu tình phản đối ứng viên tổng thống Donald Trump ở bang California đã khiến cảnh sát phải tăng cường lực lượng dày đặc .",
+      "generated": "Hơn 1 . 000 người đã tham gia tuần hành bên ngoài trung tâm hội nghị San Diego , California để phản đối ứng viên tổng thống Mỹ Donald Trump .",
+      "rouge1": 0.4935,
+      "rouge2": 0.2667,
+      "rougeL": 0.3636
+    },
+    {
+      "reference": "Với gần 600 người tham gia bảo vệ an ninh trật tự , lễ hội vùng Lim ( Bắc Ninh ) năm nay đã không còn những người hành khất hay người đổi tiền lẻ chênh lệch giá .",
+      "generated": "Hàng nghìn người đã đổ về thị trấn Lim ( Tiên Du , Bắc Ninh ) để được nghe liền anh , liền chị hát quan họ .",
+      "rouge1": 0.4634,
+      "rouge2": 0.125,
+      "rougeL": 0.3171
+    },
+    {
+      "reference": "Trước khi Lý Thái Tổ định đô trên nền thành Đại La đổ nát thì mảnh đất này có rất nhiều sông ngòi , hồ ao , kênh rạch và nối dòng với sông Hồng . Phía bắc của hồ Lục Thuỷ ( Hồ Gươm ngày nay ) có hồ Diên Hưng ( khu vực phố Hàng Ngang hiện nay ) , hồ Thái Cực ( khu vực phố Hàng Bè hiện nay ) .",
+      "generated": "Hồ Hoàn Gươm có từ thời các vua Trần nhưng không có cuốn sách nào ghi lại sự tích gì ở hồ Lục Thuỷ liên quan đến rùa .",
+      "rouge1": 0.4604,
+      "rouge2": 0.146,
+      "rougeL": 0.259
+    },
+    {
+      "reference": "Con gái út của Vương Tinh là Vương Tử Hàm tỏ ra khá ngạc nhiên khi nhìn những tấm ảnh , đồng thời khẳng định : \" Vân Thiên Thiên là ai ? Tôi không biết cô ta nhưng tôi tin tưởng cha tôi \" .",
+      "generated": "Tối 12/2 , Sina đăng tải hình ảnh đạo diễn Vương Tinh và diễn viên Vân Thiên Thiên hẹn hò lúc tối muộn . Hai người dùng bữa tối ở một nhà hàng tại Bắc Kinh . Cùng đi với họ có một người đàn ông lạ mặt .",
+      "rouge1": 0.6567,
+      "rouge2": 0.2121,
+      "rougeL": 0.3881
+    },
+    {
+      "reference": "Đi qua cầu hỏng , xe máy chở 3 mẹ con chị Sâm ngã xuống sông Ngàn Sâu ( Hà Tĩnh ) , một người đang mất tích .",
+      "generated": "Đi qua cầu tràn Hương Yên ( xã Lộc Yên , Hương Khê , Hà Tĩnh ) , xe máy bị sụt dầm khiến 3 mẹ con rơi xuống sông Ngàn Sâu .",
+      "rouge1": 0.6914,
+      "rouge2": 0.4304,
+      "rougeL": 0.4938
+    },
+    {
+      "reference": "Mẫu trực thăng tương lai do Nga và Trung Quốc phát triển sẽ có trọng lượng 40 tấn , hơn cả mẫu Mi -26 nặng nhất thế giới hiện nay .",
+      "generated": "Phi công danh dự Nga cho biết nước này và Trung Quốc sẽ hợp tác sản xuất một mẫu trực thăng hạng nặng mới được nâng cấp từ mẫu Mi -26 do Moskva phát triển .",
+      "rouge1": 0.7129,
+      "rouge2": 0.3434,
+      "rougeL": 0.4158
+    },
+    {
+      "reference": "Thủ tướng Nhật Bản Shinzo Abe gửi lời thăm hỏi và chia buồn với gia đình Lê Thị Nhật Linh , bé gái người Việt bị sát hại tại nước này .",
+      "generated": "Thủ tướng NhậtBản ShinzoAbe hôm nay gặp Đại sứ Việt Nam tại Tokyo Nguyễn Quốc Cường , đề nghị các cơ quan chức năng của Nhật Bản nghiêm trị thủ phạm theo đúng pháp luật Nhật Bản .",
+      "rouge1": 0.5143,
+      "rouge2": 0.2136,
+      "rougeL": 0.3048
+    },
+    {
+      "reference": "Hình ảnh nữ minh tinh Hollywood xuất hiện cùng 6 con tại một khách sạn ở New York trên trang The Sun mới đây gây chú ý .",
+      "generated": "Mớiđây , nữ diễnviên nổi tiếng thếgiới người Mỹ - AngieJoel đã có những hìnhảnh thúvị cùng 6 người con trước côngchúng .",
+      "rouge1": 0.4384,
+      "rouge2": 0.1972,
+      "rougeL": 0.2192
+    },
+    {
+      "reference": "Trong quá trình điều tra , Chu Ngọc Hải khai dùng phần lớn số tiền trong số 114 tỉ đồng đã chiếm đoạt để chơi game , cá độ bóng đá .",
+      "generated": "Lợi dụng việc ngân hàng cho cán bộ tín dụng được trực tiếp giải ngân cho khách hàng nên đã lập khống hồ sơ , chiếm đoạt số tiền tiếp quỹ mà mình đang quản lý .",
+      "rouge1": 0.5745,
+      "rouge2": 0.1739,
+      "rougeL": 0.2979
+    },
+    {
+      "reference": "Những thanh thiếu niên chạy xe máy lạng lách , đánh võng . . . bị Công an Bình Dương xử phạt hành chính với số tiền hàng trăm triệu đồng .",
+      "generated": "Công an tỉnh Bình Dương ra quyết định xử phạt 10 người , trong đó có một thiếu nữ , về hành vi chạy xe lạng lách , đánh võng , biểu diễn . . . gây mất trật tự an toàn giao thông .",
+      "rouge1": 0.7184,
+      "rouge2": 0.3366,
+      "rougeL": 0.3495
+    },
+    {
+      "reference": "Trước khi đặt chân đến Pháp và viết nên câu chuyện cổ tích giữa đời thường , chàng trai trẻ 22 tuổi người Mali Mamoudou Gassama đã vượt qua một hành trình dài và nguy hiểm từ Sa mạc Sahara ở quê nhà .",
+      "generated": "Từ Mali , chàng trai trẻ rụt rè Mamoudou Gassama cùng một người anh lớn rời thị trấn Yaguine ở vùng tây nam Mali để bắt đầu hành trình di cư đầy gian nan đến châu Âu .",
+      "rouge1": 0.5741,
+      "rouge2": 0.1887,
+      "rougeL": 0.2963
+    },
+    {
+      "reference": "Sau nhiều bê bối cả thập kỷ qua , hơn 700 căn hộ chung cư 584 Tân Kiên , huyện Bình Chánh ( TP . HCM ) lại tiếp tục bị rao bán để xử lý khoản nợ xấu 1 . 100 tỷ của chủ đầu tư tại ngân hàng BIDV .",
+      "generated": "Ngân hàng TMCP Đầu tư & Phát triển Việt Nam ( BIDV ) Sở giao dịch 2 vừa thông báo về việc lựa chọn tổ chức bán đấu giá toàn bộ khoản nợ của côngty Cổ phần Đầu tư Y tế Việt Nam và côngcộngnghiệp Xây dựng và Khai thác Công trình Giao thông 584 .",
+      "rouge1": 0.5241,
+      "rouge2": 0.1538,
+      "rougeL": 0.2759
+    },
+    {
+      "reference": "Sau khi đốt nhà bà ngoại , ôm bình gas cố thủ , xả gas khiến 4 cán bộ công an bị thương , Phong đã bỏ trốn khỏi địa phương . Hơn 2 năm bị truy nã , Phong đã bị công an bắt giữ .",
+      "generated": "Khi phát hiện đối tượng chuẩn bị xả van gas để tự sát , lực lượng Công an quận Đồ Sơn , TP . Hải Phòng đã nhanh chóng lao vào khống chế .",
+      "rouge1": 0.4681,
+      "rouge2": 0.087,
+      "rougeL": 0.3191
+    },
+    {
+      "reference": "Bộ Quốc phòng Mỹ thông báo sẽ dùng 1 , 5 tỉ USD ngân sách vốn dành cho việc hỗ trợ các lực lượng an ninh Afghanistan để xây dựng bức tường dài gần 130km ở biên giới Mỹ - Mexico .",
+      "generated": "Tổngthống Mỹ DonaldTrump đã quyết định chuyển 6 tỉ USD từ ngân sách cấp cho quân đội để xây tường ngăn người nhập cư trái phép tại biên giới với Mexico .",
+      "rouge1": 0.566,
+      "rouge2": 0.1923,
+      "rougeL": 0.3774
+    },
+    {
+      "reference": "Đánh giá về hoạt động chất vấn và trả lời chất vấn tại kỳ họp thứ 6 Quốc hội khoá XIV , nhiều Đại biểu cho rằng , đây chính là cuộc sát hạch lại đối với các tư lệnh ngành .",
+      "generated": "Tại phiên chất vấn và trả lời chất vấn tại kỳ họp thứ 6 Quốc hội khoá XIV , nhiều Đại biểu Quốc hội cho rằng các thành viên Chính phủ đã thể hiện trách nhiệm với cử tri cả nước .",
+      "rouge1": 0.736,
+      "rouge2": 0.5691,
+      "rougeL": 0.656
+    },
+    {
+      "reference": "Chúng tôi đã trưởng thành từ chính \" ngôi trường \" có tên gọi tình nguyện . Điều này được nhìn nhận trong nhiều phát biểu tại toạ đàm nhân 20 năm Chiến dịch Thanh niên tình nguyện hè của tuổi trẻ Việt Nam chiều 17-8 .",
+      "generated": "20 năm chiến dịch thanh niên tình nguyện hè đã đi cùng năm tháng , đã sống tuổi trẻ Việt Nam 20 năm qua cũng như tự tin cho chặng đường phía trước . \" Màu áo đã tạo nên dáng vóc của thanh niên Việt Nam hôm nay . Đó còn là niềm tin , khẳng định đội hình , là sự gửi gắm của cộng đồng vào lực lượng thanh niên \" - ông Vũ Trọng Kim , bí thư thứ nhất Trung ương Đoàn nói .",
+      "rouge1": 0.5789,
+      "rouge2": 0.2766,
+      "rougeL": 0.2947
+    },
+    {
+      "reference": "Nữ nghệ sĩ ưu tú , đạo diễn Ca Lê Hồng đã chia sẻ những kỷ niệm về những lần được gặp Bác Hồ . Bà nói : ' Bác đã nhắc nhở , tôi mãi ghi nhớ trong suốt cuộc đời làm nghề ' .",
+      "generated": "\" Nghệ sĩ chớ gieo vừng ra ngô \" , đó là lời dạy của Chủtịch Hồ Chí Minh dành cho những người làm nghệ thuật , trong đó có nghệsĩ Ca Lê Hồng .",
+      "rouge1": 0.5106,
+      "rouge2": 0.1957,
+      "rougeL": 0.2979
+    },
+    {
+      "reference": "Theo AP , có thể Triều Tiên đang bị hạn chế về việc nhập nhiên liệu từ Trung Quốc . . .",
+      "generated": "Người sử dụng ô tô ở Thủ đô Bình Nhưỡng , Triều Tiên đang đổ xô đi đổ xăng do các trạm xăng bắt đầu giới hạn dịch vụ .",
+      "rouge1": 0.5079,
+      "rouge2": 0.1967,
+      "rougeL": 0.3492
+    },
+    {
+      "reference": "Cố vấn an ninh Nhà Trắng John Bolton cho rằng Trung Quốc cùng với Iran , Triều Tiên và Nga có âm mưu can thiệp cuộc bầu cử giữa kỳ Mỹ .",
+      "generated": "Cố vấn an ninh quốc gia Mỹ cho rằng nỗ lực của Trung Quốc , Iran , Triều Tiên nhằm can thiệp cuộc bầu cử giữa kỳ Mỹ năm 2018 là \" mối lo ngại về an ninh đáng kể \" .",
+      "rouge1": 0.7708,
+      "rouge2": 0.5106,
+      "rougeL": 0.6042
+    },
+    {
+      "reference": "Nhật Bản khẳng định coi trọng Việt Nam trong chính sách đối ngoại , đồng thời cam kết tiếp tục hỗ trợ Việt Nam phát triển kinh tế , xã hội .",
+      "generated": "Chủ tịch nước Trần Đại Quang và Thủ tướng Shinzo Abe nhất trí tăng cường hợp tác thực chất về an ninh quốc phòng , triển khai Tuyên bố tầm nhìn chung hợp tác quốc phòng hai nước , thúc đẩy hợp tác trong các lĩnh vực như an ninh mạng , trang thiết bị quốc phòng ; quân y , tham gia hoạt động gìn giữ hoà bình Liên Hợp Quốc .",
+      "rouge1": 0.3841,
+      "rouge2": 0.0671,
+      "rougeL": 0.2517
+    },
+    {
+      "reference": "Thay vì đến khoa dược nhận thuốc về và phát cho bệnh nhân , nữ hộ sinh tự ý lấy thuốc ở tủ cấp cứu của khoa phát cho bệnh nhân , nhưng lại nhầm lẫn thuốc của 2 bệnh nhân nằm cạnh nhau .",
+      "generated": "Liên quan đến vụ thai phụ mất con vì bị phát nhầm thuốc phá thai , chiều 12-1 , ông Nguyễn Tấn Đức - giám đốc Sở Y tế tỉnh Quảng Ngãi - đã đến giường xin lỗi và động viên tinh thần thai phụ Lương Thị Tưởng và gia đình .",
+      "rouge1": 0.4961,
+      "rouge2": 0.0787,
+      "rougeL": 0.3256
+    },
+    {
+      "reference": "Trump đưa ra bình luận thể hiện sự tiếc nuối khi ra đòn thuế nặng với Trung Quốc nhưng các phụ tá của ông nhanh chóng bác bỏ .",
+      "generated": "Trump nói ông cân nhắc lại về lập trường quyết liệt của mình đối với Trung Quốc tại hội nghị G7 , sau khi Bắc Kinh tuyên bố sẽ áp thuế 5-10 % với 75 tỷ USD hàng hoá Mỹ từ ngày 1/9 và 15/12 .",
+      "rouge1": 0.5094,
+      "rouge2": 0.1538,
+      "rougeL": 0.283
+    },
+    {
+      "reference": "Theo báo The Daily Star , cơ quan chức năng Ấn Độ cho biết tổng số ca tử vong do uống phải rượu không rõ nguồn gốc tại miền Bắc nước này hiện đã lên tới 72 người .",
+      "generated": "Ít nhất 36 người đã thiệtmạng do uống rượu trong một lễ cúng tế tại huyện Haridwar thuộc bang Uttarakhand , miền bắc Ấn Độ .",
+      "rouge1": 0.5333,
+      "rouge2": 0.25,
+      "rougeL": 0.3556
+    },
+    {
+      "reference": "Tối ngày 11/9 , trên sân Hàng Đẫy , trận đấu giữa Hà Nội FC với Nam Định kết thúc với chiến thắng đậm 6-1 thuộc về đội chủ nhà . Tuy nhiên , một số CĐV được cho là của Nam Định đã tỏ ra quá khích khi đội bóng của họ liên tục thủng lưới .",
+      "generated": "Tối 11/9 , trên sân Hàng Đẫy , một nữ CĐV đã bị pháo sáng từ khán đài B bắn trúng vào đùi .",
+      "rouge1": 0.4956,
+      "rouge2": 0.2342,
+      "rougeL": 0.4071
+    },
+    {
+      "reference": "Tổng số binh sĩ tham gia cuộc tấn công giải phóng thành phố Mosul , Iraq , từ tay phiến quân Nhà nước Hồi giáo đến nay đạt hơn 40 . 000 người .",
+      "generated": "Lực lượng dân quân người Shiite được chính quyền Iraq công nhận đã tiêu diệt khoảng 5 . 000 chiến binh thuộc nhóm phiến quân Nhà nước Hồi giáo ( IS ) trong cuộc tấn công nhằm bao vây thànhphố Mosul .",
+      "rouge1": 0.5607,
+      "rouge2": 0.3048,
+      "rougeL": 0.3925
+    },
+    {
+      "reference": "Tàu khu trục Mỹ tuần tra tự do hàng hải ở Hoàng Sa trong bối cảnh Washington và Bắc Kinh bắt đầu đàm phán thương mại .",
+      "generated": "Chiến dịch tuần tra tự do hàng hải ở Hoàng Sa , quần đảo thuộc chủ quyền Việt Nam đang bị Trung Quốc chiếm đóng trái phép , diễn ra trong bối cảnh Mỹ và Trung Quốc đang đàm phán thương mại .",
+      "rouge1": 0.6327,
+      "rouge2": 0.4375,
+      "rougeL": 0.5306
+    },
+    {
+      "reference": "Theo thông báo của trường đại học Sư phạm TP . Hồ Chí Minh , thí sinh xét tuyển các ngành đào tạo giáo viên phải cao từ 1 , 5 m trở lên . Tiêu chí xét tuyển này hiện đang gây tranh cãi gay gắt , khi nhiều ý kiến cho rằng nghiêng về hình thức , thay vì quan tâm đến năng lực , phẩm chất .",
+      "generated": "Nhiều chuyên gia cho rằng , việc đưa ra những yêu cầu mang tính chất giới hạn như thế này cần căn cứ nghiên cứu thực nghiệm , không nên dựa vào suy nghĩ chủ quan .",
+      "rouge1": 0.5695,
+      "rouge2": 0.1477,
+      "rougeL": 0.3046
+    },
+    {
+      "reference": "Chiều tối 21-12 , đại tá Trần Đình Liên , phó giám đốc Công an Đà Nẵng xác nhận Công an Đà Nẵng đã phối hợp với Bộ Công an khám nhà ông Vũ ' nhôm ' , một đại gia sở hữu , góp vốn nhiều công ty .",
+      "generated": "Liên quan đến việc mua bán rất nhiều nhà công sản dưới thời ông Nguyễn Bá Thanh làm bí thư Thành uỷ và ông Trần Văn Văn Minh làm chủ tịch UBND TP Đà Nẵng , cơ quan điều tra Bộ Công an đã tiến hành điều tra một số dự án có liên quan đến ông Vũ .",
+      "rouge1": 0.5972,
+      "rouge2": 0.1831,
+      "rougeL": 0.3194
+    },
+    {
+      "reference": "Có thể nói chưa bao giờ mùa phim Tết Việt Nam lại nhộn nhịp bởi những câu chuyện bên lề như Tết Kỷ Hợi năm 2019 . Bên cạnh ồn ào kiện cáo liên quan tới việc quảng bá phim , mạng xã hội đang tranh cãi gay gắt về phim hài Tết Trạng Quỳnh khi đem chuyện đồng tính - cưỡng bức vào phim khá phản cảm .",
+      "generated": "Mới đây , bộ phim Trạng Quỳnh của đạo diễn Đức Thịnh đã gây nhiều tranh cãi trên mạng xã hội .",
+      "rouge1": 0.3852,
+      "rouge2": 0.2105,
+      "rougeL": 0.2222
+    },
+    {
+      "reference": "Tết Mậu Tuất 2018 đang đến gần . Nhưng đâu đó , vẫn còn nhiều người không biết hương vị ngày Tết .",
+      "generated": "Quỹ Hy vọng – báo VnExpress tổ chức chương trình \" Chung tay chở Tết về gần \" với mong muốn hỗ trợ các hoàn cảnh khó khăn có một Tết bớt tủi hờn .",
+      "rouge1": 0.5122,
+      "rouge2": 0.125,
+      "rougeL": 0.3171
+    },
+    {
+      "reference": "Cảnh sát Indonesia bắt khoảng 185 người bị nghi ngờ liên quan tới những hoạt động gây ra các đám cháy rừng lan rộng khắp nước này .",
+      "generated": "Cơ quan Cảnh sát Quốc gia Indonesia tuyên bố sẽ truy tố hình sự với bất cứ ai gây ra các vụ cháy rừng , dù cố tình hay vô ý .",
+      "rouge1": 0.5647,
+      "rouge2": 0.2892,
+      "rougeL": 0.4706
+    },
+    {
+      "reference": "Trong số 16 , 4 triệu Bitcoin đưa vào lưu thông tại thời điểm giữa năm 2017 , gần 3 , 8 triệu Bitcoin ( tương đương 40 tỉ USD ) có thể đã vĩnh viễn biến mất .",
+      "generated": "Một lượng lớn Bitcoin đã không còn tham gia lưu thông trong suốt 9 năm ra đời và phát triển của đồng tiền kỹ thuật số bitcoin .",
+      "rouge1": 0.5682,
+      "rouge2": 0.1163,
+      "rougeL": 0.2727
+    },
+    {
+      "reference": "Không thấy bé Đ . ở nhà , người thân đã báo cáo chính quyền để đi tìm , sau đó bàng hoàng phát hiện thi thể bé dưới chậu kiểng .",
+      "generated": "Công an tỉnh Ninh Thuận đang tạm giữ hình sự đối với Phan Minh Cường ( 55 tuổi , ngụ tại phường Đô Vinh , TP . Phan Rang - Tháp Chàm , Ninh Thuận ) để điều tra về hành vi Giết người dưới 16 tuổi .",
+      "rouge1": 0.4375,
+      "rouge2": 0.0851,
+      "rougeL": 0.25
+    },
+    {
+      "reference": "Hệ thống phát wifi lắp đặt ở các bến xe Mỹ Đình , Giáp Bát , Gia Lâm bắt đầu hoạt động từ hôm nay ( 10/2 ) . Người dân có thể truy cập Internet miễn phí trong lúc chờ xe .",
+      "generated": "Sau Tết Nguyên đán , toàn bộ khu vực bến xe Mỹ Đình ( Hà Nội ) sẽ được lắp đặt hệ thống phát sóng không dây để phục vụ nhu cầu của hành khách .",
+      "rouge1": 0.6139,
+      "rouge2": 0.2424,
+      "rougeL": 0.3564
+    },
+    {
+      "reference": "Thanh tra Chính phủ vừa công bố quyết định việc điều chỉnh tổng mức kinh phí Dự án cung cấp nước cho Khu kinh tế Vũng Áng và việc được hỗ trợ từ ngân sách địa phương , tại tỉnh Hà Tĩnh .",
+      "generated": "Thanh tra Chính phủ vừa công bố quyết định thanh tra việc điều chỉnh tổng mức kinh phí Dự án cung cấp nước cho Khu kinh tế Vũng Áng và việc được hỗ trợ từ ngân sách địa phương , tại tỉnh Hà Tĩnh .",
+      "rouge1": 0.9836,
+      "rouge2": 0.9667,
+      "rougeL": 0.9836
+    },
+    {
+      "reference": "Trong quá trình di dời , tháo dỡ cột ăng ten phát sóng , 2 công nhân kỹ thuật thuộc đài Phát thanh và Truyền hình huyện Tuyên Hoá , tỉnh Quảng Bình bị tai nạn tử vong .",
+      "generated": "Cột ăng ten phát sóng cao khoảng 36 mét , một số thanh sắt , dây chằng cột đã bị gỉ sét , bong tróc . Trong lúc anh T . và anh Ph . leo lên cột phát sóng để tháo các phần còn lại thì bất ngờ phần dưới cột bị gãy , đổ sập xuống khiến cả hai tử vong .",
+      "rouge1": 0.5109,
+      "rouge2": 0.1778,
+      "rougeL": 0.3212
+    },
+    {
+      "reference": "Tổng cục ĐBVN cho biết , theo quy định của pháp luật thì nhà đầu tư không được tự ý miễn phí tại trạm thu phí BOT , trừ khi nhà đầu tư tự bỏ tiền ra để bù vào .",
+      "generated": "Trước đề xuất miễn phí vé qua trạm BOT Pháp Vân - Cầu Giẽ trong 3 ngày nghỉ Tết Nguyên đán 2019 , tổng cục Đường bộ Việt Nam đã lên tiếng về vấn đề này .",
+      "rouge1": 0.5208,
+      "rouge2": 0.1915,
+      "rougeL": 0.2917
+    },
+    {
+      "reference": "Hiệp hội Bất động sản Việt Nam kiến nghị sửa đổi , bổ sung luật Nhà ở năm 2014 theo hướng quy định việc thế chấp nhà ở có sẵn không bắt buộc phải có giấy chứng nhận tương tự như nhà ở hình thành trong tương lai .",
+      "generated": "Luật Nhà ở 2014 quy định các giao dịch mua bán , thế chấp nhà ở hình thành trong tương lai ( nhà ở đang trong quá trình xây dựng và chưa được nghiệm thu ) không bắt buộc phải có giấy chứng nhận .",
+      "rouge1": 0.6667,
+      "rouge2": 0.4677,
+      "rougeL": 0.4286
+    },
+    {
+      "reference": "Với vị trí đắc địa nằm ngay trung tâm quận Thanh Xuân và sự khác biệt trong thiết kế , một dự án chung cư cao cấp đang là một trong những dự án gây tiếng vang nhất tại Hà Nội , hấp dẫn người mua nhà .",
+      "generated": "Thị trường bất động sản đang trong quá trình phục hồi mạnh mẽ nhờ động lực thúc đẩy từ các yếu tố kinh tế vĩ mô với mức tăng trưởng GDP vượt kỳ vọng và sự phát triển nhanh chóng của kết cấu hạ tầng giao thông .",
+      "rouge1": 0.5693,
+      "rouge2": 0.0741,
+      "rougeL": 0.2482
+    },
+    {
+      "reference": "Trần Phương Bình thừa nhận , để Thanh tra Ngân hàng Nhà nước ( NHNN ) không phát hiện các sai phạm của DongABank , trước mỗi đợt thanh tra , Bình chỉ đạo phòng ngân quỹ điều chuyển các khoản âm quỹ đến các chi nhánh , phòng giao dịch mà Thanh tra NHNN không thanh tra nên không bị phát hiện .",
+      "generated": "Tại phiên toà chiều 27/5 , bị cáo Trần Phương Bình cho biết , ngân quỹ có 3 ngân quỹ riêng biệt là quỹ vàng , quỹ ngoại tệ và quỹ tiền mặt . Quy trình kiểm quỹ phải có đại diện lãnh đạo ngân hàng , phòng kế toán và thủ quỹ . Tuy nhiên , DongABank không thực hiện theo quy trình nêu trên .",
+      "rouge1": 0.5889,
+      "rouge2": 0.2022,
+      "rougeL": 0.3222
+    },
+    {
+      "reference": "Sau buổi họp đầu năm , nhiều phụ huynh có con học trường THPT Lê Quý Đôn tại TP . HCM phàn nàn về số tiền phải đóng lên đến 6 triệu đồng . Vì thế , Hiệu trưởng nhà trường đã lên tiếng .",
+      "generated": "Sau buổi họp phụ huynh các lớp , một số phụ huynh có con học trường THPT Lê Quý Đôn , quận 3 , TP . HCM tỏ ra ngao ngán với các khoản phí được đưa ra . Ngoài tiền học phí hơn 1 , 6 triệu đồng , phụ huynh còn phải đóng thêm hàng loạt khoản tiền khác .",
+      "rouge1": 0.6765,
+      "rouge2": 0.3731,
+      "rougeL": 0.5147
+    },
+    {
+      "reference": "Nguyễn Phương Khánh sẽ là đại diện của Việt Nam tại đấu trường Miss Earth . Trước đó , Phương Khánh đã gây được ấn tượng mạnh với Miss Earth 2016 Angelia Ong nhờ ngoại hình xinh đẹp , tự tin , thông minh và đặc biệt thành thạo tiếng Anh .",
+      "generated": "Nguyễn Phương Khánh , đại diện Việt Nam tại cuộc thi Hoa hậu Trái đất 2018 đã chính thức nhận được giấy phép tham dự cuộc thi .",
+      "rouge1": 0.5607,
+      "rouge2": 0.2667,
+      "rougeL": 0.3925
+    },
+    {
+      "reference": "Hàng loạt doanh nghiệp tại Thung lũng Silicon Mỹ bị sụt giảm doanh thu vì cuộc chiến công nghệ đang nổ ra giữa nước này với Trung Quốc .",
+      "generated": "Bắc Kinh hôm qua công bố danh sách \" các thực thể không đáng tin cậy \" , bao gồm \" doanh nghiệp , tổ chức hoặc cá nhân nước ngoài không tuân thủ những quy tắc thị trường , đi chệch khỏi tinh thần hợp đồng , áp đặt cấm vận hoặc ngừng cung cấp cho doanh nghiệp Trung Quốc vì mục đích phi thương mại \" .",
+      "rouge1": 0.438,
+      "rouge2": 0.1185,
+      "rougeL": 0.2628
+    },
+    {
+      "reference": "Cường kích Su -22 là một trong những phi cơ chủ lực của không quân Syria , được tối ưu cho nhiệm vụ tấn công mục tiêu mặt đất .",
+      "generated": "Israel tuyên bố bắn hạ một cường kích Su -22 của không quân Syria , cho rằng máy bay đã xâm phạm không phận Israel trên cao nguyên Golan .",
+      "rouge1": 0.5116,
+      "rouge2": 0.3095,
+      "rougeL": 0.3953
+    },
+    {
+      "reference": "Nữ tiếp viên bị trượt chân trong lúc đóng cửa máy bay và bị thương nặng khi rơi xuống đường băng từ độ cao hơn 9 m .",
+      "generated": "Nữ tiếpviên của hãng hàng không Air India ngã xuống đường băng khi đang đóng cửa chiếc Boeing -777 khi máy bay chuẩn bị cất cánh .",
+      "rouge1": 0.557,
+      "rouge2": 0.2857,
+      "rougeL": 0.3291
+    },
+    {
+      "reference": "Tiền vệ Odiljon Xamrobekov đã kêu gọi đội Uzbekistan nỗ lực hết sức trước trận chung kết với U23 Việt Nam tại thành phố Thường Châu ngày mai , AFC ngày 26-1 đưa tin .",
+      "generated": "Tiền vệ tổ chức O . Xamrobekov cho biết , đội tuyển U23 Uzbekistan sẽ thi đấu với quyết tâm mỗi trận đấu đều là trận cuối cùng .",
+      "rouge1": 0.6136,
+      "rouge2": 0.1163,
+      "rougeL": 0.3182
+    },
+    {
+      "reference": "Một giờ học code , nhóm trẻ em từ 5 đến 8 tuổi tham gia lớp Kids can code được giới thiệu , truyền cảm hứng về ngôn ngữ máy tính . Đây là buổi học thử nghiệm diễn ra vào sáng 5-1 trong không gian cạnh Thảo cầm viên , TP . HCM .",
+      "generated": "Ngày 24-4 , tại TP . HCM , chươngtrình \" Trò chơi lập trình cùng Moonlab \" đã diễn ra với sự tham gia của hơn 100 trẻ em tại mái ấm Hạnh Phúc , Bình Chánh .",
+      "rouge1": 0.5203,
+      "rouge2": 0.1488,
+      "rougeL": 0.2602
+    },
+    {
+      "reference": "Việc Anh lục soát một máy bay của hãng hàng không Nga tại sân bay Heathrow ở London là nhằm bảo vệ Anh khỏi các tội phạm có tổ chức cũng như việc buôn lậu chất gây hại , bộ An ninh Anh tuyên bố .",
+      "generated": "Bộ An ninh Anh tuyên bố , việc lục soát một máy bay của hãng hàng không Nga tại sân bay Heathrow ở London là \" thường lệ \" .",
+      "rouge1": 0.6916,
+      "rouge2": 0.6095,
+      "rougeL": 0.5607
+    },
+    {
+      "reference": "Nửa tấn cá ngựa khô được giấu trong container da cừu nhập về từ Peru đã bị hải quan phát hiện , bắt giữ .",
+      "generated": "Lực lượng chức năng phát hiện 500 kg cá ngựa khô được nhập trái phép về Cảng quốc tế Tân Cảng - Cái Mép .",
+      "rouge1": 0.507,
+      "rouge2": 0.3188,
+      "rougeL": 0.3944
+    },
+    {
+      "reference": "Cơ quan Cảnh sát điều tra Công an quận Hải Châu , TP . Đà Nẵng đã khởi tố vụ án hình sự , để tiếp tục điều tra về vụ tai nạn giao thông xảy ra cách đây gần một năm .",
+      "generated": "Sau gần 1 năm xảy ra vụ tai nạn khiến 1 người chết tại cầu Rồng , Công an quận Hải Châu , TP . Đà Nẵng đã khởi tố vụ án hình sự liên quan đến vụ việc .",
+      "rouge1": 0.7706,
+      "rouge2": 0.5047,
+      "rougeL": 0.4771
+    },
+    {
+      "reference": "Sáng 27-3 , mới chỉ có 181/569 học sinh Trường THPT Tiên Yên đi học . Hiện nay địa phương đang tích cực vận động để số học sinh còn lại quay trở lại trường .",
+      "generated": "Liên tiếp trong ba ngày gần đây tại Trường THPT Tiên Yên luôn có hơn 2/3 học sinh nghỉ học đồng loạt . Nguyên nhân ban đầu được xác định là do phụ huynh , học sinh chưa đồng thuận với quyết định của UBND tỉnh trong việc chuyển sang học tập tại cơ sở mới là Trường THPT Nguyễn Trãi .",
+      "rouge1": 0.5874,
+      "rouge2": 0.1986,
+      "rougeL": 0.3497
+    },
+    {
+      "reference": "Chiều 1-7 , một vụ tai nạn nghiêm trọng giữa xe máy và ôtô trên quốc lộ 20 ( đoạn qua xã Lộc Nga , TP Bảo Lộc , Lâm Đồng ) khiến một người tử vong tại chỗ .",
+      "generated": "Vụ tai nạn xảy ra vào chiều 26-4 trên quốc lộ 20 ( đoạn qua xã Lộc Nga , TP Bảo Lộc ) khiến một người tử vong tại chỗ .",
+      "rouge1": 0.7789,
+      "rouge2": 0.6667,
+      "rougeL": 0.7368
+    },
+    {
+      "reference": "Pháp lý vững chắc , cam kết lợi nhuận dẫn đầu thị trường , nhiều ưu đãi hấp dẫn nhân dịp khai trương FLC Hạ Long , sản phẩm Condotel của FLC Grand Hotel Halong đang tạo nên sức hút đặc biệt với giới đầu tư Quảng Ninh nói riêng và toàn quốc nói chung vào những ngày cuối năm 2018 đầu năm 2019 .",
+      "generated": "Chủ đầu tư FLC ưu ái dành tặng những phần quà tặng hấp dẫn cho khách hàng đầu tư mua condotel loại 2 – 3 phòng ngủ tại FLC Grand Hotel Halong với tổng giá trị lên tới 3 tỷ đồng .",
+      "rouge1": 0.5752,
+      "rouge2": 0.1589,
+      "rougeL": 0.3007
+    },
+    {
+      "reference": "Từ rạng sáng hôm nay ( 26-11 , giờ Mỹ ) , người tiêu dùng Mỹ đã có thể \" đập ống heo \" để thoả mãn cơn sốt mua sắm Cyber Monday được kỳ vọng \" lớn nhất trong lịch sử \" .",
+      "generated": "Ngày BlackFriday 26-11 năm nay tại Mỹ dự báo sẽ tạo ra doanh số bán hàng khoảng 7 , 8 tỉ USD , tăng gần 18 % so với năm ngoái .",
+      "rouge1": 0.4889,
+      "rouge2": 0.0682,
+      "rougeL": 0.2444
+    },
+    {
+      "reference": "Liên quan đến vụ nữ sinh giao gà bị sát hại ở Điện Biên , hiện 7 đối tượng khai nhận đã nhiều lần hãm hiếp nạn nhân trên thùng xe tải của Bùi Văn Công trước khi sát hại nạn nhân .",
+      "generated": "Trong quá trình 7 đối tượng nam giới thực hiện hành vi hiếp dâm nạn nhân , có ít nhất 2 lần Bùi Kim Thu biết rõ nhưng đã không tố giác tội . Nữ nghi phạm còn tham gia quá trình đánh lạc hướng cơ quan điều tra .",
+      "rouge1": 0.5926,
+      "rouge2": 0.2105,
+      "rougeL": 0.3407
+    },
+    {
+      "reference": "Cuộc khủng hoảng về năng lực tác chiến của lực lượng không quân có thể khiến quân đội Mỹ đánh mất ưu thế trước các đối thủ mạnh như Trung Quốc .",
+      "generated": "Lầu Năm Góc đang phải đối mặt với tìnhtrạng thiếu hụt nghiêm trọng về số lượng chiến đấu cơ .",
+      "rouge1": 0.4819,
+      "rouge2": 0.1235,
+      "rougeL": 0.2169
+    },
+    {
+      "reference": "Liên minh châu Âu ( EU ) cho rằng các biện pháp của Thổ Nhĩ Kỳ vào hệ thống giáo dục , tư pháp và truyền thông sau cuộc đảo chính bất thành tuần trước là \" không thể chấp nhận được \" .",
+      "generated": "Đại diện cấp cao phụ trách chính sách an ninh - đối ngoại và uỷ viên Johannes Hahn của EU lên án quyết định ban bố tình trạng khẩn cấp của Thổ Nhĩ Kỳ .",
+      "rouge1": 0.5872,
+      "rouge2": 0.1495,
+      "rougeL": 0.2752
+    },
+    {
+      "reference": "Trong thông điệp chào năm mới , Chủ tịch Trung Quốc Tập Cận Bình không đề cập chi tiết đến cuộc chiến thương mại với Mỹ . Thay vào đó , ông nhấn mạnh Bắc Kinh đã thực hiện 100 cải cách quan trọng trong năm qua .",
+      "generated": "Tổng bí thư , Chủ tịch Trung Quốc Tập Cận Bình đã có bài phát biểu trước thời khắc giao thừa năm mới trên truyền hình .",
+      "rouge1": 0.5766,
+      "rouge2": 0.2569,
+      "rougeL": 0.4324
+    },
+    {
+      "reference": "Gần 23h đêm 2/1 , UBND tỉnh Long An đã tổ chức họp báo khẩn , thông tin chính thức về vụ tai nạn giao thông nghiêm trọng do xe container gây ra tại ngã tư Bình Nhật , gần cầu Bến Lức thuộc Km 1934+670 quốc lộ 1 , ấp 3 , xã Nhật Chánh , huyện Bến Lức , Long An .",
+      "generated": "Tối 3-8 , uỷ ban An toàn giaothông ( Uỷ ban ATGT ) Quốc gia đã tổchức họp báo thườngkỳ về vụ tai nạn giữa xe container và xe máy xảy ra trên quốc lộ 1 , đoạn qua huyện Bến Lức , tỉnh Long An .",
+      "rouge1": 0.6027,
+      "rouge2": 0.3333,
+      "rougeL": 0.4384
+    },
+    {
+      "reference": "Chính quyền Mỹ quyết định ngừng chương trình cung cấp vũ khí và huấn luyện cho lực lượng nổi dậy chống chính quyền tại Syria .",
+      "generated": "Tổng thống Trump yêu cầu Cơ quan Tình báo Trung ương Mỹ ngừng chương trình vũ trang và huấn luyện lực lượng nổi dậy Syria chống chính quyền Tổng thống Bashar al - Assad .",
+      "rouge1": 0.6737,
+      "rouge2": 0.4946,
+      "rougeL": 0.6105
+    },
+    {
+      "reference": "Bộ trưởng bộ Công Thương Trần Tuấn Anh phê bình nghiêm khắc lãnh đạo cục Quản lý thị trường ( QLTT ) vì thiếu trách nhiệm , buông lỏng quản lý .",
+      "generated": "Bộ trưởng bộ Công Thương Trần Tuấn Anh đã truy trách nhiệm của cục QLTT trong việc xử lý cơ sở sang chiết gas của côngty TNHH khí dầu mỏ hoá lỏng Phúc Khang .",
+      "rouge1": 0.5895,
+      "rouge2": 0.3656,
+      "rougeL": 0.4632
+    },
+    {
+      "reference": "Chị Nhân chạy xe máy chở em dâu đang lưu thông trên đường tránh TP Vinh ( Nghệ An ) thì bị ôtô khách ngược chiều đâm trực diện , cuốn xe dưới gầm và kéo lê 20 m .",
+      "generated": "Hai chị em dâu đi xe máy trên đường tránh TP Vinh thì bất ngờ bị xe khách đâm trực diện khiến một người tử vong tại chỗ .",
+      "rouge1": 0.6667,
+      "rouge2": 0.3956,
+      "rougeL": 0.4946
+    },
+    {
+      "reference": "Nhiều người dân chờ đợi giây phút thuỷ điện ngưng xả lũ để kéo nhau đi săn cá \" khủng \" ngay dưới chân đập thuỷ điện Trị An .",
+      "generated": "Biết số lượng lớn cá tự nhiên sẽ từ trong hồ Trị An thoát ra ngoài , nhiều người dân ở Đồng Nai đã kéo nhau ra chân đập để bắt cá .",
+      "rouge1": 0.5823,
+      "rouge2": 0.3117,
+      "rougeL": 0.3291
+    },
+    {
+      "reference": "Video mới cho thấy ba nam nghi phạm lần lượt gặp chủ mưu ở sân bay Kuala Lumpur trước khi người nghi là Kim Jong - nam bị sát hại .",
+      "generated": "Công tố viên Malaysia công bố hình ảnh từ camera giám sát tại sân bay Kuala Lumpur cho thấy hành động của 4 nam nghi phạm và hai nữ bị cáo trước và sau khi sát hại Kim Chol .",
+      "rouge1": 0.5474,
+      "rouge2": 0.2796,
+      "rougeL": 0.3579
+    },
+    {
+      "reference": "Các chuyên gia Úc cảnh báo ngày càng nhiều việc công nghệ quân sự của Úc bị tuồn vào Trung Quốc thông qua hình thức hợp tác của các trường đại học , nên kêu gọi Bộ Quốc phòng Úc vào cuộc điều tra .",
+      "generated": "Các trường đại học của Úc hiện có ngành nghiên cứu thuộc tốp đầu thế giới trong các lĩnh vực như trí tuệ nhân tạo ( AI ) , siêu máy tính , công nghệ xe không người lái . . . và những công nghệ này hoàn toàn có thể được dùng cho mục đích quân sự .",
+      "rouge1": 0.641,
+      "rouge2": 0.2468,
+      "rougeL": 0.3205
+    },
+    {
+      "reference": "Có người đã thiệt mạng . Có gia đình đã lâm vào cảnh bần cùng khốn đốn khi chẳng may làm việc trên đường khuya bị những kẻ say xỉn tái xe tông phải rồi bỏ chạy … Đó là những câu chuyện thường thấy của nữ công nhân vệ sinh tại TP . HCM .",
+      "generated": "Những tai nạn như chị Dung kể dường như là chuyện quá quen thuộc mà những công nhân vệ sinh phải chấp nhận nó như một phần nghề nghiệp của mình .",
+      "rouge1": 0.528,
+      "rouge2": 0.2114,
+      "rougeL": 0.32
+    },
+    {
+      "reference": "Nga sẽ bắt đầu bàn giao tổ hợp tên lửa phòng không S -400 tiếp theo cho Trung Quốc vào cuối tháng 7 .",
+      "generated": "Các chuyên gia quân sự Trung Quốc bắt đầu công tác kiểm tra kỹ thuật đối với tổ hợp tên lửa phòng không S -400 thứ hai , dự kiến được bàn giao cho Bắc Kinh vào cuối tháng 7 .",
+      "rouge1": 0.6526,
+      "rouge2": 0.5161,
+      "rougeL": 0.5474
+    },
+    {
+      "reference": "Khu vực cháy có độ dốc cao , hạn chế về nước , thời tiết lại nắng nóng nên lửa lan rất nhanh . Lính cứu hoả phải mất gần 6 tiếng mới khống chế được hoả hoạn .",
+      "generated": "Đám cháy lớn bùng phát từ khu rừng sản xuất tiếp giáp với rừng đặc dụng Bà Nà - Núi Chúa ở Hoà Vang , khiến nhiều diện tích rừng bị thiêu rụi .",
+      "rouge1": 0.5981,
+      "rouge2": 0.0571,
+      "rougeL": 0.2804
+    },
+    {
+      "reference": "Nói về đêm nhạc sắp tới tại Hà Nội , giọng ca chính của Bad Boys Blue chia sẻ , anh yêu khán giả Việt Nam và hạnh phúc khi được hát chung cùng Sandra để phục vụ người hâm mộ tại Việt Nam .",
+      "generated": "John McInerney , thànhviên của ban nhạc Bad Boys Blue , vừa có chuyến lưu diễn tại Việt Nam . Anh cho biết , lần đầu được diễn cùng Sandra , anh rất thích thú .",
+      "rouge1": 0.4815,
+      "rouge2": 0.1887,
+      "rougeL": 0.3148
+    },
+    {
+      "reference": "Đại diện Việt Nam - Bùi Phương Nga vươn lên vị trí số 2/76 trong bảng xếp hạng Miss Popular Vote .",
+      "generated": "Chỉ còn hơn 5 tiếng nữa , đêm chung kết Hoa hậu Hoà bình Quốc tế - Miss Grand International 2018 sẽ chính thức diễn ra tại Yangon , Myanmar . Với sự ủng hộ của khán giả nước nhà , hi vọng Phương Nga sẽ bứt phá dẫn đầu trong chặng đua nước rút để giành tấm vé cho giải thưởng Người đẹp truyền thông .",
+      "rouge1": 0.35,
+      "rouge2": 0.0508,
+      "rougeL": 0.2167
+    },
+    {
+      "reference": "Cấp mầm non và tiểu học thiếu nhiều giáo viên nhất cho năm học mới , lần lượt là hơn 43 . 700 và gần 19 . 000 .",
+      "generated": "Thứ trưởng Giáo dục và Đào tạo Nguyễn Hữu Độ cho biết , việc phân cấp tuyển dụng , quản lý viên chức ngành giáo dục hiện nay còn nhiều bất cập .",
+      "rouge1": 0.4731,
+      "rouge2": 0.1099,
+      "rougeL": 0.2366
+    },
+    {
+      "reference": "Bộ trưởng Phùng Xuân Nhạ cho rằng , khi tình hình kinh tế xã hội thay đổi , việc cộng điểm ưu tiên theo vùng cũng cần cân nhắc thay đổi .",
+      "generated": "Trước câu chuyện cộng điểm ưu tiên gây bất cập , Bộ trưởng Phùng Xuân Nhạ cho rằng , đây là chủ trương tốt , nhân văn .",
+      "rouge1": 0.6512,
+      "rouge2": 0.4524,
+      "rougeL": 0.3721
+    },
+    {
+      "reference": "Global Times cho rằng Canada nên thả giám đốc Huawei vô điều kiện để chấm dứt khủng khoảng thay vì phụ thuộc vào Mỹ .",
+      "generated": "Tờ Global Times của nhà nước Trung Quốc cho rằng chính quyền Ottawa nên chấm dứt khủng hoảng bằng cách thả giámđốc Huawei Mạnh Vãn Chu vô điều kiện .",
+      "rouge1": 0.6585,
+      "rouge2": 0.45,
+      "rougeL": 0.4146
+    },
+    {
+      "reference": "Khi người mẹ đi làm về thì thấy bé kêu đau , dù được gia đình đưa đến bệnh viện nhưng nạn nhân đã tử vong sau đó .",
+      "generated": "Đi làm về , chị B . đi làm về thì nghe thấy con gái 2 tuổi khóc kêu đau nên đã cùng người thân đưa bé đến Trung tâm Y tế huyện Tương Dương để kiểm tra . Tuy nhiên , cháu bé bất ngờ tử vong sau đó .",
+      "rouge1": 0.5625,
+      "rouge2": 0.2553,
+      "rougeL": 0.4375
+    },
+    {
+      "reference": "Tổng cục Đường bộ Việt Nam cho biết trong tháng 8-2017 đã phát hiện , xử lý 2 . 490 xe quá tải , quá khổ . Tuy nhiên , đến nay vẫn còn 8 địa phương chưa đưa trạm cân xe lưu động vào hoạt động .",
+      "generated": "Theo báo cáo của Tổng cục Đường bộ , trong tháng 8-2017 các trạm cân xe lưu động , cố định và thanh tra các Sở Giao thông vận tải sử dụng cân xách tay đã tiến hành kiểm tra 23 . 115 xe . Qua đó , phát hiện 2 . 394 xe vi phạm , tước 853 giấy phép lái xe , xử phạt nộp kho bạc nhà nước 23 , 9 tỉ đồng .",
+      "rouge1": 0.586,
+      "rouge2": 0.3355,
+      "rougeL": 0.3185
+    },
+    {
+      "reference": "Phó tổng tham mưu trưởng Võ Văn Tuấn khẳng định , Bộ Quốc phòng chỉ cho ý kiến về ảnh hưởng an toàn bay chứ không có quyền cấp phép cho việc xây dựng toà nhà .",
+      "generated": "Chủ nhiệm Văn phòng Chính phủ Nguyễn Văn Nên cho biết , chiều qua Chính phủ đã nhận được báo cáo của Hà Nội về công trình xây dựng ở 8B Lê Trực . Nếu cần thiết , Thủ tướng sẽ thành lập đoàn thanh tra để làm rõ trước khi xử lý .",
+      "rouge1": 0.5469,
+      "rouge2": 0.1429,
+      "rougeL": 0.2812
+    },
+    {
+      "reference": "Bạn mong ước một tổ ấm hạnh phúc hay một chiếc xe tiện nghi cho cả gia đình ? Bạn mong ước một cửa hàng của riêng mình hoặc một tương lai vững chắc cho con ?",
+      "generated": "\" Live Bigger - Sống tận hưởng \" là thông điệp xuyên suốt cho hoạt động bán lẻ của Ngân hàng TMCP Công thương Việt Nam ( VietinBank ) trong năm 2018 .",
+      "rouge1": 0.4124,
+      "rouge2": 0.0842,
+      "rougeL": 0.268
+    },
+    {
+      "reference": "Sáng 21-6 , đúng dịp kỷ niệm 93 năm Ngày báo chí cách mạng Việt Nam , Hội Nhà báo TP . HCM tổ chức lễ trao giải báo chí TP . HCM lần thứ 36 .",
+      "generated": "Tuổi Trẻ đã giành giải nhất cuộc thi \" Hồn đất quê nhà gửi Trường Sa \" do Hội Nhà báo TP . HCM tổchức .",
+      "rouge1": 0.3951,
+      "rouge2": 0.2532,
+      "rougeL": 0.2963
+    },
+    {
+      "reference": "Trong sáng 23/7 , trên QL5 thuộc địa bàn huyện Kim Thành ( tỉnh Hải Dương ) xảy ra 3 vụ tai nạn khiến 7 người tử vong , cơ quan chức năng vẫn đang tiến hành khắc phục hậu quả , giải toả ùn tắc giao thông .",
+      "generated": "Bộ trưởng bộ GTVT Nguyễn Văn Thể yêu cầu Tổng cục Đường bộ Việt Nam rà soát lại mặt đường , vạch kẻ đường các biển báo giao thông trên quốc lộ 5 . Sau khi có kết luận rồi , Bộ trưởng Thể đề nghị cơ quan tư pháp xem xét để xử lý nghiêm đúng người liên quan tới vụ tai nạn .",
+      "rouge1": 0.5256,
+      "rouge2": 0.1299,
+      "rougeL": 0.2692
+    },
+    {
+      "reference": "Siêu máy bay A380 của Air France chở hơn 500 người từ Pháp đến Mỹ phải hạ cánh khẩn cấp xuống Canada vì một động cơ \" hư hỏng nặng \" .",
+      "generated": "Chiếc siêu phi cơ thân rộng hai tầng A380 của Air France , khởi hành từ Paris , Pháp , đi Los Angeles , Mỹ , phải chuyển hướng khi đang bay qua Greenland và hạ cánh xuống sân bay quân sự ở Canada .",
+      "rouge1": 0.7216,
+      "rouge2": 0.2947,
+      "rougeL": 0.4124
+    },
+    {
+      "reference": "Hội người Việt Nam tại thành phố Frankfurt am Main , Đức , tham gia lễ hội đa văn hóa với nhiều hoạt động mang đậm bản sắc dân tộc .",
+      "generated": "Đoàn diễu hành Việt Nam với những hình ảnh về Việt Nam và khẩu hiệu được viết bằng hai thứ tiếng Việt , Đức đã góp phần quảng bá hình ảnh đất nước , con người Việt Nam .",
+      "rouge1": 0.5253,
+      "rouge2": 0.1237,
+      "rougeL": 0.3232
+    },
+    {
+      "reference": "Phương tiện đi trên vành đai 3 ( Hà Nội ) ngày càng nhiều , trong khi một số vị trí mặt đường bị hư hỏng , vì vậy cơ quan chức năng đề nghị hạ tốc độ tối đa để đảm bảo an toàn .",
+      "generated": "Việc hạ tốc độ lưu thông tối đa của phương tiện ở vành đai 3 trên cao xuống còn 80 km/h là cần thiết để đảm bảo an toàn giao thông .",
+      "rouge1": 0.6471,
+      "rouge2": 0.36,
+      "rougeL": 0.4118
+    },
+    {
+      "reference": "Bà Clinton hôm qua bày tỏ \" hối tiếc \" vì lời bình luận đưa ra trước đó , nói \" một nửa số người ủng hộ ông Trump \" là \" đáng trách \" .",
+      "generated": "Ứng viên tổng thống Mỹ đảng Dân chủ Hillary Clinton hôm qua tiếp tục đả kích đối thủ DonaldTrump trên mạng xã hội .",
+      "rouge1": 0.5753,
+      "rouge2": 0.1127,
+      "rougeL": 0.3288
+    },
+    {
+      "reference": "Ứng viên Đảng Cộng hoà Donald Trump tuyên bố sẽ dùng chiến lược khôn ngoan để tiêu diệt IS nếu lên làm tổng thống Mỹ .",
+      "generated": "Donald Trump tuyên bố sẽ tiêu diệt tổ chức Nhà nước Hồi giáo tự xưng ( IS ) khi lên làm tổng thống Mỹ . Ứng viên Đảng Cộng hoà nhấn mạnh đây là việc làm cấp bách .",
+      "rouge1": 0.6882,
+      "rouge2": 0.4835,
+      "rougeL": 0.4301
+    },
+    {
+      "reference": "Trực thăng Mi -24 Ukraine tiếp cận máy bay không người lái Nga dưới sự dẫn đường của radar trước khi bắn hạ nó ở miền đông Ukraine .",
+      "generated": "Phi công điều khiển trực thăng Mi -24 nghiêng sang phải để xạ thủ có thể quan sát điểm rơi của chiếc Orlan -10 .",
+      "rouge1": 0.5,
+      "rouge2": 0.1892,
+      "rougeL": 0.3421
+    },
+    {
+      "reference": "Cảnh sát Indonesia hôm nay bắt 5 nghi phạm phiến quân Hồi giáo cực đoan , thu giữ hoá chất dùng để chế bom tấn công phủ tổng thống .",
+      "generated": "Cảnh sát Indonesia hôm qua bắt 5 người bị nghi là thànhviên của nhóm âm mưu tấn công phủ tổng thống nước này bằng bom tự chế .",
+      "rouge1": 0.6897,
+      "rouge2": 0.4,
+      "rougeL": 0.5057
+    },
+    {
+      "reference": "Tổng thống Mỹ Donald Trump cho rằng hải quân Mỹ hiện nay chỉ có sức mạnh tương đương thời kỳ Thế chiến I và cam kết sẽ thay đổi tình hình .",
+      "generated": "Tổngthống Mỹ DonaldTrump cam kết sẽ tăng sức mạnh cho các lực lượng vũ trang Mỹ vốn đang bị \" cạn kiệt \" .",
+      "rouge1": 0.5385,
+      "rouge2": 0.2105,
+      "rougeL": 0.2821
+    },
+    {
+      "reference": "Các học sinh tham gia đánh nữ sinh ở Quảng Ninh dẫn đến chấn thương , phải nhập viện điều trị đang làm tường trình theo yêu cầu của sở GD & ĐT . Ngoài ra , học sinh quay clip rồi tung lên mạng sẽ bị kỷ luật vì không báo cáo sự việc với nhà trường .",
+      "generated": "Liên quan đến vụ nữ sinh lớp 11 bị một nhóm học sinh đánh hội đồng , chiều 7/4 , đại diện sở GD & ĐT tỉnh Quảng Ninh cho biết , sở đã yêu cầu các đơn vị trường học có học sinh liên quan làm bản tường trình .",
+      "rouge1": 0.6846,
+      "rouge2": 0.2857,
+      "rougeL": 0.3087
+    },
+    {
+      "reference": "Sáng 1-3 , ông Nguyễn Văn Đang - chi cục trưởng Chi cục Vệ sinh an toàn thực phẩm ( Sở Y tế tỉnh Gia Lai ) cho biết trên địa bàn tỉnh vừa xảy ra vụ ngộ độc tập thể sau khi ăn gà chết .",
+      "generated": "Chiều 28-2 , ông Kpuih Anhut , Chủ tịch UBND huyện Chư Sê , tỉnh GiaLai , xác nhận đã có 25 người nhập viện do ăn phải thuốc chuột rải ở rẫy tiêu gần nhà .",
+      "rouge1": 0.4259,
+      "rouge2": 0.0377,
+      "rougeL": 0.2037
+    },
+    {
+      "reference": "Cuộc tấn công quy mô lớn diễn ra ở vùng nông thôn phía tây Aleppo , nhằm vào các vị trí của phiến quân gần khu liên hiệp Al - Zahra ' a .",
+      "generated": "Lực lượng bán quân sự Palestine đã phát động một cuộc tấn công quy mô lớn ở vùng nông thôn phía tây Aleppo , nhằm vào các vị trí của phiến quân gần khu liên hiệp Al - Zahra ' a .",
+      "rouge1": 0.8519,
+      "rouge2": 0.8113,
+      "rougeL": 0.8333
+    },
+    {
+      "reference": "Liên Hợp Quốc cảnh báo những người sống sót sau thảm hoạ động đất , sóng thần ở Indonesia đang tuyệt vọng vì thiếu nhu yếu phẩm .",
+      "generated": "Số người chết đã được xác nhận trong thảm hoạ động đất , sóng thần trên đảo Sulawesi đã tăng từ 1 . 274 lên 1 407 người , theo LHQ .",
+      "rouge1": 0.5316,
+      "rouge2": 0.2857,
+      "rougeL": 0.3544
+    },
+    {
+      "reference": "Trong bối cảnh tổng thống Trump muốn dẹp yên chỉ trích đối với chính sách chia tách trẻ em khỏi cha mẹ là dân nhập cư bất hợp pháp , quân đội Mỹ được yêu cầu sẵn sàng chỗ ở cho 20 . 000 trẻ em nhập cư .",
+      "generated": "Bộ Y tế và dịch vụ Nhân sinh Mỹ ( HHS ) đang xem xét 3 căn cứ quân sự tại Texas và sẽ đánh giá thêm một căn cứ khác ở Arkansas để chuẩn bị nơi ở cho hàng ngàn trẻ em nhập cư bất hợp pháp .",
+      "rouge1": 0.6308,
+      "rouge2": 0.2031,
+      "rougeL": 0.3385
+    },
+    {
+      "reference": "Sinh viên cho biết mình đăng ký học thực hành nhưng không được học , trong khi trường vẫn thu học phí cao hơn học phí lý thuyết .",
+      "generated": "Trường ĐH Sư phạm Đà Nẵng sẽ thu học phí thực hành , thí nghiệm theo hệ số 1 , 2 , cao hơn học phí lý thuyết .",
+      "rouge1": 0.6316,
+      "rouge2": 0.4054,
+      "rougeL": 0.4737
+    },
+    {
+      "reference": "Ban trị sự Nguyễn Phước Tộc xác định lăng mộ vợ một vị vua đã bị san ủi sau khi tìm thấy tấm bia mộ .",
+      "generated": "Sau gần 3 ngày tìm kiếm , Ban trị sự Nguyễn Phước Tộc đã tìm thấy tấm bia đá khắc tên vợ một vị vua triều Nguyễn .",
+      "rouge1": 0.7222,
+      "rouge2": 0.5143,
+      "rougeL": 0.4722
+    },
+    {
+      "reference": "Trước đây khi chọn sách cho con , các bậc cha mẹ sẽ choáng ngợp trước vô vàn sách thiếu nhi đến từ khắp nơi trên thế giới , nhưng để tìm một cái tên Việt Nam thì quả thật là khó . Nay tình hình đã khác .",
+      "generated": "Sách tranh \" đổ bộ \" Trung thu của bác đèn xếp và Tình bạn của đôi guốc của nhà văn Lê Tất Điều là những cuốn sách mới dành cho các độc giả bé con .",
+      "rouge1": 0.5882,
+      "rouge2": 0.1368,
+      "rougeL": 0.3025
+    },
+    {
+      "reference": "Máy bay chiến đấu Iraq ném bom phá huỷ một toà nhà của phiến quân IS đang cố thủ tại miền đông Syria .",
+      "generated": "Phiến quân Nhà nước Hồi giáo ( IS ) hôm nay công bố video máy bay chiến đấu nước này không kích mục tiêu của phiến quân trên lãnh thổ Syria .",
+      "rouge1": 0.5679,
+      "rouge2": 0.2532,
+      "rougeL": 0.3951
+    },
+    {
+      "reference": "Tổng cục Đường bộ yêu cầu các doanh nghiệp dự án , chủ đầu tư thực hiện đổi tên gọi các biển hiệu trước 20/7 .",
+      "generated": "Các cụm từ như \" biểu giá \" , \" mức giá \" trên biển hiệu , biển chỉ dẫn tại các trạm BOT sẽ thay thế bằng từ \" biểu phí \" .",
+      "rouge1": 0.641,
+      "rouge2": 0.2368,
+      "rougeL": 0.359
+    },
+    {
+      "reference": "Tình yêu dành cho bóng đá khiến người ta có thể làm tất cả vì nó : Đạp xe mấy ngàn cây số để tới Nga xem World Cup , bỏ hàng ngàn USD để mua vé chợ đen . . . và một fan đến từ Mỹ chẳng tiếc thời gian để ngồi tạo ra atlas bóng đá hết sức thú vị .",
+      "generated": "Với niềm đam mê vô tận dành cho môn thể thao vua , chàng hoạ sĩ kiêm nhà thiết kế Michael Raisch đã cho ra lò một dự án truyền thông hết sức hấp dẫn : Atlas bóng đá minh hoạ .",
+      "rouge1": 0.5581,
+      "rouge2": 0.1732,
+      "rougeL": 0.2791
+    },
+    {
+      "reference": "Sau khi đoàn kiểm tra trung ương về làm việc tại huyện Hướng Hoá ( Quảng Trị ) , đoàn phát hiện trong cuốn sổ họp giao ban của thường trực huyện uỷ có ghi \" Bí thư huyện uỷ chỉ đạo công an theo dõi đoàn kiểm tra \" .",
+      "generated": "Trong một cuộc họp giao ban của thường trực huyện uỷ , bà Hồ Thị Lệ Hà đã chỉ đạo công an huyện theo dõi đoàn của Uỷ ban Kiểm tra trung ương khi đoàn này về kiểm tra các dấu hiệu sai phạm tại địa phương .",
+      "rouge1": 0.806,
+      "rouge2": 0.4545,
+      "rougeL": 0.4627
+    },
+    {
+      "reference": "Toàn bộ sự nghiệp sáng tác của nhà thơ Nguyễn Bính vừa được ra mắt với hai tập sách dày khoảng 1400 trang , do con gái nhà thơ - bà Nguyễn Bính Hồng Cầu - tổ chức và xử lý bản thảo .",
+      "generated": "Ngày 24-4 , tại Hà Nội , gia đình nhà văn , nhà thơ Nguyễn Bính đã tổchức lễ ra mắt cuốn sách \" Toàn tập Nguyễn bính \" , tập hợp các trước tác của ông trong một đời với nhiều thăng trầm , uẩn khúc .",
+      "rouge1": 0.6615,
+      "rouge2": 0.3125,
+      "rougeL": 0.3692
+    }
+  ]
+}
