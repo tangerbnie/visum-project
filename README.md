@@ -36,3 +36,17 @@ Dự án tóm tắt văn bản tiếng Việt, ứng dụng mô hình **BARTpho*
 - **Deploy:** Hugging Face Spaces
 
 ## 📂 Cấu trúc repo
+visum-project/
+├── training/
+│ └── ViSum_Training.py # Script huấn luyện QLoRA 5 epochs
+├── Preprocessing_&_Model_Analysis.ipynb # Phân tích dữ liệu & model
+├── data_summary.md # Thống kê dataset
+├── error_analysis.txt # Phân tích lỗi (định tính)
+├── rouge_results.json # Kết quả ROUGE chi tiết
+└── README.md
+
+## 🔗 Liên kết
+
+- **Dataset:** [harouzie/vietnews](https://huggingface.co/datasets/harouzie/vietnews)
+- **Model:** [OrdinaryAI/visum-qlora-5epochs](https://huggingface.co/OrdinaryAI/visum-qlora-5epochs)
+- **Demo:** (sẽ cập nhật)
