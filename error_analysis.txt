@@ -1,135 +1,134 @@
-==================================================
-         BÁO CÁO PHÂN TÍCH LỖI TÓM TẮT            
-==================================================
+============================================================
+         BÁO CÁO PHÂN TÍCH LỖI TÓM TẮT
+============================================================
 
-Model: OrdinaryAI/visum-model
-Điểm ROUGE trung bình:
- - ROUGE-1: 0.5851
- - ROUGE-2: 0.2686
- - ROUGE-L: 0.3713
+Model: OrdinaryAI/visum-qlora-5epochs
+ROUGE-1: 0.5791
+ROUGE-2: 0.2684
+ROUGE-L: 0.3826
 
---- TOP 10 MẪU CÓ ĐIỂM THẤP NHẤT (CẦN PHÂN TÍCH LỖI) ---
+--- TOP 10 MẪU CÓ ĐIỂM THẤP NHẤT ---
 
-[Mẫu lỗi số 1]
- > ROUGE-L: 0.2037 | ROUGE-1: 0.4259
- > Tham chiếu (Gold): Sáng 1-3 , ông Nguyễn Văn Đang - chi cục trưởng Chi cục Vệ sinh an toàn thực phẩm ( Sở Y tế tỉnh Gia Lai ) cho biết trên địa bàn tỉnh vừa xảy ra vụ ngộ độc tập thể sau khi ăn gà chết .
- > Model viết: Chiều 28-2 , ông Kpuih Anhut , Chủ tịch UBND huyện Chư Sê , tỉnh GiaLai , xác nhận đã có 25 người nhập viện do ăn phải thuốc chuột rải ở rẫy tiêu gần nhà .
-------------------------------
+[Mẫu lỗi #1]
+ROUGE-L: 0.1707 | ROUGE-1: 0.3171
+Tham chiếu (Gold): Bạn mong ước một tổ ấm hạnh phúc hay một chiếc xe tiện nghi cho cả gia đình ? Bạn mong ước một cửa hàng của riêng mình hoặc một tương lai vững chắc cho con ?
+Model viết: Ngânhàng TMCP Ngoạithương ViệtNam ( VietinBank ) vừa côngbố chươngtrình khuyếnmạng " Live Bigger - Sống tận hưởng " .
+----------------------------------------
 
-[Mẫu lỗi số 2]
- > ROUGE-L: 0.2167 | ROUGE-1: 0.3500
- > Tham chiếu (Gold): Đại diện Việt Nam - Bùi Phương Nga vươn lên vị trí số 2/76 trong bảng xếp hạng Miss Popular Vote .
- > Model viết: Chỉ còn hơn 5 tiếng nữa , đêm chung kết Hoa hậu Hoà bình Quốc tế - Miss Grand International 2018 sẽ chính thức diễn ra tại Yangon , Myanmar . Với sự ủng hộ của khán giả nước nhà , hi vọng Phương Nga sẽ bứt phá dẫn đầu trong chặng đua nước rút để giành tấm vé cho giải thưởng Người đẹp truyền thông .
-------------------------------
+[Mẫu lỗi #2]
+ROUGE-L: 0.1803 | ROUGE-1: 0.2787
+Tham chiếu (Gold): Trước khi Lý Thái Tổ định đô trên nền thành Đại La đổ nát thì mảnh đất này có rất nhiều sông ngòi , hồ ao , kênh rạch và nối dòng với sông Hồng . Phía bắc của hồ Lục Thuỷ ( Hồ Gươm ngày nay ) có hồ Diên Hưng ( khu vực phố Hàng Ngang hiện nay ) , hồ Thái Cực ( khu vực phố Hàng Bè hiện nay ) .
+Model viết: Truyềnthuyết Lê Lợi trả lại gươm thần cho rùa vàng sau khi đánh tan giặc Minh .
+----------------------------------------
 
-[Mẫu lỗi số 3]
- > ROUGE-L: 0.2169 | ROUGE-1: 0.4819
- > Tham chiếu (Gold): Cuộc khủng hoảng về năng lực tác chiến của lực lượng không quân có thể khiến quân đội Mỹ đánh mất ưu thế trước các đối thủ mạnh như Trung Quốc .
- > Model viết: Lầu Năm Góc đang phải đối mặt với tìnhtrạng thiếu hụt nghiêm trọng về số lượng chiến đấu cơ .
-------------------------------
+[Mẫu lỗi #3]
+ROUGE-L: 0.1897 | ROUGE-1: 0.4310
+Tham chiếu (Gold): 2 người trúng đạn , phải nhập viện cấp cứu sau cuộc hỗn chiến giữa 2 nhóm người trên Đại lộ Lê Nin , TP . Vinh ( Nghệ An ) .
+Model viết: Khi bắt taxi đến điểm hẹn , anh Lê Ngọc Anh thấy Định đang bị một nhóm người cầm ghế , cốc đuổi theo phía sau . Thấy một người cầm súng bắn , Ngọc Anh lao đến thì bị bắn vào vai . Anh Ngọc Anh sau đó áp sát và tước được khẩu súng .
+----------------------------------------
 
-[Mẫu lỗi số 4]
- > ROUGE-L: 0.2192 | ROUGE-1: 0.4384
- > Tham chiếu (Gold): Hình ảnh nữ minh tinh Hollywood xuất hiện cùng 6 con tại một khách sạn ở New York trên trang The Sun mới đây gây chú ý .
- > Model viết: Mớiđây , nữ diễnviên nổi tiếng thếgiới người Mỹ - AngieJoel đã có những hìnhảnh thúvị cùng 6 người con trước côngchúng .
-------------------------------
+[Mẫu lỗi #4]
+ROUGE-L: 0.1975 | ROUGE-1: 0.3951
+Tham chiếu (Gold): Đại diện Việt Nam - Bùi Phương Nga vươn lên vị trí số 2/76 trong bảng xếp hạng Miss Popular Vote .
+Model viết: Nếu xuất sắc vượt qua Lika Dy đến từ Campuchia , Phương Nga sẽ chính thức được gọi tên vào Top 10 trong đêm chung kết diễn ra vào 17h30 tối nay 25/10 ( giờ Việt Nam ) .
+----------------------------------------
 
-[Mẫu lỗi số 5]
- > ROUGE-L: 0.2222 | ROUGE-1: 0.3852
- > Tham chiếu (Gold): Có thể nói chưa bao giờ mùa phim Tết Việt Nam lại nhộn nhịp bởi những câu chuyện bên lề như Tết Kỷ Hợi năm 2019 . Bên cạnh ồn ào kiện cáo liên quan tới việc quảng bá phim , mạng xã hội đang tranh cãi gay gắt về phim hài Tết Trạng Quỳnh khi đem chuyện đồng tính - cưỡng bức vào phim khá phản cảm .
- > Model viết: Mới đây , bộ phim Trạng Quỳnh của đạo diễn Đức Thịnh đã gây nhiều tranh cãi trên mạng xã hội .
-------------------------------
+[Mẫu lỗi #5]
+ROUGE-L: 0.2097 | ROUGE-1: 0.4677
+Tham chiếu (Gold): Một giờ học code , nhóm trẻ em từ 5 đến 8 tuổi tham gia lớp Kids can code được giới thiệu , truyền cảm hứng về ngôn ngữ máy tính . Đây là buổi học thử nghiệm diễn ra vào sáng 5-1 trong không gian cạnh Thảo cầm viên , TP . HCM .
+Model viết: Tối 20-5 , tại TP . HCM , Côngty Appable phốihợp với Moonlab tổchức chươngtrình ' Học lập trình bằng lắp ráp thẻ hình ' cho trẻem tại mái ấm Hạnh Phúc .
+----------------------------------------
 
-[Mẫu lỗi số 6]
- > ROUGE-L: 0.2256 | ROUGE-1: 0.4361
- > Tham chiếu (Gold): ' Độ ta không độ nàng đang là hot trend kìa , có nghe chưa ? ' , nếu chưa , ' thật lạc hậu ' hay ' thành người tối cổ mất rồi ' .
- > Model viết: Khi mạng xã hội bùng nổ tại VN và len lỏi đến từng ngóc ngách đời sống thông tin của mỗi người dùng Internet , những clip miêu tả đời sống xã hội đen , chửi bới , " chém gió " của những kẻ tự xưng giang hồ bỗng nổi lên không khác gì những màn trình diễn của các siêu sao bóng đá .
-------------------------------
+[Mẫu lỗi #6]
+ROUGE-L: 0.2124 | ROUGE-1: 0.5133
+Tham chiếu (Gold): Ở tuổi 41 nam chính trong phim " Giày thuỷ tinh " đã gặt hái được nhiều thành công trong sự nghiệp khiến nhiều người phải khao khát , nhưng trong tình duyên anh lại lận đận và vẫn đang miệt mài đi tìm hạnh phúc cho riêng mình .
+Model viết: Sau nhiều năm " chìm nghỉm " trong showbiz , So Ji Sub một bước vụt sáng thành sao nhờ vai diễn ấn tượng trong dự án ăn khách Giày thuỷ tinh .
+----------------------------------------
 
-[Mẫu lỗi số 7]
- > ROUGE-L: 0.2295 | ROUGE-1: 0.5246
- > Tham chiếu (Gold): Những vụ vỡ đập và đê nghiêm trọng giống sự cố tại Lào đã cướp đi hàng nghìn mạng sống .
- > Model viết: Hàng chục người chết và mất tích sau khi đập thuỷ lợi XePian - Xe Namnoy ở tỉnh Attapeu , đông bắc Lào bị vỡ .
-------------------------------
+[Mẫu lỗi #7]
+ROUGE-L: 0.2222 | ROUGE-1: 0.3556
+Tham chiếu (Gold): Tờ Wall Street Journal cuối tuần trước tiết lộ rằng chính quyền Mỹ đã tăng sức ép , thúc giục các đồng minh ' nói không ' với Huawei vì an ninh quốc gia .
+Model viết: Sau khi Tổngthống Mỹ DonaldTrump tuyênbố chiếntranh thươngmại với TrungQuốc đang bước vào giaiđoạn mới , nhiều quốcgia đồngminh của Mỹ đã bàytỏ quanđiểm cứngrắn .
+----------------------------------------
 
-[Mẫu lỗi số 8]
- > ROUGE-L: 0.2301 | ROUGE-1: 0.4602
- > Tham chiếu (Gold): Mức hỗ trợ hợp lý và giải ngân nhanh là các động lực giúp người chăn nuôi chủ động báo dịch , qua đó hạn chế lây lan bệnh dịch tả heo châu Phi ( ASF ) .
- > Model viết: Theo Cục Thú y , từ ngày 1-2 đến 14-3 , dịch bệnh heo tai xanh đã xảy ra tại 17 tỉnh thành ( Hưng Yên , Thái Bình , Hải Phòng , Thanh Hoá , Hà Nội . . . ) với tổng số heo bệnh và tiêu huỷ là 23 . 000 con .
-------------------------------
+[Mẫu lỗi #8]
+ROUGE-L: 0.2264 | ROUGE-1: 0.3396
+Tham chiếu (Gold): Lãnh đạo Việt Nam có chuyến thăm hai ngày đến Đức theo lời mời của Ngoại trưởng Đức Heiko Maas .
+Model viết: Phó thủtướng PhạmBìnhMin sẽ thăm chínhthức Đức trong hai ngày 20/2 và 21/2 .
+----------------------------------------
 
-[Mẫu lỗi số 9]
- > ROUGE-L: 0.2308 | ROUGE-1: 0.3846
- > Tham chiếu (Gold): Một cô gái 20 tuổi bị mù bẩm sinh trở thành ngôi sao khi hát quốc ca khai mạc đại hội toàn quốc của đảng Cộng hoà Mỹ .
- > Model viết: MarlanaVanHoose đã khiến cả nhà thi đấu Quicken Loans ở thành phố Cleveland vỡ oà trong sự xúc động bằng màn biểu diễn của mình tối 18/7 .
-------------------------------
+[Mẫu lỗi #9]
+ROUGE-L: 0.2264 | ROUGE-1: 0.4717
+Tham chiếu (Gold): Sau khi đốt nhà bà ngoại , ôm bình gas cố thủ , xả gas khiến 4 cán bộ công an bị thương , Phong đã bỏ trốn khỏi địa phương . Hơn 2 năm bị truy nã , Phong đã bị công an bắt giữ .
+Model viết: Côngan quận Đồ Sơn , TP . Hải Phòng đang tạm giữ đốitượng Nguyễn Thành Phong ( SN 1994 , trú tại tổ dân phố Độc Lập , phường Ngọc Hải ) để điều tra về hành vi huỷ hoại tài sản .
+----------------------------------------
 
-[Mẫu lỗi số 10]
- > ROUGE-L: 0.2326 | ROUGE-1: 0.5581
- > Tham chiếu (Gold): Tại hiện trường , nạn nhân chết dưới sàn nhà , còn nghi phạm đang ngủ trên giường cạnh thi thể , xung quanh có rất nhiều máu .
- > Model viết: Trong lúc uống rượu , H . và Quới cự cãi , sau đó Quới lấy dao chém nhiều nhát trúng vào vùng đầu , tay và chân khiến nạn nhân tử vong .
-------------------------------
+[Mẫu lỗi #10]
+ROUGE-L: 0.2353 | ROUGE-1: 0.5294
+Tham chiếu (Gold): Bào chữa cho bị cáo Đinh La Thăng , luật sư Phan Trung Hoài đề nghị VKS xem xét lại tội danh đã truy tố thân chủ vì chưa đủ căn cứ pháp lý . Luật sư Nguyễn Huy Thiệp thì nói rằng : Xin gửi đến HĐXX niềm tin vào công lý !
+Model viết: Trong phần xétxử ông Đinh LaThăng và đồngphạm tại Ngânhàng TMCP ĐạiDương ( Oceanbank ) , luật sư bàochữa cho ông Thăng cho rằng không có mối liên hệ nhân quả giữa các hành vi bị coi là cố ý làm trái với hậu quả thiệt hại xảy ra và cần xác định chính xác nguyên nhân PVN bị mất 800 tỉ đồng góp vốn tại Oceanbank .
+----------------------------------------
 
-==================================================
+============================================================
 
---- TOP 10 MẪU CÓ ĐIỂM CAO NHẤT (MODEL LÀM TỐT) ---
+--- TOP 10 MẪU CÓ ĐIỂM CAO NHẤT ---
 
-[Mẫu tốt số 1]
- > ROUGE-L: 0.9836 | ROUGE-1: 0.9836
- > Tham chiếu (Gold): Thanh tra Chính phủ vừa công bố quyết định việc điều chỉnh tổng mức kinh phí Dự án cung cấp nước cho Khu kinh tế Vũng Áng và việc được hỗ trợ từ ngân sách địa phương , tại tỉnh Hà Tĩnh .
- > Model viết: Thanh tra Chính phủ vừa công bố quyết định thanh tra việc điều chỉnh tổng mức kinh phí Dự án cung cấp nước cho Khu kinh tế Vũng Áng và việc được hỗ trợ từ ngân sách địa phương , tại tỉnh Hà Tĩnh .
-------------------------------
+[Mẫu tốt #1]
+ROUGE-L: 0.9550 | ROUGE-1: 0.9550
+Tham chiếu (Gold): Đại sứ Việt Nam tại Ai Cập Trần Thành Công đã đến hiện trường và tới bệnh viện Al Haram nơi điều trị của các nạn nhân để thăm hỏi , động viên và nắm tình hình .
+Model viết: Đại sứ ViệtNam tại Ai Cập Trần Thành Công đã đến hiện trường và tới bệnh viện Al Haram nơi điều trị các nạn nhân để thăm hỏi , động viên và nắm tình hình .
+----------------------------------------
 
-[Mẫu tốt số 2]
- > ROUGE-L: 0.8333 | ROUGE-1: 0.8519
- > Tham chiếu (Gold): Cuộc tấn công quy mô lớn diễn ra ở vùng nông thôn phía tây Aleppo , nhằm vào các vị trí của phiến quân gần khu liên hiệp Al - Zahra ' a .
- > Model viết: Lực lượng bán quân sự Palestine đã phát động một cuộc tấn công quy mô lớn ở vùng nông thôn phía tây Aleppo , nhằm vào các vị trí của phiến quân gần khu liên hiệp Al - Zahra ' a .
-------------------------------
+[Mẫu tốt #2]
+ROUGE-L: 0.9412 | ROUGE-1: 0.9412
+Tham chiếu (Gold): Thanh tra Chính phủ vừa công bố quyết định việc điều chỉnh tổng mức kinh phí Dự án cung cấp nước cho Khu kinh tế Vũng Áng và việc được hỗ trợ từ ngân sách địa phương , tại tỉnh Hà Tĩnh .
+Model viết: Thanhtra Chính phủ vừa côngbố quyếtđịnh thanhtra việc điều chỉnh tổng mức kinh phí Dự án cung cấp nước cho Khu kinh tế Vũng Áng và việc được hỗ trợ từ ngân sách địa phương , tại tỉnh Hà Tĩnh .
+----------------------------------------
 
-[Mẫu tốt số 3]
- > ROUGE-L: 0.7368 | ROUGE-1: 0.7789
- > Tham chiếu (Gold): Chiều 1-7 , một vụ tai nạn nghiêm trọng giữa xe máy và ôtô trên quốc lộ 20 ( đoạn qua xã Lộc Nga , TP Bảo Lộc , Lâm Đồng ) khiến một người tử vong tại chỗ .
- > Model viết: Vụ tai nạn xảy ra vào chiều 26-4 trên quốc lộ 20 ( đoạn qua xã Lộc Nga , TP Bảo Lộc ) khiến một người tử vong tại chỗ .
-------------------------------
+[Mẫu tốt #3]
+ROUGE-L: 0.8986 | ROUGE-1: 0.9420
+Tham chiếu (Gold): Khu sân bay Phú Quốc cũ có diện tích 78 , 88 ha với dân số tính toán trong phạm vi quy hoạch là 6 . 633 người sẽ được xây dựng thành khu đô thị có kiến trúc hiện đại , chất lượng môi trường sống tốt .
+Model viết: Khu sân bay Phú Quốc cũ có diện tích 78 , 88 ha với dân số tính toán trong phạm vi quy hoạch là 6 . 633 người sẽ được xây dựng thành một khu đô thị hiện đại , chất lượng môi trường sống tốt , cấu trúc chặt chẽ .
+----------------------------------------
 
-[Mẫu tốt số 4]
- > ROUGE-L: 0.6842 | ROUGE-1: 0.7719
- > Tham chiếu (Gold): Xe container đang đổ dốc cầu vượt Sóng Thần bất ngờ tông đổ hàng loạt dải phân cách rồi nằm chắn ngang làn đường xe máy . Vụ tai nạn đã làm giao thông qua khu vực bị ùn tắc nghiêm trọng .
- > Model viết: Đang xuống dốc cầu vượt Sóng Thần ( quận Thủ Đức , TP . HCM ) thì bất ngờ tông vào dải phân cách với làn xe máy khiến giao thông ùn tắc nghiêm trọng .
-------------------------------
+[Mẫu tốt #4]
+ROUGE-L: 0.8671 | ROUGE-1: 0.9371
+Tham chiếu (Gold): Việc Anh lục soát một máy bay của hãng hàng không Nga tại sân bay Heathrow ở London là nhằm bảo vệ Anh khỏi các tội phạm có tổ chức cũng như việc buôn lậu chất gây hại , bộ An ninh Anh tuyên bố .
+Model viết: Bộ trưởng Anninh Anh Ben Wallace tuyên bố việc Anh lục soát một máy bay của hãng hàng không Nga tại sân bay Heathrow ở London là nhằm bảo vệ Anh khỏi các tội phạm có tổ chức cũng như việc buôn lậu các chất gây hại .
+----------------------------------------
 
-[Mẫu tốt số 5]
- > ROUGE-L: 0.6757 | ROUGE-1: 0.7973
- > Tham chiếu (Gold): Kết quả kiểm tra ban đầu của cơ quan chức năng cho thấy thuỷ điện Hố Hô ( Hà Tĩnh ) có những sai sót nhất định trong việc chấp hành quy định pháp luật về tài nguyên nước , về vận hành hồ chứa .
- > Model viết: Bộ Công Thương , Bộ Tài nguyên và Môi trường đã tổ chức đoàn công tác vào làm việc tại thực địa , kết quả ban đầu cho thấy thuỷ điện Hố Hô có những sai sót nhất định trong việc chấp hành quy định pháp luật về tài nguyên nước , vận hành hồ chứa .
-------------------------------
+[Mẫu tốt #5]
+ROUGE-L: 0.8257 | ROUGE-1: 0.8440
+Tham chiếu (Gold): Cuộc tấn công quy mô lớn diễn ra ở vùng nông thôn phía tây Aleppo , nhằm vào các vị trí của phiến quân gần khu liên hiệp Al - Zahra ' a .
+Model viết: Quân đội Syria cùng với Liwaa Al - Quds đã phát động một cuộc tấn công quy mô lớn ở vùng nông thôn phía tây Aleppo , nhằm vào các vị trí của phiến quân gần khu liên hiệp Al - Zahra ' a .
+----------------------------------------
 
-[Mẫu tốt số 6]
- > ROUGE-L: 0.6667 | ROUGE-1: 0.7708
- > Tham chiếu (Gold): Sáng 5/8/2017 , đồng chí Nguyễn Xuân Phúc , Uỷ viên Bộ Chính trị , Thủ tướng Chính phủ đã làm việc với Tập đoàn Dầu khí Quốc gia Việt Nam .
- > Model viết: Sáng nay , tại Hà Nội , Thủ tướng Chính phủ Nguyễn Xuân Phúc và lãnh đạo các Bộ , ngành đã có buổi làm việc với Tập đoàn Dầu khí Quốc gia Việt Nam .
-------------------------------
+[Mẫu tốt #6]
+ROUGE-L: 0.7532 | ROUGE-1: 0.8312
+Tham chiếu (Gold): Hiệp hội Bất động sản Việt Nam kiến nghị sửa đổi , bổ sung luật Nhà ở năm 2014 theo hướng quy định việc thế chấp nhà ở có sẵn không bắt buộc phải có giấy chứng nhận tương tự như nhà ở hình thành trong tương lai .
+Model viết: Tại diễn đàn Bất động sản ViệtNam thường niên lần thứ nhất , đại diện Hiệp hội Bấtđộngsản kiếnnghị cần sửađổi , bổ sung luật Nhà ở theo hướng quy định việc thế chấp nhà ở có sẵn cũng không buộc phải có giấy chứng nhận , tương tự như nhà ở hình thành trong tương lai .
+----------------------------------------
 
-[Mẫu tốt số 7]
- > ROUGE-L: 0.6560 | ROUGE-1: 0.7360
- > Tham chiếu (Gold): Đánh giá về hoạt động chất vấn và trả lời chất vấn tại kỳ họp thứ 6 Quốc hội khoá XIV , nhiều Đại biểu cho rằng , đây chính là cuộc sát hạch lại đối với các tư lệnh ngành .
- > Model viết: Tại phiên chất vấn và trả lời chất vấn tại kỳ họp thứ 6 Quốc hội khoá XIV , nhiều Đại biểu Quốc hội cho rằng các thành viên Chính phủ đã thể hiện trách nhiệm với cử tri cả nước .
-------------------------------
+[Mẫu tốt #7]
+ROUGE-L: 0.7253 | ROUGE-1: 0.7912
+Tham chiếu (Gold): Các nghị sĩ Canada đồng thanh hô " thêm 4 năm " khi Tổng thống Mỹ Barack Obama kết thúc bài phát biểu tại quốc hội nước này .
+Model viết: Các nghị sĩ Canada đứng dậy vỗ tay và hô vang " thêm 4 năm " khi Tổng thống Obama kết thúc bài phát biểu tại hội nghị thượng đỉnh Các lãnh đạo Bắc Mỹ .
+----------------------------------------
 
-[Mẫu tốt số 8]
- > ROUGE-L: 0.6542 | ROUGE-1: 0.7477
- > Tham chiếu (Gold): Một căn nhà gần Hồ Gươm ( quận Hoàn Kiếm , Hà Nội ) vừa bất ngờ đổ sập , phát tiếng nổ lớn khiến nhiều người dân và du khách hoảng sợ .
- > Model viết: Tường đang thi công của dự án Khách sạn 6 sao trên phố Lê Thái Tổ ( quận Hoàn Kiếm ) bất ngờ đổ sập , phát tiếng nổ lớn khiến nhiều người dân và du khách sợ hãi bỏ chạy .
-------------------------------
+[Mẫu tốt #8]
+ROUGE-L: 0.7132 | ROUGE-1: 0.7907
+Tham chiếu (Gold): Đánh giá về hoạt động chất vấn và trả lời chất vấn tại kỳ họp thứ 6 Quốc hội khoá XIV , nhiều Đại biểu cho rằng , đây chính là cuộc sát hạch lại đối với các tư lệnh ngành .
+Model viết: Đánh giá về hoạt động chất vấn và trả lời chất vấn tại kỳ họp thứ 6 Quốc hội khoá XIV , nhiều Đại biểu Quốc hội cho rằng rất hiệu quả và chất lượng , giải quyết được nhiều vấn đề mà cử tri quan tâm .
+----------------------------------------
 
-[Mẫu tốt số 9]
- > ROUGE-L: 0.6429 | ROUGE-1: 0.6905
- > Tham chiếu (Gold): Quan chức cảnh sát Malaysia nói nước này vừa bắt giữ bạn trai của nữ nghi phạm trong vụ sát hại anh trai nhà lãnh đạo Triều Tiên Kim Jong-un .
- > Model viết: Cảnh sát Malaysia bắt thêm một nam giới trong vụ sát hại ông Kim Jong - nam , anh trai nhà lãnh đạo Triều Tiên Kim Jong-un .
-------------------------------
+[Mẫu tốt #9]
+ROUGE-L: 0.7045 | ROUGE-1: 0.7727
+Tham chiếu (Gold): Bộ trưởng bộ Công Thương Trần Tuấn Anh phê bình nghiêm khắc lãnh đạo cục Quản lý thị trường ( QLTT ) vì thiếu trách nhiệm , buông lỏng quản lý .
+Model viết: Bộ trưởng bộ Công Thương Trần Tuấn Anh đã phê bình nghiêm khắc cục Quảnlý thịtrường ( QLTT ) và cánhân Cục trưởng Trịnh Văn Ngọc .
+----------------------------------------
 
-[Mẫu tốt số 10]
- > ROUGE-L: 0.6304 | ROUGE-1: 0.7609
- > Tham chiếu (Gold): Chiều 14/1 , đoàn công tác của Uỷ ban kiểm tra Trung ương đã đến Bến Tre công bố quyết định kỷ luật ông Trần Văn Truyền , nguyên Tổng thanh tra chính phủ .
- > Model viết: Ngày 4/1 , Uỷ ban Kiểm tra Tỉnh uỷ Bến Tre công bố quyết định kỷ luật cảnh cáo đốivới ông Trần Văn Truyền , nguyên bíthư tỉnh uỷ .
-------------------------------
+[Mẫu tốt #10]
+ROUGE-L: 0.6933 | ROUGE-1: 0.7733
+Tham chiếu (Gold): Đang lấy củi trước vườn nhà , cụ Lộc bị đàn ong vò vẽ xúm lại đốt tới 200 mũi , gây suy hô hấp , suy nội tạng .
+Model viết: Đi lấy củi trước vườn nhà , cụ Lộc bị ong vò vẽ xúm lại đốt , suy hô hấp , mạch khó bắt , huyết áp đo được .
+----------------------------------------
