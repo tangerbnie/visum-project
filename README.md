@@ -1,6 +1,8 @@
-# 📰 ViSum - Tóm tắt tin tức tiếng Việt bằng AI
+# 🇻🇳 Hệ thống Tóm tắt Báo chí Tiếng Việt (ViSum)
 
-Dự án tóm tắt văn bản tiếng Việt, ứng dụng mô hình **BARTpho** được fine-tune trên tập dữ liệu **VietNews (144K mẫu)** bằng kỹ thuật **QLoRA**.
+Dự án xây dựng hệ thống tóm tắt tin tức tiếng Việt tự động, ứng dụng mô hình 
+**BARTpho** được fine-tune trên tập dữ liệu **VietNews (144K mẫu)** 
+bằng kỹ thuật **QLoRA**.
 
 ## 🚀 Model
 
