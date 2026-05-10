@@ -28,7 +28,7 @@ bằng kỹ thuật **QLoRA**.
 
 - **Ngọc Thanh:** Huấn luyện & Đánh giá Model
 - **Việt Hoàng:** Tiền xử lý dữ liệu & Phân tích
-- **Bảo Nghị:** Frontend & Deploy
+- **Bảo Nghi:** Frontend & Deploy
 
 ## 🛠️ Công nghệ
 
@@ -51,4 +51,4 @@ visum-project/
 
 - **Dataset:** [harouzie/vietnews](https://huggingface.co/datasets/harouzie/vietnews)
 - **Model:** [OrdinaryAI/visum-qlora-5epochs](https://huggingface.co/OrdinaryAI/visum-qlora-5epochs)
-- **Demo:** (sẽ cập nhật)
+- **Demo:** (sẽ cập nhật) https://huggingface.co/spaces/bnithichanquyt/vsumdemo
