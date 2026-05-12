@@ -51,4 +51,4 @@ visum-project/
 
 - **Dataset:** [harouzie/vietnews](https://huggingface.co/datasets/harouzie/vietnews)
 - **Model:** [OrdinaryAI/visum-qlora-5epochs](https://huggingface.co/OrdinaryAI/visum-qlora-5epochs)
-- **Demo:** ([](https://huggingface.co/spaces/bnithichanquyt/vsumdemo/tree/main))
+- **Demo:** ([(https://huggingface.co/spaces/bnithichanquyt/vsumdemo/tree/main)])
