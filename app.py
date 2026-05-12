@@ -260,7 +260,7 @@ def process(url_input: str, text_input: str, max_length: int):
         if article_data.get("newspaper"):
             parts.append(f"Tờ báo: {article_data['newspaper']}")
         if article_data.get("author"):
-            parts.append(f"ác giả: {article_data['author']}")
+            parts.append(f"Tác giả: {article_data['author']}")
         parts.append(f"🔗 Nguồn: {url_input.strip()}")
         source_info = "\n\n".join(parts)
 
